@@ -1,0 +1,102 @@
+
+
+.edu-page{
+    height:90vh;
+    /* background-color: #E3E1E1 ; */
+}
+
+.edu-icons{
+    padding:15% 5% 2% 5%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+    background-color: transparent;
+}
+
+.webdev-icon{
+    height: 175px;
+    width:175px;
+    border-radius:50%;
+    border-color: #EF6351;
+    border-width: .5rem;
+    border-style: solid;
+}
+.design-icon{
+    height: 175px;
+    width:175px;
+    border-radius:50%;
+    border-color: #EF6351;
+    border-width: .5rem;
+    border-style: solid;
+}
+.graphic-icon{
+    height: 175px;
+    width:175px;
+    border-radius:50%;
+    border-color: #EF6351;
+    border-width: .5rem;
+    border-style: solid;
+}
+
+.edu-head{
+    width:33vw;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    background-color: transparent;
+}
+
+.edu-details{
+    width:18vw;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    background-color: transparent;
+}
+
+.edu-info{
+    /* padding:10%; */
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.etitle{
+    background-color: transparent;
+    font-family: 'Oswald', sans-serif !important;
+    font-size:1.3rem;
+    font-weight:700;
+    letter-spacing: .20rem;;
+    width:20vw;
+    text-align: center;
+}
+
+.eschool{
+    font-family: 'Montserrat', sans-serif !important;
+    font-size:.9rem;
+    text-align:right;
+    font-weight:400;
+    width:15vw;
+    text-align: center;
+}
+.edate{
+    background-color: transparent;
+    font-family: 'Oswald', sans-serif !important;
+    font-size:.8rem;
+    font-weight:700;
+    letter-spacing: .25rem;;
+    width:20vw;
+    text-align: center;
+}

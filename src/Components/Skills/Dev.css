@@ -1,0 +1,123 @@
+.background4{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+    width: 96vw !important;
+    height: 120vh;
+    overflow: hidden;
+    z-index:-1;
+}
+/* .bkgrd-bottom3{
+    width: 96vw !important;
+    background-color: #FBC3BC;
+} */
+
+.development-skill{
+    position: absolute;
+    padding-top: 20%;
+    left:15%;
+    display:flex;
+    flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+    color: black;
+    width:22vw;
+    height:85vh;
+    background-color: transparent;
+    font-family: "Montserrat", sans-serif;
+    font-size: 6rem;
+    font-weight: 900;
+    line-height:4rem;
+    letter-spacing: .5rem;
+    z-index: 2;
+}
+
+.skills2{
+    display:flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: space-around;
+    background-color: transparent;
+    width:20vw;
+    font-family: "Sacramento", cursive !important;
+    font-size: 5.5rem;
+    line-height: 8rem;
+    z-index: 3;
+    color: black;
+}
+
+.dot4{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 7rem;
+    padding-left:6%;
+    z-index: 2;
+}
+
+.dev-bullets{
+    position: absolute;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: flex-end;
+    margin-top:-65%;
+    margin-left:45%;
+    width:40vw;
+}
+
+.column-one{
+    line-height:2rem;
+    text-align: right;
+    
+}
+
+.column-two{
+    line-height: 2rem;
+    text-align: left;
+    padding-left:5%;
+}
+
+.dev-title{
+    font-family: 'Oswald', sans-serif !important;
+    font-size:2rem;
+    font-weight:700;
+    letter-spacing: .20rem;
+    width:30vw;
+    line-height: 4rem;
+    padding-top: 15%;
+    color: #EF6351;
+}
+
+.title-line1{
+    background-color: transparent;
+    font-family: 'Oswald', sans-serif !important;
+    font-size:2rem;
+    font-weight:700;
+    letter-spacing: .20rem;
+    width:30vw;
+    line-height: 4rem;
+    padding-left: 30%;
+    text-align:right;
+}
+
+.bullet-line1{
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size:.8rem;
+    font-weight:500;
+    width:30vw;
+    text-align: right;
+    letter-spacing: .15rem;
+    padding-left: 30%;
+}

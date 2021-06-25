@@ -1,0 +1,112 @@
+.title-bar{
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 3vh;
+    width: 100vw !important;
+    background: transparent;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: space-between;
+    text-decoration: none !important;
+}
+
+a {
+    font-family: "Montserrat", sans-serif;
+    /* padding: 2%; */
+    font-size: 0.6rem;
+    letter-spacing: 2.2px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    /* text-align:left !important; */
+    /* margin-bottom: 40px; */
+  }
+  a:hover {
+    color: #ffe0d7;
+  }
+
+/* .name-line{
+    text-decoration: none !important;
+    color:black !important;
+} */
+.name {
+    text-decoration: none !important;
+    position: relative;
+    top: .5rem;
+    right: 0;
+    left: 1.5rem;
+    width: 95vw;
+    background: transparent;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: space-around;
+    /* line-height: 2.5rem; */
+    font-family: "Ubuntu", sans-serif;
+    font-size: .8rem;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    /* text-align:left; */
+  }
+
+  .name-line{
+    font-size: 1rem;
+  }
+
+  .links{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-around;
+    width: 50vw;
+    text-align: right;
+  }
+  .link{
+      /* padding-left: 4.5%; */
+      margin:1%;
+      background-color: transparent;
+      text-align: right;
+      font-size: .5rem;
+  }
+  .two-line-link{
+    /* padding-left: 4.5%; */
+    /* margin:1%; */
+    line-height:.7rem;
+    background-color: transparent;
+    text-align: right;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: flex-end;
+	align-content: flex-end;
+    background-color: transparent;
+    width:100px;
+  }
+/*   
+  .location {
+    flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: space-around;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    background-color: transparent;
+    width:5%;
+  } */
+
+  /* .icons{
+      padding:10%;
+  } */
+  
