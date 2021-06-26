@@ -69,15 +69,12 @@
 }
 
 .profile-pic{
-    /* position:absolute; */
-    /* opacity: 60%; */
     z-index: -1;
 }
 
 .prof-pic{
     width: 34vw !important;
     overflow:hidden;
-    /* margin-top:-5%; */
     z-index: -1;
     margin-left:-15%;
 }
@@ -135,8 +132,8 @@
 /* .scroll-bar:hover{
     animation: bounce 1s;
 } */
-.scroll-para{
-     transform: rotate(-90deg);
+.about-scroll-para{
+    transform: rotate(-90deg);
 }
 .about-scroll{
     /* transform: rotate(-90deg); */
@@ -149,8 +146,7 @@
 }
 
 .about-scroll:hover{
-    transform: scale(1.2);
-    
+    transform: scale(1.2) !important;
 }
 
 .about-scroll-arrow{
@@ -162,8 +158,6 @@
     border-style: hidden;
     letter-spacing: .1rem;
 }
-
-
 .about-arrow{
     padding: 10%;
 }

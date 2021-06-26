@@ -1,39 +1,44 @@
 import React, { Component } from 'react'
 import './About.css'
 import "bootstrap/dist/css/bootstrap.min.css";
-import Education from '../Education/Education'
+import Education from '../Education/Education';
 import * as Scroll from 'react-scroll';
-import {Events, animateScroll as scroll} from 'react-scroll'
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import Design from '../Skills/Design';
+import Dev from '../Skills/Dev';
+import Client from '../Skills/Client';
+import Gallery from '../WorkGallery/Gallery'
+
 
 
 export default class About extends Component {
 
-    componentDidMount() {
-        Events.scrollEvent.register('begin', function(to, element) {
-          console.log('begin', arguments);
-        });
-    
-        Events.scrollEvent.register('end', function(to, element) {
-          console.log('end', arguments);
-        });
-    }
-      
-      scrollToTop() {
-        scroll.scrollToTop();
-      };
-      scrollToBottom() {
-        scroll.scrollToBottom();
-      };
-      scrollTo() {
-        scroll.scrollTo(100);
-      };
-      scrollMore() {
-        scroll.scrollMore(900);
-      };
-      
-      handleSetActive(to){
-        console.log(to);
-      };
+  componentDidMount() {
+    Events.scrollEvent.register('begin', function(to, element) {
+      console.log('begin', arguments);
+    });
+
+    Events.scrollEvent.register('end', function(to, element) {
+      console.log('end', arguments);
+    });
+}
+  
+  scrollToTop() {
+    scroll.scrollToTop();
+  };
+  scrollToBottom() {
+    scroll.scrollToBottom();
+  };
+  scrollTo() {
+    scroll.scrollTo(500);
+  };
+  scrollMore() {
+    scroll.scrollMore(900);
+  };
+
+  handleSetActive(to){
+    console.log(to);
+  };
 
 
     render() {
@@ -69,15 +74,19 @@ export default class About extends Component {
                             </div>
                         </div>
 
-                <div className="about-scroll-bar">
-                            <button className="about-scroll" onClick={this.scrollMore}>
+                        <div className="scroll-bar">
+                            <button className="scroll" onClick={this.scrollTo}>
                                 <p className="scroll-para">scroll</p>
-                            <div className="about-arrow"><div><img src="https://img.icons8.com/ios/28/000000/long-arrow-down.png"/></div>
+                            <div className="arrow"><div><img src="https://img.icons8.com/ios/28/ffffff/long-arrow-down.png"/></div>
                         </div>
                             </button>
                     </div>
                 </div>  
                 <Education/>
+                <Design/>
+                <Dev/>
+                <Client/>
+                <Gallery/>
         </div>
         )
     }

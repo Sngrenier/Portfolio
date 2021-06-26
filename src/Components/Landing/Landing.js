@@ -27,7 +27,7 @@ export default class Landing extends Component {
         scroll.scrollTo(100);
       };
       scrollMore() {
-        scroll.scrollMore(900);
+        scroll.scrollMore(800);
       };
 
       handleSetActive(to){

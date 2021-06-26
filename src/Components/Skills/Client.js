@@ -6,18 +6,16 @@ export default class client extends Component {
     render() {
         return (
                 <div className="container-fluid">
-
+                
+                
                 <div className="background2">
-                    <div className="bkgrd-left3">
-                        <img src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/199037259_10110574225254678_5955425748687514124_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=730e14&_nc_ohc=UoQZhg3QXz4AX_rwZdQ&_nc_ht=scontent-sjc3-1.xx&oh=39951534ddffc5dbb75d9ac25d01f841&oe=60CD9C2A"></img>
-                    </div>
-
+                    <div className="bkgrd-left3"></div>
                     <div className="bkgrd-right3">
-                        <div className="about-details">
-                            <div className="about-header">
+                        <div className="client-details">
+                            <div className="client-header">
                                 <p>Lorem ipsum dolor sit amet dolor sit.</p>
                             </div>
-                            <div className="about-para">
+                            <div className="client-para">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
                                 <p>ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolor.</p>
                                 <p>Sit amet dolor sit.ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolor.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
@@ -38,26 +36,26 @@ export default class client extends Component {
                     </div>
                             <div className="row">
                             <div className="business-bullets">
-                                <ul className="managerial">
+                                <ul className="client-exp">
                                     <li className="group-title">MANAGERIAL EXPERTISE</li>
-                                    <li className="group-bullet">#1</li>
-                                    <li className="group-bullet"></li>
-                                    <li className="group-bullet"></li>
-                                    <li className="group-bullet"></li>
+                                    <li className="group-bullet">Staff training & development</li>
+                                    <li className="group-bullet">Sales growth strategy & implementation</li>
+                                    <li className="group-bullet">P&L, forecasting, and overall budget management</li>
+                                    <li className="group-bullet">Strong partnerships with corporate team</li>
                                 </ul>
-                                <ul className="operations">
+                                <ul className="client-exp">
                                     <li className="group-title">OPERATIONAL PROWESS</li>
-                                    <li className="group-bullet">#1</li>
-                                    <li className="group-bullet"></li>
-                                    <li className="group-bullet"></li>
-                                    <li className="group-bullet"></li>
+                                    <li className="group-bullet">Store design & layout</li>
+                                    <li className="group-bullet">Building and vendor maintenance</li>
+                                    <li className="group-bullet">Large-scale visual merchandising</li>
+                                    <li className="group-bullet">merchandise buying and allocation</li>
                                 </ul>
-                                <ul className="client-services">
+                                <ul className="client-exp">
                                     <li className="group-title">CLIENT RELATIONS</li>
-                                    <li className="group-bullet">#1</li>
-                                    <li className="group-bullet"></li>
-                                    <li className="group-bullet"></li>
-                                    <li className="group-bullet"></li>
+                                    <li className="group-bullet">CRM database management</li>
+                                    <li className="group-bullet">Luxury experience curation</li>
+                                    <li className="group-bullet">Social media marketing & outreach</li>
+                                    <li className="group-bullet">Brand growth via networking & partnerships</li>
                                 </ul>
                             </div>
                         </div>    

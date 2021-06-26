@@ -28,8 +28,9 @@ export default class dev extends Component {
                         <div className="first-column">
 
                             <div className="card">
+                                <div className="project">
                                 <Link to='/workit'>
-                            <div className="proj-pic"><img className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/201968738_10110599023668458_5412599662714406027_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=0debeb&_nc_ohc=gmvoGBXgSegAX-z92Qs&_nc_ht=scontent-sjc3-1.xx&oh=cdd2fb0534a0e6a739004996d74ae0b5&oe=60D95007"></img></div>
+                            <div className="proj-pic"><img className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/202793945_10110601658787658_3981736887135429542_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=0debeb&_nc_ohc=skBjZtKcfKIAX_gYZw6&_nc_ht=scontent-sjc3-1.xx&oh=b32fe729c841a223d1d24379820cca28&oe=60DA41E3"></img></div>
                             </Link>
                             <ul className="proj-deets">
                                 <Link to='/workit'>
@@ -38,27 +39,34 @@ export default class dev extends Component {
                                 <li className="proj-date">web development, web design</li>
                                 </Link>
                             </ul>
-                            <Link>
-                            <div className="proj-pic"><img className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/201948709_10110599018563688_3793384463003619539_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=0debeb&_nc_ohc=BzVx4GUV69AAX9JRlqr&_nc_ht=scontent-sjc3-1.xx&oh=e5a1a6b5b1a7636a67c288e6340e3d40&oe=60D9530F"></img></div>
+                            </div>
+
+                            <div className="project">
+                            <Link to='/abrand'>
+                            <div className="proj-pic"><img className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/203123822_10110599018548718_2265136663967000969_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=0debeb&_nc_ohc=ZMfZ691SfK0AX-jRq5T&_nc_ht=scontent-sjc3-1.xx&oh=3400d66f6568d7fdca0d5eb0d57bbd0d&oe=60DAC839"></img></div>
                             </Link>
                             <ul className="proj-deets">
-                                <Link>
+                                <Link to='/abrand'>
                                 <li className="proj-title">AGNES BORGANI</li>
-                                <li className="proj-details">brand development and marketing collateral</li>
-                                <li className="proj-date">brand design and strategy</li>
+                                <li className="proj-details">brand development: entrepreneur online marketing</li>
+                                <li className="proj-date">graphic design, template design, logo design</li>
                                 </Link>
                             </ul>
-                            <Link>
+                            </div>
+
+                            <div className="project">
+                            <Link to='/gcakes'>
                             <div className="proj-pic">
-                                <img className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/202588120_10110599023638518_7032954189524664711_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=0debeb&_nc_ohc=DFRNOR8pX8oAX8L8am0&_nc_oc=AQnEXvnxfrNT7d3x77u_MmjHt0uEfZHqIfgnP9athQ0LXvp8lDKbu_eRKacbe-8zmmJ3GkYZrSK0Mp4J7CL7ndA-&tn=jG4jHig4ll3niTGB&_nc_ht=scontent-sjc3-1.xx&oh=4ae2b83d7c34efc6f01bd30fd9e09b6e&oe=60D91926"></img></div>
+                                <img className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/204527415_10110599252943988_2763670646160967779_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=0debeb&_nc_ohc=14p_WJjPJjwAX_YaMLi&_nc_ht=scontent-sjc3-1.xx&oh=535b4bf527f2a6b5a1cb9a53d1f13eff&oe=60DA7946"></img></div>
                                 </Link>
                             <ul className="proj-deets">
-                                <Link>
-                                <li className="proj-title">BISOUS ET CACHEMIRE</li>
-                                <li className="proj-details">luxury womenswear ecommerce store</li>
+                                <Link to='/gcakes'>
+                                <li className="proj-title">GRAMERCY CAKES</li>
+                                <li className="proj-details">NY Bakery</li>
                                 <li className="proj-date">web development, web design</li>
                                 </Link>
                             </ul>
+                            </div>
                 </div>
                 </div>
                 </div>
@@ -68,6 +76,7 @@ export default class dev extends Component {
                         <div className="second-column">
                             <div className="card">
 
+                            <div className="project">
                             <div className="proj-pic">
                                 <Link to='/MarbleOak'>
                                 <img className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/201997926_10110599022949898_336588881942886561_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=0debeb&_nc_ohc=HBvHAPsZUXwAX8z4tLd&_nc_ht=scontent-sjc3-1.xx&oh=a741b5f1337d0a1f6a91bc31237b7ac2&oe=60D9ED9E"></img>
@@ -80,27 +89,33 @@ export default class dev extends Component {
                                 <li className="proj-date">web development, web design</li>
                                 </Link>
                             </ul>
-                            
-                            <Link>
+                            </div>
+
+                            <div className="project">
+                            <Link to='/welax'>
                             <div className="proj-pic"><img className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/204877053_10110599023523748_3208708152469310895_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=0debeb&_nc_ohc=W__UYViMS0UAX9N8e3N&tn=jG4jHig4ll3niTGB&_nc_ht=scontent-sjc3-1.xx&oh=4438f56e4cc145a3a4edc7ef785445f5&oe=60D9B8C8"></img></div>
                             </Link>
                             <ul className="proj-deets">
-                                <Link>
+                                <Link to='/welax'>
                                 <li className="proj-title">WELAX</li>
                                 <li className="proj-details">brand development: CBD oral sprays</li>
                                 <li className="proj-date">packaging design, logo design</li>
                                 </Link>
                             </ul>
-                            <Link>
-                            <div className="proj-pic"><img className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/201958782_10110599020854098_2272215561612173883_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=0debeb&_nc_ohc=rt4GYKukocoAX_OWm_G&_nc_oc=AQk6l66BEcl0qENcse_YoqrzS15c4qGE8iQmJMh785LTEoW_jEPQZiWjX6IePB_2fhl1udzh_917ilSXr6w0QGPW&_nc_ht=scontent-sjc3-1.xx&oh=5405675fd6fe6adebf955b42bc6b5fc8&oe=60D9753D"></img></div>
+                            </div>
+
+                            <div className="project">   
+                            <Link to='/estrips'>
+                            <div className="proj-pic"><img className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/204214133_10110599020864078_5846127103645047360_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=0debeb&_nc_ohc=dXP4WAFYZkUAX-xNMQS&_nc_ht=scontent-sjc3-1.xx&oh=1543446ac9db9921b826bba56dca1eb3&oe=60DB1D49"></img></div>
                             </Link>
                             <ul className="proj-deets">
-                                <Link>
+                                <Link to='/estrips'>
                                 <li className="proj-title">ENTOURAGE STRIPS</li>
-                                <li className="proj-details">kickstarter CBD brand development</li>
-                                <li className="proj-date">graphic design, packaging design, marketing campaigne strategy</li>
+                                <li className="proj-details">brand development: kickstarter CBD strip company</li>
+                                <li className="proj-date">graphic design, packaging design, marketing campaign strategy</li>
                                 </Link>
                             </ul>
+                            </div>
                 </div>
                 </div>
                 </div>
@@ -109,36 +124,44 @@ export default class dev extends Component {
                         <div className="third-column">
                             <div className="card">
                             
-                            <Link>
+                            <div className="project">
+                            <Link to ='/stemseed'>
                             <div className="proj-pic"><img className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/206868577_10110599274490808_3054205768129723462_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=0debeb&_nc_ohc=-9UrGNBvUJUAX9g3Ute&_nc_ht=scontent-sjc3-1.xx&oh=f2db47ddb9c91dcd2ebfcbc8746bf610&oe=60DABC84"></img></div>
                             </Link>
                             <ul className="proj-deets">
-                                <Link>
+                                <Link to='stemseed'>
                                 <li className="proj-title">STEM&SEED</li>
                                 <li className="proj-details">beauty serum line</li>
                                 <li className="proj-date">graphic design, web design, print design, packaging design</li>
                                 </Link>
                             </ul>
-                            <Link>
+                            </div>
+
+                            <div className="project">
+                            <Link to='/vulgr'>
                             <div className="proj-pic"><img className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/202131588_10110599023274248_5035917576920223239_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=0debeb&_nc_ohc=6ZZvLvueChUAX9vMDNn&_nc_ht=scontent-sjc3-1.xx&oh=4f319e9bf038b164b71de07ba3099d3e&oe=60DA8F88"></img></div>
                             </Link>
                             <ul className="proj-deets">
-                                <Link>
+                                <Link to='/vulgr'>
                                 <li className="proj-title">VULGR</li>
-                                <li className="proj-details">contemporary luxury brand development</li>
-                                <li className="proj-date">brand concept, logo design, web design</li>
+                                <li className="proj-details">brand development: contemporary luxury wo/menswear</li>
+                                <li className="proj-date">brand concept, graphic design, logo design, print design, web design</li>
                                 </Link>
                             </ul>
-                            <Link>
-                            <div className="proj-pic"><img className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/197915709_10110573813474888_3671384057613823914_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=730e14&_nc_ohc=D1MTvD1Gg9wAX8XIffL&_nc_ht=scontent-sjc3-1.xx&oh=c7888acdd49778329bacef45ae0ba482&oe=60CC00DE"></img></div>
+                            </div>
+
+                            <div className="project">
+                            <Link to='limelemons'>
+                            <div className="proj-pic"><img className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/203078804_10110599267684448_6074898303149594391_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=0debeb&_nc_ohc=gzhljZidYxMAX_vmODI&_nc_ht=scontent-sjc3-1.xx&oh=69e8fbeb93c7dd74efc3ce1fecf7d459&oe=60DB4C38"></img></div>
                             </Link>
                             <ul className="proj-deets">
-                                <Link>
-                                <li className="proj-title">title</li>
-                                <li className="proj-details">details</li>
-                                <li className="proj-date">date</li>
+                                <Link to='/limelemons'>
+                                <li className="proj-title">LIME&LEMONS</li>
+                                <li className="proj-details">cake decorating kit company</li>
+                                <li className="proj-date">packaging design, logo revamp</li>
                                 </Link>
                             </ul>
+                            </div>
                         </div>
                         </div>
                         </div>
@@ -157,44 +180,28 @@ export default class dev extends Component {
 
         const ProjectWrapper = styled.div`
         .card{
-            width: 30vw;
+            width: 25.5vw;
             border-color: transparent;
             background-color: transparent;
             transition: all 0.5s linear;
+            // display: flex;
+            // flex-direction: row;
+            // flex-wrap: nowrap;
+            // justify-content: center;
+            // align-items: stretch;
+            // align-content: center;
+
         }
         .proj-deets{
             background: transparent !important;
             border-top: transparent !important;
-        }
-        &:hover{
-            .card{
-                border-color: transparent;
-            }
-            .proj-deets{
-                background-color: #EF6351;
-            }
-        }
-        .proj-pic {
-            position: relative;
-            overflow: hidden;
-            border-color: rgba(247, 247, 247, 247);
-        }
-        .proj-icon {
-            width: 30vw;
-            height: 25vh;
-            transition: all 0.5s linear;
-        }
-        .proj-pic:hover{
-            transform: scale(1.3);
-            border-color: #EF6351 !important;
-            transition: all 0.5s linear;
-            padding-bottom: 2vh;
 
         }
-        .proj-icon:hover{
-            transform: scale(1.3);
-            border-color: #EF6351 !important;
+        
+        .project:hover{
+            transform: scale(1.2);
+            border-color: #EBECED !important;
+            border-radius:15%;
             transition: all 0.5s linear;
-            padding-bottom: 2vh;
         }
         `

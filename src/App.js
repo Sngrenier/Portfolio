@@ -14,16 +14,22 @@ import Education from './Components/Education/Education';
 import Client from './Components/Skills/Client';
 import Design from './Components/Skills/Design';
 import Dev from './Components/Skills/Dev';
-import Gallery from './Components/WorkGallery/Gallery'
+import Gallery from './Components/WorkGallery/Gallery';
 import MarbleOak from './Components/WorkDetail/MarbleOak';
 import Workit from './Components/WorkDetail/Workit';
+import StemSeed from './Components/WorkDetail/StemSeed';
+import ABrand from './Components/WorkDetail/ABrand';
+import Welax from './Components/WorkDetail/Welax';
+import Vulgr from './Components/WorkDetail/Vulgr';
+import GCakes from './Components/WorkDetail/GCakes';
+import Estrips from './Components/WorkDetail/Estrips';
+import LimeLemons from './Components/WorkDetail/LimeLemons';
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
         <Header />
-        {/* <ProdHead /> */}
 
         <Switch>
           <Route exact path="/" component={Landing} />
@@ -35,8 +41,13 @@ class App extends Component {
           <Route path="/gallery" component={Gallery} />
           <Route path="/marbleoak" component={MarbleOak} />
           <Route path="/workit" component={Workit} />
-          {/* <Route path="/cart" component={Cart} />
-          <Route component={Default} /> */}
+          <Route path="/stemseed" component={StemSeed} />
+          <Route path="/abrand" component={ABrand} />
+          <Route path="/welax" component={Welax} />
+          <Route path="/vulgr" component={Vulgr} />
+          <Route path="/gcakes" component={GCakes} />
+          <Route path="/estrips" component={Estrips} />
+          <Route path="/limelemons" component={LimeLemons} />
         </Switch>
       </React.Fragment>
     );

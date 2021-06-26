@@ -9,13 +9,13 @@
 } */
 
 .bkgrd-left3{
-    width: 34vw;
+    width: 28vw;
     height:100vh;
-    background-color: transparent;
+    background-color: #EF6351;
 }
 
 .bkgrd-right3{
-    width:62vw;
+    width:68vw;
     height:100vh;
     background-color: transparent;
 }
@@ -31,7 +31,7 @@
 	justify-content: flex-start;
 	align-items: flex-start;
 	align-content: flex-start;
-    color: #EF6351;
+    color: black;
     width:22vw;
     height:85vh;
     background-color: transparent;
@@ -60,11 +60,11 @@
     font-size: 5.5rem;
     line-height: 8rem;
     z-index: 3;
-    color: #EF6351;
+    color: black;
 }
 
 .dot5{
-    color: #EF6351;
+    color: black;
     font-family: "Montserrat", sans-serif;
     font-size: 5rem;
     font-weight: 900;
@@ -74,21 +74,21 @@
 }
 
 .client-details{
-    /* position:absolute; */
-    width:58vw;
-    height:100vh;
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: flex-start;
-	align-content: flex-start;
-    background-color: teal;
-    /* padding:8% 8% 8% 20%; */
-    text-align:right;
+
+     width:64vw;
+     height:100vh;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: nowrap;
+     justify-content: flex-end;
+     align-items: flex-end;
+     align-content: flex-end;
+     background-color: transparent;
+     padding:8% 8% 8% 20%;
+     text-align:right;
 }
 
-.about-header{
+.client-header{
     font-family: 'Biryani', sans-serif !important;
     font-size:2rem;
     padding-bottom: 10%;
@@ -98,7 +98,7 @@
     background-color: transparent;
 }
 
-.about-para{
+.client-para{
     font-family: 'Montserrat', sans-serif !important;
     font-size:.9rem;
     padding-bottom: 5%;
@@ -113,4 +113,32 @@
 	justify-content: space-around;
 	align-items: flex-start;
 	align-content: flex-start;
+    background-color: transparent;
+    /* padding-left: 5%; */
+}
+
+.client-exp{
+    width: 35vw;
+    margin-left: 5%;
+    padding: 3%;
+    background-color:transparent;
+
+}
+.group-title{
+    font-family: 'Biryani', sans-serif !important;
+    font-size:1.2rem;
+    padding: 10% 0 5% 0;
+    font-weight:700;
+    background-color: transparent;
+    text-align: left;
+    color: #EF6351;
+}
+.group-bullet{
+    font-family: 'Montserrat', sans-serif !important;
+    font-size:.9rem;
+    padding-bottom: 5%;
+    line-height: 1.5rem;
+    text-align:left;
+    font-weight:400;
+    background-color: transparent;
 }

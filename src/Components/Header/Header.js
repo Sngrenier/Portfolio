@@ -42,7 +42,7 @@ export default class Header extends Component {
                     </div>
                     <div className="two-line-link">
                     <Link to='/education'>
-                    <a className="link">EDUCATION</a>
+                    <a className="link">EDUCATION CV</a>
                     </Link>
                     </div>
                     <div className="two-line-link">
