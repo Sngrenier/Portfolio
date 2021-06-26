@@ -50,19 +50,19 @@ export default class dev extends Component {
                             <div className="column-two">
                             <ul className="frameworks">
                                 <li className="dev-title">FRAMEWORKS</li>
-                                <li className="dev-bullet">REACT</li>
-                                <li className="dev-bullet">REACT HOOKS</li>
-                                <li className="dev-bullet">NODE.JS</li>
-                                <li className="dev-bullet">EXPRESS</li>
+                                <li className="dev-bullet1">REACT</li>
+                                <li className="dev-bullet1">REACT HOOKS</li>
+                                <li className="dev-bullet1">NODE.JS</li>
+                                <li className="dev-bullet1">EXPRESS</li>
                             </ul>
                             <ul className="platforms">
                                 <li className="dev-title">PLATFORMS + HOSTING</li>
-                                <li className="dev-bullet">GIT</li>
-                                <li className="dev-bullet">GITHUB</li>
-                                <li className="dev-bullet">NGINX</li>
-                                <li className="dev-bullet">DIGITAL OCEAN</li>
-                                <li className="dev-bullet">HEROKU</li>
-                                <li className="dev-bullet">ASANA</li>
+                                <li className="dev-bullet1">GIT</li>
+                                <li className="dev-bullet1">GITHUB</li>
+                                <li className="dev-bullet1">NGINX</li>
+                                <li className="dev-bullet1">DIGITAL OCEAN</li>
+                                <li className="dev-bullet1">HEROKU</li>
+                                <li className="dev-bullet1">ASANA</li>
                             </ul>
                             </div>
                             

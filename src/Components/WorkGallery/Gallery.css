@@ -55,23 +55,37 @@
 
 .dot6{
     font-family: "Montserrat", sans-serif;
-    font-size: 7rem;
+    font-size: 5rem;
     font-weight: 900;
     z-index: 2;
-    padding-right:17%;
+    padding-left: 1%;
+    /* padding-right:17%; */
 }
 
 .work-subtitle{
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-family: "Sacramento", cursive !important;
+    color: #EF6351;
+    /* font-size: 5.5rem; */
+    /* line-height: 8rem; */
+    font-size: 4.9rem;
+    font-weight: 00;
     line-height:1.5rem;
     letter-spacing: .25rem;
-    color: black;
-    margin-top:10%;
+    margin-top:3%;
     margin-bottom:-5%;
+    transform: skew(-15deg);
 }
-
+.rk{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: space-between;
+    background-color: transparent;
+    width: 80vw;
+}
 
 .gallery-info{
     position: absolute;

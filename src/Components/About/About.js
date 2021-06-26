@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import './About.css'
 import "bootstrap/dist/css/bootstrap.min.css";
-import Education from '../Education/Education';
 import * as Scroll from 'react-scroll';
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
-import Design from '../Skills/Design';
-import Dev from '../Skills/Dev';
-import Client from '../Skills/Client';
-import Gallery from '../WorkGallery/Gallery'
+// import Education from '../Education/Education';
+// import Design from '../Skills/Design';
+// import Dev from '../Skills/Dev';
+// import Client from '../Skills/Client';
+// import Gallery from '../WorkGallery/Gallery'
 
 
 
@@ -82,11 +82,11 @@ export default class About extends Component {
                             </button>
                     </div>
                 </div>  
-                <Education/>
+                {/* <Education/>
                 <Design/>
                 <Dev/>
                 <Client/>
-                <Gallery/>
+                <Gallery/> */}
         </div>
         )
     }

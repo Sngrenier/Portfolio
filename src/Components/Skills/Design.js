@@ -26,12 +26,14 @@ export default class design extends Component {
                 <div className="column">
                     <div className="category-1">
                         <div className="bullets"><p className="title-line1">WEB DESIGN</p></div>
+                        <div className="bullets"><p className="bullet-line1">UI DESIGN</p></div>
+                        <div className="bullets"><p className="bullet-line1">UX DESIGN & RESEARCH</p></div>
                         <div className="bullets"><p className="bullet-line1">RESPONSIVE CSS</p></div>
                         <div className="bullets"><p className="bullet-line1">WIREFRAMING</p></div>
                         <div className="bullets"><p className="bullet-line1">FLEX, SASS</p></div>
                         <div className="bullets"><p className="bullet-line1">BOOTSTRAP</p></div>
-                        <div className="bullets"><p className="bullet-line1">FIGMA, CANVA, SKETCH</p></div>
-                        <div className="bullets"><p className="bullet-line1">UI + UX</p></div>
+                        <div className="bullets"><p className="bullet-line1">FIGMA, CANVA</p></div>
+                        <div className="bullets"><p className="bullet-line1">SKETCH</p></div>
                     </div>
                 </div>
 
@@ -40,10 +42,12 @@ export default class design extends Component {
                         <div className="bullets"><p className="title-line2">GRAPHIC DESIGN</p></div>
                         <div className="bullets"><p className="bullet-line2">ART DIRECTION</p></div>
                         <div className="bullets"><p className="bullet-line2">LOGO DESIGN</p></div>
-                        <div className="bullets"><p className="bullet-line2">ADOBE CREATIVE SUITE</p></div>
+                        <div className="bullets"><p className="bullet-line2">BRAND IDENTITY & DEVELOPMENT</p></div>
+                        <div className="bullets"><p className="bullet-line2">MARKETING STRATEGY</p></div>
                         <div className="bullets"><p className="bullet-line2">INDESIGN</p></div>
                         <div className="bullets"><p className="bullet-line2">PHOTOSHOP</p></div>
                         <div className="bullets"><p className="bullet-line2">ILLUSTRATOR</p></div>
+                        <div className="bullets"><p className="bullet-line2">ADOBE CREATIVE SUITE</p></div>
                     </div>
                 </div>
             </div>

@@ -13,13 +13,14 @@ export default class dev extends Component {
                 <div className="bkgrd-left-work"></div>
                     <div className="bkgrd-right-work"></div>
                         <div className="work-heading">
-                                <div className="wo"><p>WO</p></div>
+                                <div className="wo"><p>PR</p></div>
                                 <div className="rk">
-                                    <div><p>RK</p></div>
-                                    <div className="dot6"><p>.</p></div>
+                                    <div><p>OJECTS</p></div>
+                                    {/* <div className="dot6"><p>.</p></div> */}
                                 </div>
-                            <div>
-                                <p className="work-subtitle">a handful of projects I've worked on.</p>
+                            <div className="rk">
+                                <p className="work-subtitle">a handful of my recent work</p>
+                                <div className="dot6"><p>.</p></div>
                             </div>
                     
                     <ProjectWrapper >
@@ -111,8 +112,8 @@ export default class dev extends Component {
                             <ul className="proj-deets">
                                 <Link to='/estrips'>
                                 <li className="proj-title">ENTOURAGE STRIPS</li>
-                                <li className="proj-details">brand development: kickstarter CBD strip company</li>
-                                <li className="proj-date">graphic design, packaging design, marketing campaign strategy</li>
+                                <li className="proj-details">brand development: kickstarter CBD strip company, Entourage Strips</li>
+                                <li className="proj-date">graphic design, packaging design</li>
                                 </Link>
                             </ul>
                             </div>
