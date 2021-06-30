@@ -1,0 +1,107 @@
+.test-header{
+    width: 100vw;
+    height: 18vh;
+    background-color: transparent;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-end;
+	align-content: center;
+}
+
+.test-title{
+    font-family: "Sacramento", cursive !important;
+    color: #EF6351;
+    font-size: 4.7rem;
+    font-weight: 600;
+    line-height:1.5rem;
+    letter-spacing: .4rem;
+    margin-top:3%;
+    transform: skew(-15deg);
+}
+
+.carousel{
+    margin-bottom: 18% !important;
+    margin-top:2% !important;
+}
+.slider{
+    height: 80vh !important;
+}
+
+.image-slider {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    visibility: visible;
+    background-size: cover;
+    /* height: 60vh !important; */
+    width: 100vw;
+    display: contain;
+    overflow: hidden;
+    background-color: transparent;
+    border-color: transparent;
+    color: #fff;
+    margin: 15px;
+    font-size: 1rem;
+}
+
+.carousel-caption {
+    position: absolute;
+    margin-bottom: 8%;
+    text-align: right;
+    color: black;
+}
+
+.quote{
+    position: absolute;
+    width: 60vw;
+    height: 5vh;
+    padding-right:15%;
+    text-align: center !important;
+    background-color: transparent;
+    margin-right: 32vw;
+    font-family: 'Catamaran', sans-serif;
+    color: #EF6351;
+    font-weight: 900;
+    font-size: 5rem;
+    margin-bottom:20vh !important;
+    transform: rotate(-180deg);
+}
+
+.quote-2{
+    font-family: 'Catamaran', sans-serif;
+    color: #EF6351;
+    font-weight: 900;
+    font-size: 5rem;
+    line-height:2rem;
+}
+
+.cc-1 {
+color: black;
+font-weight: 500;
+font-size: 1.8rem;
+line-height: 6rem;
+font-family: "Montserrat", sans-serif;
+font-weight: 900;
+}
+
+.cc-2 {
+color: black;
+line-height: 2rem;
+padding-left: 50%;
+font-family: 'Montserrat', sans-serif !important;
+font-size:.9rem;
+text-align:right;
+font-weight:300;
+}
+
+.cc-3 {
+    color: black;
+    line-height: 2.2rem;
+    padding-left: 50%;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size:.9rem;
+    text-align:right;
+    font-weight:500;
+    }

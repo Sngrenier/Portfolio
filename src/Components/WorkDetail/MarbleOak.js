@@ -7,9 +7,13 @@ export default class MarbleOak extends Component {
     render() {
         return (
             <div className="container-fluid">
-                <div className="marbleoak-title">
-               MARBLE OAK LIVING
+                <div className="mo-title">
+               <p>MARBLEoak</p>
                </div>
+               <div className="mo-title-two">
+               <p>luxury retail site</p>
+               </div>
+
                <div className='player-wrapper'>
                 <ReactPlayer
             className='react-player center'

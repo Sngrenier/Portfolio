@@ -24,6 +24,7 @@ import Vulgr from './Components/WorkDetail/Vulgr';
 import GCakes from './Components/WorkDetail/GCakes';
 import Estrips from './Components/WorkDetail/Estrips';
 import LimeLemons from './Components/WorkDetail/LimeLemons';
+import Test from './Components/Testimonials/Test'
 
 class App extends Component {
   render() {
@@ -48,6 +49,7 @@ class App extends Component {
           <Route path="/gcakes" component={GCakes} />
           <Route path="/estrips" component={Estrips} />
           <Route path="/limelemons" component={LimeLemons} />
+          <Route path="/test" component={Test} />
         </Switch>
       </React.Fragment>
     );

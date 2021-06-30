@@ -9,6 +9,7 @@ import Design from '../Skills/Design';
 import Dev from '../Skills/Dev';
 import Client from '../Skills/Client';
 import Gallery from '../WorkGallery/Gallery'
+import Test from '../Testimonials/Test'
 
 export default class Landing extends Component {
 
@@ -79,6 +80,7 @@ export default class Landing extends Component {
                 <Education/>
                 <Design/>
                 <Dev/>
+                <Test/>
                 <Client/>
                 <Gallery/>
             </div>

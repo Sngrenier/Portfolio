@@ -31,7 +31,7 @@ export default class dev extends Component {
                             <div className="card">
                                 <div className="project">
                                 <Link to='/workit'>
-                            <div className="proj-pic"><img className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/202793945_10110601658787658_3981736887135429542_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=0debeb&_nc_ohc=skBjZtKcfKIAX_gYZw6&_nc_ht=scontent-sjc3-1.xx&oh=b32fe729c841a223d1d24379820cca28&oe=60DA41E3"></img></div>
+                            <div className="proj-pic"><img className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/201968738_10110599023668458_5412599662714406027_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=0debeb&_nc_ohc=7aGVArCExWEAX_JpQzL&_nc_ht=scontent-sjc3-1.xx&oh=cac347b29e47c28f9bfd525dde93b5db&oe=60DF3EC7"></img></div>
                             </Link>
                             <ul className="proj-deets">
                                 <Link to='/workit'>
@@ -80,7 +80,7 @@ export default class dev extends Component {
                             <div className="project">
                             <div className="proj-pic">
                                 <Link to='/MarbleOak'>
-                                <img className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/201997926_10110599022949898_336588881942886561_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=0debeb&_nc_ohc=HBvHAPsZUXwAX8z4tLd&_nc_ht=scontent-sjc3-1.xx&oh=a741b5f1337d0a1f6a91bc31237b7ac2&oe=60D9ED9E"></img>
+                                <img className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/201997926_10110599022949898_336588881942886561_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=0debeb&_nc_ohc=v_Cq7uShynMAX9vSxLL&_nc_ht=scontent-sjc3-1.xx&oh=375297fed40b3b4882bff3a10f493440&oe=60DFDC5E"></img>
                                 </Link>
                                 </div>
                             <ul className="proj-deets">
@@ -94,7 +94,7 @@ export default class dev extends Component {
 
                             <div className="project">
                             <Link to='/welax'>
-                            <div className="proj-pic"><img className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/204877053_10110599023523748_3208708152469310895_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=0debeb&_nc_ohc=W__UYViMS0UAX9N8e3N&tn=jG4jHig4ll3niTGB&_nc_ht=scontent-sjc3-1.xx&oh=4438f56e4cc145a3a4edc7ef785445f5&oe=60D9B8C8"></img></div>
+                            <div className="proj-pic"><img className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/210359790_10110611647290618_6166945052080279767_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=0debeb&_nc_ohc=donl2TkQt70AX_bWstv&_nc_oc=AQlbWfveoqfnjPqlU1Mxr3iZHmgmSacnD_Fvin0a8uGrFPPl77Oa3twPDZrsQqJe63i9rhvYzahdYD4a3sUAUtoy&_nc_ht=scontent-sjc3-1.xx&oh=daf1f498dae4c0cd6811f9bcdec2e1ee&oe=60E165C1"></img></div>
                             </Link>
                             <ul className="proj-deets">
                                 <Link to='/welax'>
@@ -107,7 +107,7 @@ export default class dev extends Component {
 
                             <div className="project">   
                             <Link to='/estrips'>
-                            <div className="proj-pic"><img className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/204214133_10110599020864078_5846127103645047360_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=0debeb&_nc_ohc=dXP4WAFYZkUAX-xNMQS&_nc_ht=scontent-sjc3-1.xx&oh=1543446ac9db9921b826bba56dca1eb3&oe=60DB1D49"></img></div>
+                            <div className="proj-pic"><img className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/203019162_10110611700663658_6356625520592917966_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=0debeb&_nc_ohc=T_eGvkfb-E8AX9lkV25&_nc_ht=scontent-sjc3-1.xx&oh=3c26023020a5e4776c27f8fdbf33688d&oe=60E19FD9"></img></div>
                             </Link>
                             <ul className="proj-deets">
                                 <Link to='/estrips'>
@@ -191,7 +191,6 @@ export default class dev extends Component {
             // justify-content: center;
             // align-items: stretch;
             // align-content: center;
-
         }
         .proj-deets{
             background: transparent !important;
@@ -204,5 +203,13 @@ export default class dev extends Component {
             border-color: #EBECED !important;
             border-radius:15%;
             transition: all 0.5s linear;
+            overflow: hidden;
+        }
+        .project-pic:hover{
+            transform: scale(1.2);
+            border-color: #EBECED !important;
+            border-radius:15%;
+            transition: all 0.5s linear;
+            overflow: hidden;
         }
         `

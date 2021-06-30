@@ -1,10 +1,17 @@
 import React, { Component } from 'react'
+import './ABrand.css'
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default class ABrand extends Component {
     render() {
         return (
-            <div>
-                I'm the Agnes Borgani Component
+            <div className="container-fluid">
+               <div className="ab-title">
+               <p>AGNESborgani</p>
+               </div>
+               <div className="ab-title-two">
+               <p>brand design & development</p>
+               </div>
             </div>
         )
     }

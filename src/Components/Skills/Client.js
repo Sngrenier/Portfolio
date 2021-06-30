@@ -45,10 +45,10 @@ export default class client extends Component {
                                 </ul>
                                 <ul className="client-exp">
                                     <li className="group-title">OPERATIONAL PROWESS</li>
-                                    <li className="group-bullet">Store design & layout</li>
+                                    <li className="group-bullet">Complete store design & layout</li>
                                     <li className="group-bullet">Building and vendor maintenance</li>
-                                    <li className="group-bullet">Large-scale visual merchandising</li>
-                                    <li className="group-bullet">merchandise buying and allocation</li>
+                                    <li className="group-bullet">Large-scale visual merchandising installation</li>
+                                    <li className="group-bullet">Merchandise buying and allocation</li>
                                 </ul>
                                 <ul className="client-exp">
                                     <li className="group-title">CLIENT RELATIONS</li>
