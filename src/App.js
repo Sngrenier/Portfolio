@@ -8,7 +8,7 @@ import Landing from './Components/Landing/Landing';
 // import Cash from './Components/WorkDetail/Cash';
 
 
-
+import ScrollToTop from './Components/ScrollToTop';
 import About from './Components/About/About';
 import Education from './Components/Education/Education';
 import Client from './Components/Skills/Client';
@@ -31,7 +31,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <Header />
-
+        <ScrollToTop/>
         <Switch>
           <Route exact path="/" component={Landing} />
           <Route path="/about" component={About} />

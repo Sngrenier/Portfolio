@@ -1,23 +1,51 @@
 .workit-title{
-    font-family: "Montserrat", sans-serif;
-    font-size:5rem;
-    padding: 4% 2% 0 2%;
-    text-align:left;
-    font-weight:900;
-    color:#EF6351;
+    padding-top:5%;
+    padding-left:2%;
+    display:flex;
+    flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+    color: #EF6351;
+    width:60vw;
+
     background-color: transparent;
+    font-family: "Montserrat", sans-serif;
+    font-size: 6rem;
+    font-weight: 900;
+    line-height:4rem;
+    letter-spacing: .25rem;
+    z-index: 2;
 }
 .workit-title-two{
+    display:flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: space-around;
+    width:100vw;
+    background-color: transparent;
     font-family: "Sacramento", cursive !important;
     color: #EF6351;
-    font-size: 3.8rem;
-    line-height: .5rem;
-    padding: 1% 2% 2% 2%;
+    font-size: 4.2rem;
+    line-height: 3.5rem;
     font-weight: 600;
     letter-spacing: .25rem;
     transform: skew(-15deg); 
 }
 
+.proj-dot-1{
+    color: #EF6351;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    padding-left:3%;
+    z-index: 2;
+}
+
+/* GITHUB BUTTON */
 .git-hub-btn{
     display: flex;
 	flex-direction: row;
@@ -62,10 +90,12 @@
     background-color: transparent;
 }
 .git-icon{
-    padding-left: 2%;
+    /* padding-left: 2%; */
     background-color: transparent;
 }
 
+
+/* FIRST DETAILS SECTION */
 .workit-proj-ov{
     display: flex;
 	flex-direction: row;
@@ -75,7 +105,6 @@
 	align-content: center;
     padding-top: 15vh;
 }
-
 .workit-img{
     width: 30vw !important;
     overflow: hidden !important;
@@ -85,9 +114,7 @@
     object-fit:contain !important;
     overflow: hidden !important;
 }
-
 .workit-proj-details{
-    /* position:absolute; */
     width:60vw;
     height:100vh;
     display: flex;
@@ -100,8 +127,6 @@
     padding:8% 8% 8% 8%;
     text-align:left;
 }
-
-
 .workit-subtitle{
     font-family: 'Montserrat', sans-serif !important;
     font-size:2rem;
@@ -110,18 +135,19 @@
     background-color: transparent;
     color: #EF6351 !important;
 }
-
 .workit-details{
     font-family: 'Montserrat', sans-serif !important;
     font-size:.9rem;
     padding-bottom: 5%;
     text-align:left;
-    font-weight:300;
+    font-weight:400;
+    letter-spacing:.05rem;
+    line-height: 1.7rem;
     background-color: transparent;
 }
 
 
-
+/* SECOND DETAILS SECTION */
 .proj-process{
     display: flex;
 	flex-direction: row;
@@ -144,7 +170,6 @@
     padding:8% 8% 8% 8%;
     text-align: right !important;
 }
-
 .process-subtitle{
     font-family: 'Montserrat', sans-serif !important;
     color: #EF6351 !important;
@@ -154,15 +179,15 @@
     font-weight:900;
     background-color: transparent;
 }
-
 .process-bullets{
     font-family: 'Montserrat', sans-serif !important;
     font-size:.9rem;
     padding-bottom: 5%;
-    font-weight:300;
+    font-weight:400;
+    letter-spacing:.05rem;
+    line-height: 1.7rem;
     background-color: transparent;
 }
-
 .pro-bullets{
     font-family: "Montserrat", sans-serif;
     font-size:1rem;
