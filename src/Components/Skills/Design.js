@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Design.css'
+import Dev from '../Skills/Dev';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default class design extends Component {
@@ -52,6 +53,7 @@ export default class design extends Component {
                 </div>
             </div>
             </div>
+            <Dev/>
         </div>
 
         )

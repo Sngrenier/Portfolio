@@ -27,17 +27,17 @@ export default class Header extends Component {
                       </div>
                     <div className="two-line-link">
                     <Link to='/design'>
-                    <a className="link">DESIGN SKILLS</a>
-                    </Link>
-                    </div>
-                    <div className="two-line-link">
-                    <Link to='/dev'>
-                    <a className="link">WEB DEV SKILLS</a>
+                    <a className="link">DESIGN & WEB DEV SKILLS</a>
                     </Link>
                     </div>
                     <div className="two-line-link">
                     <Link to='/client'>
                     <a className="link">BUSINESS EXPERIENCE</a>
+                    </Link>
+                    </div>
+                    <div className="two-line-link">
+                    <Link to='/test'>
+                    <a className="link">CLIENT TESTIMONIALS</a>
                     </Link>
                     </div>
                     <div className="two-line-link">

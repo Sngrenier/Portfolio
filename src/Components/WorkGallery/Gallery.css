@@ -10,13 +10,13 @@
 
 .bkgrd-left-work{
     width: 68vw;
-    height:225vh;
+    height:205vh;
     background-color: white;
 }
 
 .bkgrd-right-work{
     width:50vw;
-    height:225vh;
+    height:205vh;
     background-color: #E3E1E1;
 }
 
@@ -188,3 +188,30 @@
     color: rgb(105, 104, 104);
     padding-bottom: 3%;
 }
+
+/* MORE PROJ PHOTOS BUTTON */
+.more-photos-btn{
+    padding-top:15%;
+ }
+ .photo-btn{
+     font-family: "Montserrat", sans-serif;
+     text-transform: uppercase;
+     padding: 1% 2% 1% 2%;
+     border-style: 0.05rem solid !important;
+     border-color: #FBC3BC !important;
+     border-radius:0.5rem;
+     cursor:pointer;
+     font-size:.8rem;
+     background-color: transparent !important;
+ }
+ .photo-btn:hover{
+     font-family: "Montserrat", sans-serif;
+     text-transform: uppercase;
+     border-radius: 0.5rem;
+     border: 0.05rem solid #EF6351 !important;
+     border-radius:0.5rem;
+     cursor:pointer;
+     font-size:.8rem;
+     background-color: #EF6351 !important;
+     color: white;
+ }

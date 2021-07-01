@@ -6,7 +6,6 @@ import * as Scroll from 'react-scroll';
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import Education from '../Education/Education';
 import Design from '../Skills/Design';
-import Dev from '../Skills/Dev';
 import Client from '../Skills/Client';
 import Gallery from '../WorkGallery/Gallery'
 import Test from '../Testimonials/Test'
@@ -79,7 +78,6 @@ export default class Landing extends Component {
                 <About />
                 <Education/>
                 <Design/>
-                <Dev/>
                 <Test/>
                 <Client/>
                 <Gallery/>

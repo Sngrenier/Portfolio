@@ -169,9 +169,26 @@ export default class dev extends Component {
                         </div>
                             </div>
                     </ProjectWrapper>
-                
+                            
                 </div>
                 </div>
+                <div className="container-fluid">
+                <div className="project-overview">
+                    <div className="project-overview-details">
+                    <p className="proj-para-1"><strong>development tools for this site:</strong> </p>
+                    <p className="proj-para">react, html5, javascript, css, vscode, github, digital ocean, figma, indesign, photoshop, illustrator</p>
+                    <p className="proj-para-2">...and loads others I'm sure</p>
+                    <p className="proj-para-2-body"><strong>and lots of love!</strong></p>
+                    <div className="more-photos-btn">
+                        <button className="photo-btn">
+                        <a href="https://github.com/Sngrenier/Portfolio">
+                        <span className="btn-type">my portfolio source code</span>
+                        </a>
+                        </button>
+                    </div>
+                    </div>
+                </div>
+            </div>
             </div>
              )
             }
@@ -202,14 +219,14 @@ export default class dev extends Component {
         .project:hover{
             transform: scale(1.2);
             border-color: #EBECED !important;
-            border-radius:15%;
+           
             transition: all 0.5s linear;
             overflow: hidden;
         }
         .project-pic:hover{
             transform: scale(1.2);
             border-color: #EBECED !important;
-            border-radius:15%;
+           
             transition: all 0.5s linear;
             overflow: hidden;
         }
