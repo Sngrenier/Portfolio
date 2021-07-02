@@ -3,6 +3,9 @@ import './ABrand.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default class ABrand extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
     render() {
         return (
             <div className="container-fluid">

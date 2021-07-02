@@ -3,6 +3,9 @@ import './Estrips.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default class Estrips extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
     render() {
         return (
             <div className="container-fluid">

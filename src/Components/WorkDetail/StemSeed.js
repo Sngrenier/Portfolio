@@ -3,6 +3,9 @@ import './StemSeed.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default class StemSeed extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
     render() {
         return (
             <div className="container-fluid">

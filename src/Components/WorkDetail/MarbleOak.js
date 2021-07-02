@@ -4,6 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import ReactPlayer from 'react-player'
 
 export default class MarbleOak extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
     render() {
         return (
     <div className="container-fluid">

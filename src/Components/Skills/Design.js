@@ -4,6 +4,9 @@ import Dev from '../Skills/Dev';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default class design extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
     render() {
         return (
             <div className="container-fluid">
