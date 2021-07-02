@@ -34,9 +34,9 @@
     font-family: "Montserrat", sans-serif;
     font-size: 5rem;
     font-weight: 900;
-    line-height:3.5rem;
+    line-height:5rem !important;
     letter-spacing: .25rem;
-    z-index: 2;
+    z-index: 3;
 }
 
 .me{
@@ -50,15 +50,16 @@
     width:20vw;
     font-family: "Sacramento", cursive !important;
     font-size: 8rem;
-    line-height: 3rem;
+    line-height: 4rem !important;
     z-index: 3;
+    /* padding-top:2%; */
 }
 
 .dot2{
     font-family: "Montserrat", sans-serif;
     font-size: 5rem;
     font-weight: 900;
-    line-height: 3rem;
+    line-height: 4rem !important;
     padding-left:6%;
     z-index: 2;
 }
