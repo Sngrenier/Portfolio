@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-// import Slider from 'react-elastic-carousel';
 import './Header.css'
 import {Link} from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.min.css";
-// import styled from 'styled-components'
 
 export default class Header extends Component {
 
@@ -17,37 +15,37 @@ export default class Header extends Component {
 
                   <div className="nav-item name">
                     <Link to="/">
-                    <a className="name-line">STACY N GRENIER</a>
+                    <p className="name-line">STACY N GRENIER</p>
                     </Link>
                     <div className="nav-item links">
                       <div className="two-line-link">
                       <Link to='/about'>
-                      <a className="link">ABOUT</a>
+                      <p className="link">ABOUT</p>
                     </Link>
                       </div>
                     <div className="two-line-link">
                     <Link to='/design'>
-                    <a className="link">DESIGN & WEB DEV SKILLS</a>
+                    <p className="link">DESIGN & WEB DEV SKILLS</p>
                     </Link>
                     </div>
                     <div className="two-line-link">
                     <Link to='/client'>
-                    <a className="link">BUSINESS EXPERIENCE</a>
+                    <p className="link">BUSINESS EXPERIENCE</p>
                     </Link>
                     </div>
                     <div className="two-line-link">
                     <Link to='/test'>
-                    <a className="link">CLIENT TESTIMONIALS</a>
+                    <p className="link" href="">CLIENT TESTIMONIALS</p>
                     </Link>
                     </div>
                     <div className="two-line-link">
                     <Link to='/education'>
-                    <a className="link">EDUCATION CV</a>
+                    <p className="link" href="">EDUCATION CV</p>
                     </Link>
                     </div>
                     <div className="two-line-link">
                     <Link to='/gallery'>
-                    <a className="link">PROJECTS</a>
+                    <p className="link" href="">PROJECTS</p>
                     </Link>
                     </div>
                     </div>

@@ -19,9 +19,7 @@ export default class Education extends Component {
                 <div className="column">
                     <div className="edu-categories">
                         <div className="edu-head"><p className="etitle">GRAPHIC DESIGN</p></div>
-                       
                         <div className="edu-head"><p className="eschool">PARSONS SCHOOL OF DESIGN, NEW YORK</p></div>
-                       
                         <div className="edu-head"><p className="edate">2018</p></div>
                     </div>
                 </div>
@@ -47,7 +45,7 @@ export default class Education extends Component {
                 </div>
 
                 <div className="cv-qr-code">
-                    <img className="qr-img" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/205618803_10110599020140528_6060753427467060989_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=0debeb&_nc_ohc=R53cUZVmxtUAX-hO23u&_nc_ht=scontent-sjc3-1.xx&oh=b0aad9d812210d02c7a0a84e0329a51f&oe=60DBDC74" width={100}></img>
+                    <img className="qr-img" alt="" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/205618803_10110599020140528_6060753427467060989_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=0debeb&_nc_ohc=R53cUZVmxtUAX-hO23u&_nc_ht=scontent-sjc3-1.xx&oh=b0aad9d812210d02c7a0a84e0329a51f&oe=60DBDC74" width={100}></img>
                 </div>
                 </div>
             </div>

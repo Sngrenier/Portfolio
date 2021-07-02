@@ -16,7 +16,7 @@ export default class Welax extends Component {
                     
            <div className="container-fluid">
            <div className='image-wrapper'>
-               <img className="banner-img" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/206139604_10110613716444018_6024076691686146070_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=0debeb&_nc_ohc=Twv-Uqech8QAX9DLWE7&_nc_ht=scontent-sjc3-1.xx&oh=06c648616a1b822b7bdc65ac514aaf28&oe=60E10E07"></img>
+               <img alt="" className="banner-img" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/206139604_10110613716444018_6024076691686146070_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=0debeb&_nc_ohc=Twv-Uqech8QAX9DLWE7&_nc_ht=scontent-sjc3-1.xx&oh=06c648616a1b822b7bdc65ac514aaf28&oe=60E10E07"></img>
     </div>
     </div>
            
@@ -42,12 +42,12 @@ export default class Welax extends Component {
 
             <div className="container-fluid img-container">
                     <div className='image-wrapper-body'>
-                    <img className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/205117446_10110613741174458_1318112481603984213_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=0debeb&_nc_ohc=CVgvgiYwH3gAX8fr-Df&_nc_ht=scontent-sjc3-1.xx&oh=c9a5e1a288378a1fd07a8adce9ca7b18&oe=60E156EB"></img>
+                    <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/205117446_10110613741174458_1318112481603984213_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=0debeb&_nc_ohc=CVgvgiYwH3gAX8fr-Df&_nc_ht=scontent-sjc3-1.xx&oh=c9a5e1a288378a1fd07a8adce9ca7b18&oe=60E156EB"></img>
                 </div>
             </div>
             <div className="container-fluid">
                     <div className='image-wrapper-body'>
-                    <img className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/202636244_10110613741149508_8942753669825212878_n.jpg?_nc_cat=105&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=ruiuiGqm7ZcAX9aQRPA&_nc_ht=scontent-sjc3-1.xx&oh=2690d05037e5b548905a40a1119c50dc&oe=60E1E758"></img>
+                    <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/202636244_10110613741149508_8942753669825212878_n.jpg?_nc_cat=105&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=ruiuiGqm7ZcAX9aQRPA&_nc_ht=scontent-sjc3-1.xx&oh=2690d05037e5b548905a40a1119c50dc&oe=60E1E758"></img>
                 </div>
             </div>
 
@@ -63,7 +63,7 @@ export default class Welax extends Component {
 
             <div className="container-fluid img-container">
                     <div className='image-wrapper-body'>
-                    <img className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/206069134_10110613779472708_6364850142023472836_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=0debeb&_nc_ohc=-qrTv6pkQlUAX_FzZh2&_nc_ht=scontent-sjc3-1.xx&oh=523f6614bb91b3a38c726625f034f7c4&oe=60E2DDED"></img>
+                    <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/206069134_10110613779472708_6364850142023472836_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=0debeb&_nc_ohc=-qrTv6pkQlUAX_FzZh2&_nc_ht=scontent-sjc3-1.xx&oh=523f6614bb91b3a38c726625f034f7c4&oe=60E2DDED"></img>
                 </div>
             </div>
 

@@ -25,7 +25,6 @@ export default class MarbleOak extends Component {
             controls = {true}
             volume='1'
             playing={false}
-            style={true}
             />
         </div>
    
@@ -50,13 +49,13 @@ export default class MarbleOak extends Component {
     </div>
     <div className="container-fluid img-container">
             <div className='image-wrapper-body'>
-            <img className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/207891733_10110616564212068_208501527027692952_n.jpg?_nc_cat=110&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=qJJaJCLWtEoAX9o23NC&_nc_ht=scontent-sjc3-1.xx&oh=628dc33e1ff37f5f83757afe2b12c119&oe=60E3FA52"></img>
+            <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/207891733_10110616564212068_208501527027692952_n.jpg?_nc_cat=110&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=qJJaJCLWtEoAX9o23NC&_nc_ht=scontent-sjc3-1.xx&oh=628dc33e1ff37f5f83757afe2b12c119&oe=60E3FA52"></img>
         </div>
     </div>
 
     <div className="container-fluid">
             <div className='image-wrapper-body'>
-            <img className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/208122906_10110616564202088_7323663091414790079_n.jpg?_nc_cat=103&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=gI7wpUcx2OMAX_Rtplr&tn=jG4jHig4ll3niTGB&_nc_ht=scontent-sjc3-1.xx&oh=5ddc7b52cf33e2b35547607866201986&oe=60E289D5"></img>
+            <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/208122906_10110616564202088_7323663091414790079_n.jpg?_nc_cat=103&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=gI7wpUcx2OMAX_Rtplr&tn=jG4jHig4ll3niTGB&_nc_ht=scontent-sjc3-1.xx&oh=5ddc7b52cf33e2b35547607866201986&oe=60E289D5"></img>
         </div>
     </div>
             
@@ -85,7 +84,7 @@ export default class MarbleOak extends Component {
     </div>
     <div className="container-fluid img-container">
             <div className='image-wrapper-body'>
-            <img className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/207912643_10110616374921408_2938065186917213890_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=0debeb&_nc_ohc=eDtN5-wuoH0AX8d_XRf&_nc_ht=scontent-sjc3-1.xx&oh=633cf048fd1c3bf6fa31debfd0948af4&oe=60E341FA"></img>
+            <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/207912643_10110616374921408_2938065186917213890_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=0debeb&_nc_ohc=eDtN5-wuoH0AX8d_XRf&_nc_ht=scontent-sjc3-1.xx&oh=633cf048fd1c3bf6fa31debfd0948af4&oe=60E341FA"></img>
         </div>
     </div>
 
@@ -101,7 +100,7 @@ export default class MarbleOak extends Component {
                 <a href="https://github.com/Sngrenier/fs-personal-project">
                 <span className="btn-type">view MARBLE OAK source code</span>
                 </a>
-                <img className="git-icon" src="https://img.icons8.com/ios-glyphs/20/000000/github.png"/>
+                <img alt="" className="git-icon" src="https://img.icons8.com/ios-glyphs/20/000000/github.png"/>
                 </button>
             </div>
             </div>

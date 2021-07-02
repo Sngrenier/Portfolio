@@ -2,8 +2,9 @@ import React, { Component } from 'react'
 import './Landing.css'
 import About from '../About/About'
 import "bootstrap/dist/css/bootstrap.min.css";
-import * as Scroll from 'react-scroll';
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+// import * as Scroll from 'react-scroll';
+// import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Events, animateScroll as scroll } from 'react-scroll'
 import Education from '../Education/Education';
 import Design from '../Skills/Design';
 import Client from '../Skills/Client';
@@ -57,7 +58,7 @@ export default class Landing extends Component {
                         <div className="scroll-bar">
                             <button className="scroll" onClick={this.scrollMore}>
                                 <p className="scroll-para">scroll</p>
-                            <div className="arrow"><div><img src="https://img.icons8.com/ios/28/ffffff/long-arrow-down.png"/></div>
+                            <div className="arrow"><div><img alt="" src="https://img.icons8.com/ios/28/ffffff/long-arrow-down.png"/></div>
                         </div>
                             </button>
                     </div>
