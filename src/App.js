@@ -5,9 +5,6 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from './Components/Header/Header';
 import Landing from './Components/Landing/Landing';
-// import Cash from './Components/WorkDetail/Cash';
-
-
 import ScrollToTop from './Components/ScrollToTop';
 import About from './Components/About/About';
 import Education from './Components/Education/Education';

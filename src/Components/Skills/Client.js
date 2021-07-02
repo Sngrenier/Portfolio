@@ -3,6 +3,11 @@ import './Client.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default class client extends Component {
+    
+    componentDidMount(){
+        window.scrollTo(0,0)
+    }
+
     render() {
         return (
                 <div className="container-fluid">
