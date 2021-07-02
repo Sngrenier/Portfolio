@@ -44,7 +44,7 @@
     padding-left:3%;
     z-index: 2;
 }
-/* GITHUB BUTTON */
+
 .git-hub-btn{
     display: flex;
 	flex-direction: row;
@@ -103,7 +103,7 @@
     overflow:hidden;
     background-color:transparent;
 }
-/* MORE PROJ PHOTOS BUTTON */
+
 .wireframe-btn{
     display: flex;
 	flex-direction: column;
@@ -173,7 +173,7 @@
     background-color: transparent;
 }
 
-/* SUPPORTING TYPE */
+
 .project-overview-details-body{
     display: flex;
 	flex-direction: column;
@@ -224,7 +224,7 @@
 }
 
 
-/* SUPPORTING IMAGES */
+
 .img-container{
     padding-top:5%;
 }

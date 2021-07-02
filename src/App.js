@@ -5,7 +5,6 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from './Components/Header/Header';
 import Landing from './Components/Landing/Landing';
-// import ScrollToTop from './Components/ScrollToTop';
 import About from './Components/About/About';
 import Education from './Components/Education/Education';
 import Client from './Components/Skills/Client';
@@ -28,7 +27,6 @@ class App extends Component {
     return (
       <React.Fragment>
         <Header />
-        {/* <ScrollToTop/> */}
         <Switch>
           <Route exact path="/" component={Landing} />
           <Route path="/about" component={About} />

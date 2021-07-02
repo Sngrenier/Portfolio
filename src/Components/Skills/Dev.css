@@ -10,10 +10,6 @@
     overflow: hidden;
     z-index:-1;
 }
-/* .bkgrd-bottom3{
-    width: 96vw !important;
-    background-color: #FBC3BC;
-} */
 
 .development-skill{
     position: absolute;
@@ -118,9 +114,6 @@
     font-size:.8rem;
     font-weight:500;
     padding: 2% 0 0 0;
-    /* width:30vw;
-    letter-spacing: .15rem;
-    padding-left: 30%; */
 }
 
 .dev-bullet1{
@@ -130,7 +123,4 @@
     font-weight:500;
     text-align: left;
     padding: 2% 0 0 0;
-    /* width:30vw;
-    letter-spacing: .15rem;
-    padding-left: 30%; */
 }

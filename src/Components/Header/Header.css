@@ -1,4 +1,3 @@
-
 .title-bar{
   position: fixed;
     top: 0;
@@ -42,12 +41,10 @@ a {
 	justify-content: space-between;
 	align-items: flex-start;
 	align-content: space-around;
-    /* line-height: 2.5rem; */
     font-family: "Ubuntu", sans-serif;
     font-size: .8rem;
     letter-spacing: 2.5px;
     font-weight: 700;
-    /* text-align:left; */
   }
 
   .name-line{
@@ -65,15 +62,12 @@ a {
     text-align: right;
   }
   .link{
-      /* padding-left: 4.5%; */
       margin:1%;
       background-color: transparent;
       text-align: right;
       font-size: .5rem;
   }
   .two-line-link{
-    /* padding-left: 4.5%; */
-    /* margin:1%; */
     line-height:.7rem;
     background-color: transparent;
     text-align: right;
@@ -86,22 +80,4 @@ a {
     background-color: transparent;
     width:100px;
   }
-/*   
-  .location {
-    flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: flex-start;
-	align-content: space-around;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 0.7rem;
-    letter-spacing: 2.5px;
-    font-weight: 500;
-    background-color: transparent;
-    width:5%;
-  } */
-
-  /* .icons{
-      padding:10%;
-  } */
   

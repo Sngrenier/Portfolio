@@ -55,7 +55,7 @@
     overflow:hidden;
     background-color:transparent;
 }
-/* MORE PROJ PHOTOS BUTTON */
+
 .more-photos-btn{
    padding-top:15%;
 }
@@ -115,7 +115,7 @@
     background-color: transparent;
 }
 
-/* SUPPORTING TYPE */
+
 .project-overview-details-body{
     display: flex;
 	flex-direction: column;
@@ -166,7 +166,7 @@
 }
 
 
-/* SUPPORTING IMAGES */
+
 .img-container{
     padding-top:5%;
 }

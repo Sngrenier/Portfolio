@@ -5,7 +5,6 @@
 	justify-content: center;
 	align-items: stretch;
 	align-content: stretch;
-    /* position:absolute; */
 }
 
 .bkgrd-left2{
@@ -30,7 +29,6 @@
 	justify-content: flex-start;
 	align-items: flex-start;
 	align-content: flex-start;
-    /* width:22vw; */
     height:85vh;
     background-color: transparent;
     font-family: "Montserrat", sans-serif;
@@ -39,11 +37,9 @@
     line-height:3.5rem;
     letter-spacing: .25rem;
     z-index: 2;
-    /* color: #ef6351; */
 }
 
 .me{
-    /* position: relative; */
     display:flex;
     flex-direction: row;
 	flex-wrap: nowrap;
@@ -59,7 +55,6 @@
 }
 
 .dot2{
-    /* color: #EF6351; */
     font-family: "Montserrat", sans-serif;
     font-size: 5rem;
     font-weight: 900;
@@ -80,7 +75,6 @@
 }
 
 .about-details{
-    /* position:absolute; */
     width:58vw;
     height:100vh;
     display: flex;
@@ -125,19 +119,13 @@
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: .9rem;
     font-weight: 400;
-    /* line-height:8rem; */
     letter-spacing: .1rem;
     margin-right: 5%;
 }
-/* .scroll-bar:hover{
-    animation: bounce 1s;
-} */
 .about-scroll-para{
     transform: rotate(-90deg);
 }
 .about-scroll{
-    /* transform: rotate(-90deg); */
-    /* margin-bottom: 20%; */
     color: black;
     box-sizing: border-box;
     background-color: transparent;

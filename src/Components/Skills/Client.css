@@ -1,13 +1,3 @@
-/* .background3{
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: stretch;
-	align-content: stretch;
-    
-} */
-
 .bkgrd-left3{
     width: 28vw;
     height:100vh;
@@ -115,7 +105,6 @@
 	align-content: flex-start;
     background-color: transparent;
     padding-bottom: 5%;
-    /* padding-left: 5%; */
 }
 
 .client-exp{

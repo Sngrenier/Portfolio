@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import './About.css'
 import "bootstrap/dist/css/bootstrap.min.css";
-// import * as Scroll from 'react-scroll';
-// import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import { Events, animateScroll as scroll} from 'react-scroll';
 
 

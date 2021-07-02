@@ -7,13 +7,8 @@
 	align-content: stretch;
     width: 96vw !important;
     height: 120vh !important;
-    /* height: 70vh !important; */
     overflow: hidden;
 }
-/* .bkgrd-bottom2{
-    width: 95vw !important;
-    background-color: #FBC3BC;
-} */
 
 .design-skill{
     position: absolute;
