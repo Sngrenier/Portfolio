@@ -7,28 +7,19 @@ import {Link} from 'react-router-dom'
 export default class Workit extends Component {
     render() {
         return (
-            <div className="container-fluid">
-                <div className="workit-title">
-                            <div className="work"><p>W</p></div>
-                            <div className="it"><p>ORKit</p></div>
-                                <div className="workit-title-two"><div><p>circuit training app</p></div>
-                                <div className="proj-dot-1"><p>.</p></div>
-                            </div>
+        <div className="container-fluid">
+            <div className="workit-title">
+                        <div className="work"><p>W</p></div>
+                        <div className="it"><p>ORKit</p></div>
+                            <div className="workit-title-two"><div><p>circuit training app</p></div>
+                            <div className="proj-dot-1"><p>.</p></div>
                         </div>
-               <div className="git-hub-btn">
-                   <button className="code-btn">
-                   <a href="https://github.com/Sngrenier/Workit">
-                       <span className="source-type">Source Code</span>
-                   <img className="git-icon" src="https://img.icons8.com/ios-glyphs/20/000000/github.png"/>
-                   </a>
-                   </button>
-               </div>
-                        
-               
-               <div className='player-wrapper'>
-                <ReactPlayer
+                    </div>
+                    
+                    <div className='player-wrapper'>
+                      <ReactPlayer
             className='react-player center'
-          url= 'https://www.youtube.com/embed/a8Q7ckZexCM'
+            url= 'https://www.youtube.com/embed/a8Q7ckZexCM'
             width='100vw'
             height='90vh'
             color='white'
@@ -37,46 +28,87 @@ export default class Workit extends Component {
             playing={false}
             style={true}
           />
-        </div>
+             </div>
+           
 
             <div className="container-fluid">
-                    <div className="workit-proj-ov">
-                <div className="workit-proj-details">
-                    <div className="workit-subtitle">
-                        <p>WHAT IT IS:</p>
-                    </div>
-                    <div className="workit-details">
-                        <p><strong>WORKit is an ios focused circuit training app.</strong> It was built by myself and one other full-stack developer. </p>
-                        <p>Although ios focused, WORKit is also fully responsive for those members who prefer to workout via tablet or laptop, or even large-screen hookups. It's a paid memebership based app, with the user saved on session. Once a guest pays for a membership option, they have full access to all cicurits the app offers.</p>
-                        <p>WORKit features a paypal payment option, spotify comatibility and coming soon will be a workout planner which will allow members to track their circuit training progress.</p>
-                        {/* <p>Sit amet dolor sit.ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolor.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolor.</p> */}
-                    </div>
-                    </div>
-            <div className="workit-img">
-                    <img className="workit-wireframe" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/209530873_10110611765598528_4888703273573898934_n.jpg?_nc_cat=100&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=Z0cwnKkug_AAX-YT87z&_nc_ht=scontent-sjc3-1.xx&oh=726a96e78e10ef0588a956876985998b&oe=60E175EE"></img>
-            </div>
+                <div className="project-overview-workit">
+                    <div className="project-overview-details">
+                    <p className="proj-para-1"><strong>WORKit is an ios focused circuit training app, was conceptualized and designed by me, and built by myself and one other full-stack developer.</strong> </p>
+                    <p className="proj-para"><strong>WORKit was developed with the PERN stack.</strong> Although ios focused, the app is fully responsive for all devices. The app utilizes react hooks and react context on the frontend, and the database was built with postgreSQL.</p>
+                    <p className="proj-para">WORKit features paypal integration for easy payment method, spotify integration for music syncing compatibility, nodemailer integration for welcome and newsletter auto-emails.</p>
                     </div>
                 </div>
-                <div className="container-fluid">
-                    <div className="proj-process">
-            <div className="workit-img">
-                    <img className="workit-wireframe" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/203817992_10110613007549648_8908405214531051734_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=0debeb&_nc_ohc=gDQlgZPoR0QAX8Rk7nh&tn=jG4jHig4ll3niTGB&_nc_ht=scontent-sjc3-1.xx&oh=21634093f68edcc92abb96cdca6f5340&oe=60E0DC01"></img>
             </div>
-                <div className="proj-process-details">
-                    <div className="process-subtitle">
-                        <p>HOW IT WAS BUILT:</p>
+
+            <div className="container-fluid">
+                <div className="project-overview-body">
+                    <div className="project-overview-details-body">
+                    <p className="proj-para-1-body"><strong>wireframing</strong> </p>
+                    <p className="proj-para-body">WORKit app user flow chart (prior to the inclusion of Spotify), and the correlating wireframe designs</p>
                     </div>
-                    <div className="process-bullets">
-                    <p>To build WORKit, we utilized some of the handy tools and processes listed below: </p>
-                        <ul className="pro-bullets">
-                            <li>cool tool / process number one</li>
-                            <li>cool tool / process number two</li>
-                            <li>cool tool / process number three</li>
-                        </ul>
+                </div>
+            </div>
+            <div className="container-fluid img-container">
+                    <div className='image-wrapper-body'>
+                    <img className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/205982528_10110616206908108_5602600207430996881_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=0debeb&_nc_ohc=3UTx498NQuEAX-fwvy4&_nc_ht=scontent-sjc3-1.xx&oh=7a5611a3f361729204d3506f8c2c6e41&oe=60E34B14"></img>
+                </div>
+            </div>
+
+            <div className="container-fluid">
+                    <div className='image-wrapper-body'>
+                    <img className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/206255196_10110616206793338_5378886064365111864_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=0debeb&_nc_ohc=opqrGCl_NHcAX8iVzc0&_nc_ht=scontent-sjc3-1.xx&oh=b1842479356a26693d831d439035ca7f&oe=60E35C54"></img>
+                </div>
+            </div>
+                    
+            <div className="container-fluid">
+            <div className="wireframe-btn">
+                <button className="photo-btn">
+                <a href="https://www.figma.com/file/HVSqH2CoRqghlKS0WSJGFG/Untitled?node-id=1%3A9">
+                <span className="btn-type">view HD wireframes on figma</span>
+                </a>
+                </button>
+            </div>
+                <div className="project-overview-workit">
+                    <div className="project-overview-details">
+                    <p className="proj-para-1"><strong>It was an amazing stressful journey to build this app. We had a great partnership and we truly built the app together as a team.</strong> </p>
+                    <p className="proj-para"><strong>The major division of duties:</strong> I oversaw the fully responsive css and overall circuit functionality, and she tackled integrating the Spotify api. <strong>All other aspects of the app were developed jointly.</strong></p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="container-fluid">
+                <div className="project-overview-body">
+                    <div className="project-overview-details-body">
+                    <p className="proj-para-1-body"><strong>just some of the tools used for this project</strong> </p>
+                    </div>
+                </div>
+            </div>
+            <div className="container-fluid img-container">
+                    <div className='image-wrapper-body'>
+                    <img className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/207912643_10110616374921408_2938065186917213890_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=0debeb&_nc_ohc=eDtN5-wuoH0AX8d_XRf&_nc_ht=scontent-sjc3-1.xx&oh=633cf048fd1c3bf6fa31debfd0948af4&oe=60E341FA"></img>
+                </div>
+            </div>
+
+            <div className="container-fluid">
+                <div className="project-overview">
+                    <div className="project-overview-details">
+                    <p className="proj-para-1"><strong>development tools:</strong> </p>
+                    <p className="proj-para">react,js, node, html5, css, vscode, github, digital ocean, external apis, sqltabs, postgresql, figma </p>
+                    <p className="proj-para-2">...and others I'm sure</p>
+                    <p className="proj-para-2-body"><strong>and lots of sweat equity!</strong></p>
+                    <div className="more-photos-btn">
+                        <button className="photo-btn">
+                        <a href="https://github.com/Sngrenier/Workit">
+                        <span className="btn-type">view WORKit source code</span>
+                        </a>
+                        <img className="git-icon" src="https://img.icons8.com/ios-glyphs/20/000000/github.png"/>
+                        </button>
                     </div>
                     </div>
-                    </div>
-                    </div>
+                </div>
+            </div>
+          
         </div>
         )
     }

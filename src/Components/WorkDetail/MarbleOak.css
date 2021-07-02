@@ -9,7 +9,6 @@
 	align-content: flex-start;
     color: #EF6351;
     width:60vw;
-
     background-color: transparent;
     font-family: "Montserrat", sans-serif;
     font-size: 6rem;
@@ -26,6 +25,7 @@
 	align-items: flex-start;
 	align-content: space-around;
     width:90vw;
+    padding-bottom:2%;
     background-color: transparent;
     font-family: "Sacramento", cursive !important;
     color: #EF6351;
@@ -44,7 +44,6 @@
     padding-left:3%;
     z-index: 2;
 }
-
 /* GITHUB BUTTON */
 .git-hub-btn{
     display: flex;
@@ -90,108 +89,154 @@
     background-color: transparent;
 }
 .git-icon{
-    /* padding-left: 2%; */
     background-color: transparent;
 }
 
-
-/* FIRST DETAILS SECTION */
-.workit-proj-ov{
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: stretch;
-	align-content: center;
-    padding-top: 15vh;
+.image-wrapper{
+    height:60vh;
+    background-color:transparent;
 }
-.workit-img{
-    width: 30vw !important;
-    overflow: hidden !important;
+.banner-img{
+    width:95vw;
+    height: 60vh;
+    object-fit:cover;
+    overflow:hidden;
+    background-color:transparent;
 }
-.workit-wireframe{
-    width: 30vw !important;
-    object-fit:contain !important;
-    overflow: hidden !important;
-}
-.workit-proj-details{
-    width:60vw;
-    height:100vh;
+/* MORE PROJ PHOTOS BUTTON */
+.wireframe-btn{
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: flex-start;
-	align-items: flex-start;
-	align-content: flex-start;
-    background-color: transparent;
-    padding:8% 8% 8% 8%;
-    text-align:left;
-}
-.workit-subtitle{
-    font-family: 'Montserrat', sans-serif !important;
-    font-size:2rem;
-    text-align:left;
-    font-weight:900;
-    background-color: transparent;
-    color: #EF6351 !important;
-}
-.workit-details{
-    font-family: 'Montserrat', sans-serif !important;
-    font-size:.9rem;
-    padding-bottom: 5%;
-    text-align:left;
-    font-weight:400;
-    letter-spacing:.05rem;
-    line-height: 1.7rem;
-    background-color: transparent;
-}
-
-
-/* SECOND DETAILS SECTION */
-.proj-process{
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-end;
-	align-items: stretch;
+	align-items: center;
 	align-content: center;
+    text-align:center;
+    margin-top:5%;
 }
-.proj-process-details{
-    /* position:absolute; */
-    width:60vw;
-    height:100vh;
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: flex-start;
-	align-content: flex-start;
-    background-color: transparent;
-    padding:8% 8% 8% 8%;
-    text-align: right !important;
+.more-photos-btn{
+   padding-top:15%;
 }
-.process-subtitle{
-    font-family: 'Montserrat', sans-serif !important;
-    color: #EF6351 !important;
-    width:45vw;
-    font-size:2rem;
-    text-align:right !important;
-    font-weight:900;
-    background-color: transparent;
-}
-.process-bullets{
-    font-family: 'Montserrat', sans-serif !important;
-    font-size:.9rem;
-    padding-bottom: 5%;
-    font-weight:400;
-    letter-spacing:.05rem;
-    line-height: 1.7rem;
-    background-color: transparent;
-}
-.pro-bullets{
+.photo-btn{
     font-family: "Montserrat", sans-serif;
-    font-size:1rem;
+    text-transform: uppercase;
+    padding: 1% 2% 1% 2%;
+    border-style: 0.05rem solid !important;
+    border-color: #FBC3BC !important;
+    border-radius:0.5rem;
+    cursor:pointer;
+    font-size:.8rem;
+    background-color: transparent !important;
+}
+.photo-btn:hover{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    border: 0.05rem solid #EF6351 !important;
+    border-radius:0.5rem;
+    cursor:pointer;
+    font-size:.8rem;
+    background-color: #EF6351 !important;
+    color: white;
+}
+
+
+
+.project-overview-workit{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+    text-align:center;
+    padding:10% 18% 8% 18%;
+}
+.proj-para{
+    padding:2%;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size:1.3rem;
+    font-weight:300;
+    letter-spacing:.05rem;
+    line-height: 2.5rem;
+    background-color: transparent;
+}
+.proj-para-1{
+    padding:2%;
+    font-family: 'Montserrat', sans-serif !important;
     color: #EF6351 !important;
-    line-height:3rem;
+    font-size:1.7rem;
+    padding-bottom: 5%;
     font-weight:500;
+    letter-spacing:.05rem;
+    line-height: 2.9rem;
+    background-color: transparent;
+}
+
+/* SUPPORTING TYPE */
+.project-overview-details-body{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+    text-align:center;
+    padding:15% 20% 0 20%;
+}
+.proj-para-1-body{
+    padding:2%;
+    font-family: 'Montserrat', sans-serif !important;
+    color: #EF6351 !important;
+    font-size:1.7rem;
+    font-weight:500;
+    letter-spacing:.05rem;
+    line-height: 2.9rem;
+    background-color: transparent;
+}
+.proj-para-body{
+    padding:2%;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size:1rem;
+    font-weight:300;
+    letter-spacing:.05rem;
+    line-height: 2.5rem;
+    background-color: transparent;
+}
+.proj-para-2{
+    margin-top:-3%;
+    padding-bottom:5%;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size:.8rem;
+    font-weight:300;
+    letter-spacing:.05rem;
+    background-color: transparent;
+}
+
+.proj-para-2-body{
+  color:#EF6351;
+  font-family: "Sacramento", cursive !important;
+  font-size: 4.2rem;
+  line-height: 4.5rem;
+  font-weight: 600;
+  letter-spacing: .25rem;
+  transform: skew(-15deg); 
+}
+
+
+/* SUPPORTING IMAGES */
+.img-container{
+    padding-top:5%;
+}
+.image-wrapper-body{
+    height:80vh;
+    background-color:transparent;
+}
+.banner-img-body{
+    width:95vw;
+    height: 80vh;
+    object-fit:cover;
+    overflow:hidden;
+    background-color:transparent;
+    margin-bottom:5%;
 }
