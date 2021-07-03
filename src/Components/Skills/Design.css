@@ -31,6 +31,9 @@
     letter-spacing: .5rem;
     z-index: 2;
 }
+.design{
+    padding:10% 0 0 10%;
+}
 .design-under{
     transform: rotate(-90deg);
     color: #F0E4DE;
@@ -56,6 +59,7 @@
     line-height: 8rem;
     z-index: 3;
     color: #EF6351;
+    padding-left:10%;
 }
 
 .dot3{

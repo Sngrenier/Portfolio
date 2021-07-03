@@ -23,12 +23,12 @@
 	align-content: flex-start;
     color: black;
     width:22vw;
-    height:85vh;
-    background-color: transparent;
+    height:100vh;
+    background-color:transparent;
     font-family: "Montserrat", sans-serif;
     font-size: 6rem;
     font-weight: 900;
-    line-height:4rem;
+    line-height:5rem;
     letter-spacing: .5rem;
     z-index: 2;
 }

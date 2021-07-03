@@ -19,8 +19,10 @@ export default class design extends Component {
                         
                          <div className="design-skill">
                              <div className="design-under"><p>DESIGN</p></div>
+                             <div className="design">
                             <div className="de"><p>DE</p></div>
                             <div className="sign"><p>SIGN</p></div>
+                            </div>
                                 <div className="skills"><div><p>skills</p></div>
                                 <div className="dot3"><p>.</p></div>
                             </div>
