@@ -77,15 +77,15 @@
 
 .about-details{
     width:58vw;
-    height:100vh;
+    height:120vh !important;
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
-	justify-content: flex-end;
-	align-items: flex-end;
-	align-content: flex-end;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
     background-color: transparent;
-    padding:8% 8% 8% 20%;
+    padding:20% 6% 20% 25%;
     text-align:right;
 }
 
@@ -96,14 +96,19 @@
     padding-left:10%;
     text-align:right;
     font-weight:700;
+    line-height: 2.5rem;
 }
 
 .about-para{
     font-family: 'Montserrat', sans-serif !important;
     font-size:.9rem;
-    padding-bottom: 5%;
     text-align:right;
     font-weight:300;
+    line-height: 1.75rem;
+}
+
+.inv-para{
+    padding: 5% 0 0 0;
 }
 
 .about-scroll-bar{

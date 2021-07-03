@@ -44,13 +44,13 @@ export default class About extends Component {
                     <div className="bkgrd-right2">
                         <div className="about-details">
                             <div className="about-header">
-                                <p>Lorem ipsum dolor sit amet dolor sit.</p>
+                                <p>The scenic route is always more captivating.</p>
                             </div>
                             <div className="about-para">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-                                <p>ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolor.</p>
-                                <p>Sit amet dolor sit.ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolor.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-                                <p>Sit amet dolor sit.ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolor.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolor.</p>
+                                <p className="inv-para">My path to web development has not been a straight one that's for sure. </p>
+                                <p className="inv-para">I have over 15 years in luxury retail management and operations. During this time I went back to school and completed a 2 year Graphic and Digital Design certificate program from Parsons in NY, which I thoroughly enjoyed. </p>
+                                <p className="inv-para">Then once covid collapsed the world, I was laid off, which gave me time to reevaluate my career path. I thought back to my graphic design certificate and the spark it had for me, so I decided to pivot my career and pursued web development. I recently graduated from DevMountain 3-month bootcamp, as I can officially now add full-stack-developer to my CV.</p>
+                                <p className="inv-para">I truly enjoy client facing time as well as building something and being creative, and this new career path has the potential to offer all of those things, which is very exciting to me. </p>
                             </div>
                         </div>
 
