@@ -67,9 +67,9 @@
     height:85vh;
     background-color: transparent;
     font-family: 'Quattrocento Sans', sans-serif;
-    font-size: .9rem;
+    font-size: .8rem;
     font-weight: 400;
-    letter-spacing: .1rem;
+    letter-spacing: .2rem;
     margin-right: 5%;
 }
 .scroll-para{
@@ -91,7 +91,7 @@
 
 .scroll-arrow{
     transform: rotate(-90deg);
-    margin-bottom: 30%;
+    margin-bottom: 20%;
     color: white;
     box-sizing: border-box;
     background-color: transparent;
@@ -100,7 +100,7 @@
 }
 
 .arrow{
-    padding: 10%;
+    padding: 15%;
 }
 .landing-footer{
     display: flex;
