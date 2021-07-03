@@ -46,7 +46,6 @@ class App extends Component {
           <Route path="/limelemons" component={LimeLemons} />
           <Route path="/test" component={Test} />
         </Switch>
-        <Landing />
         <About />
         <Education/>
         <Design/>
