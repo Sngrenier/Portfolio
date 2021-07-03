@@ -27,6 +27,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <Header />
+        <Landing/>
         <Switch>
           <Route exact path="/" component={Landing} />
           <Route path="/about" component={About} />
