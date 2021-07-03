@@ -2,8 +2,36 @@ import React, { Component } from 'react';
 import './Header.css'
 import {Link} from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Events, animateScroll as scroll } from 'react-scroll'
 
 export default class Header extends Component {
+
+  componentDidMount() {
+    Events.scrollEvent.register('begin', function(to, element) {
+      console.log('begin', arguments);
+    });
+
+    Events.scrollEvent.register('end', function(to, element) {
+      console.log('end', arguments);
+    });
+}
+  
+  scrollToTop() {
+    scroll.scrollToTop();
+  };
+  scrollToBottom() {
+    scroll.scrollToBottom();
+  };
+  scrollTo() {
+    scroll.scrollTo(100);
+  };
+  scrollMore() {
+    scroll.scrollMore(700);
+  };
+
+  handleSetActive(to){
+    console.log(to);
+  };
 
   render () {
 
@@ -12,10 +40,9 @@ export default class Header extends Component {
 
             <div className="navbar header-bar">
                 <nav className="title-bar">
-
                   <div className="nav-item name">
                     <Link to='/landing'>
-                    <p className="name-line">STACY N GRENIER</p>
+                    <p className="name-line" onClick={this.scrollToTop}>STACY N GRENIER</p>
                     </Link>
                     <div className="nav-item links">
                       <div className="two-line-link">

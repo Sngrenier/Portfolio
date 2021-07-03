@@ -27,7 +27,6 @@ class App extends Component {
     return (
       <React.Fragment>
         <Header />
-        <Landing/>
         <Switch>
           <Route exact path="/" component={Landing} />
           <Route path="/about" component={About} />
@@ -47,12 +46,6 @@ class App extends Component {
           <Route path="/limelemons" component={LimeLemons} />
           <Route path="/test" component={Test} />
         </Switch>
-        <About />
-        <Education/>
-        <Design/>
-        <Test/>
-        <Client/>
-        <Gallery/>
       </React.Fragment>
     );
   }
