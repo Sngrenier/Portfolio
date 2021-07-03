@@ -14,7 +14,7 @@ export default class Header extends Component {
                 <nav className="title-bar">
 
                   <div className="nav-item name">
-                    <Link to="/">
+                    <Link to="/landing">
                     <p className="name-line">STACY N GRENIER</p>
                     </Link>
                     <div className="nav-item links">
