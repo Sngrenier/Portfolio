@@ -13,7 +13,7 @@
     font-family: "Montserrat", sans-serif;
     font-size: 6rem;
     font-weight: 900;
-    line-height:5rem;
+    line-height:5.25rem;
     letter-spacing: .25rem;
     z-index: 2;
 }
@@ -30,20 +30,20 @@
     font-family: "Sacramento", cursive !important;
     color: #EF6351;
     font-size: 4.2rem;
-    line-height: 4rem;
+    line-height: 4.5rem;
     font-weight: 600;
     letter-spacing: .25rem;
-    transform: skew(-15deg); 
 }
 
 .proj-dot-1{
     color: #EF6351;
     font-family: "Montserrat", sans-serif;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 900;
     padding-left:3%;
     z-index: 2;
     transform: none !important; 
+    line-height: 4.5rem;
 }
 
 .wireframe-btn{

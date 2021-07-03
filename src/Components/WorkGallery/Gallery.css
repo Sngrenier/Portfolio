@@ -41,24 +41,13 @@
     padding-top: 25%;
 }
 
-.rk{
-    position: relative;
-    display:flex;
-    flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: flex-start;
-	align-content: space-between;
-    background-color: transparent;
-    width:20vw;
-}
-
 .dot6{
     font-family: "Montserrat", sans-serif;
     font-size: 5rem;
     font-weight: 900;
     z-index: 2;
     padding-left: 1%;
+    line-height:2.5rem;
 }
 
 .work-subtitle{
