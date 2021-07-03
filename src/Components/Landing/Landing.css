@@ -74,6 +74,10 @@
 }
 .scroll-para{
     transform: rotate(-90deg);
+    margin: 20%;
+    color: white;
+    letter-spacing: .1rem;
+    background-color: transparent;
 }
 
 .scroll{
@@ -81,7 +85,6 @@
     box-sizing: border-box;
     background-color: transparent;
     border-style: hidden;
-    padding: 10%;
 }
 
 .scroll:hover{
@@ -89,18 +92,10 @@
     
 }
 
-.scroll-arrow{
-    transform: rotate(-90deg);
-    margin-bottom: 20%;
-    color: white;
-    box-sizing: border-box;
-    background-color: transparent;
-    border-style: hidden;
-    letter-spacing: .1rem;
-}
-
 .arrow{
+    margin:10%;
     padding: 15%;
+    background-color: transparent;
 }
 .landing-footer{
     display: flex;

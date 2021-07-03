@@ -56,7 +56,7 @@ export default class Landing extends Component {
                         <div className="scroll-bar">
                             <button className="scroll" onClick={this.scrollMore}>
                                 <p className="scroll-para">scroll</p>
-                            <div className="arrow"><div><img alt="" src="https://img.icons8.com/ios/28/ffffff/long-arrow-down.png"/></div>
+                            <div className="arrow-icon"><div><img className="arrow" alt="" src="https://img.icons8.com/ios/28/ffffff/long-arrow-down.png"/></div>
                         </div>
                             </button>
                     </div>
