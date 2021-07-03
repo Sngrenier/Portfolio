@@ -1,38 +1,13 @@
 import React, { Component } from 'react'
 import './About.css'
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Events, animateScroll as scroll} from 'react-scroll';
 
 
 export default class About extends Component {
 
   componentDidMount() {
-    Events.scrollEvent.register('begin', function(to, element) {
-      console.log('begin', arguments);
-    });
-
-    Events.scrollEvent.register('end', function(to, element) {
-      console.log('end', arguments);
-    });
-}
-  
-  scrollToTop() {
-    scroll.scrollToTop();
-  };
-  scrollToBottom() {
-    scroll.scrollToBottom();
-  };
-  scrollTo() {
-    scroll.scrollTo(500);
-  };
-  scrollMore() {
-    scroll.scrollMore(900);
-  };
-
-  handleSetActive(to){
-    console.log(to);
-  };
-
+    window.scrollTo(0, 0)
+  }
 
     render() {
         return (
@@ -68,7 +43,7 @@ export default class About extends Component {
                         </div>
 
                         <div className="scroll-bar">
-                            <button className="scroll" onClick={this.scrollTo}>
+                            <button className="scroll">
                                 <p className="scroll-para">scroll</p>
                             <div className="arrow"><div><img alt="" src="https://img.icons8.com/ios/28/ffffff/long-arrow-down.png"/></div>
                         </div>
