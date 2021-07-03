@@ -13,7 +13,7 @@
     font-family: "Montserrat", sans-serif;
     font-size: 6rem;
     font-weight: 900;
-    line-height:5.25rem;
+    line-height:5.5rem;
     letter-spacing: .25rem;
     z-index: 2;
 }
@@ -26,11 +26,12 @@
 	align-content: space-around;
     width:90vw;
     padding-bottom:8%;
+    padding-top: 3%;
     background-color: transparent;
     font-family: "Sacramento", cursive !important;
     color: #EF6351;
     font-size: 4.2rem;
-    line-height: 4.5rem;
+    line-height: 5rem;
     font-weight: 600;
     letter-spacing: .25rem;
 }
@@ -43,7 +44,6 @@
     padding-left:3%;
     z-index: 2;
     transform: none !important; 
-    line-height: 4.5rem;
 }
 
 .wireframe-btn{
