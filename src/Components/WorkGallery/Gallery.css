@@ -34,7 +34,7 @@
     font-family: "Montserrat", sans-serif;
     font-size:7rem;
     font-weight: 900;
-    line-height:4.75rem;
+    line-height:5.25rem;
     letter-spacing: .25rem;
     color: #EF6351;
     padding-left: 2%;
@@ -66,9 +66,9 @@
     color: #EF6351;
     font-size: 4.9rem;
     font-weight: 00;
-    line-height:2rem;
+    line-height:2.5rem;
     letter-spacing: .25rem;
-    margin-top:3%;
+    margin-top:4%;
     margin-bottom:-5%;
     transform: skew(-15deg);
 }
