@@ -17,9 +17,6 @@
     letter-spacing: .25rem;
     z-index: 2;
 }
-/* .it{
-    padding-top:1%;
-} */
 .workit-title-two{
     display:flex;
     flex-direction: row;
@@ -150,8 +147,7 @@
     background-color: transparent;
 }
 .proj-para-2{
-    margin-top:-3%;
-    padding-bottom:5%;
+    padding:5%;
     font-family: 'Montserrat', sans-serif !important;
     font-size:.8rem;
     font-weight:300;

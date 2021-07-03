@@ -17,9 +17,6 @@
     letter-spacing: .25rem;
     z-index: 2;
 }
-/* .it{
-    padding-top:1%;
-} */
 .workit-title-two{
     display:flex;
     flex-direction: row;
