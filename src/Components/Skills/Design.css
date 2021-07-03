@@ -27,8 +27,8 @@
     font-family: "Montserrat", sans-serif;
     font-size: 6rem;
     font-weight: 900;
-    line-height:5rem;
-    letter-spacing: .5rem;
+    line-height:4.5rem;
+    letter-spacing:.25rem;
     z-index: 2;
 }
 .design{
@@ -59,7 +59,7 @@
     line-height: 8rem;
     z-index: 3;
     color: #EF6351;
-    padding-left:20%;
+    padding-left:21%;
 }
 
 .dot3{
