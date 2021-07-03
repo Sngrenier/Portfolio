@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import './Landing.css'
-import About from '../About/About'
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Events, animateScroll as scroll } from 'react-scroll'
+import About from '../About/About'
 import Education from '../Education/Education';
 import Design from '../Skills/Design';
 import Client from '../Skills/Client';
