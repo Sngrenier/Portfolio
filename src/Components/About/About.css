@@ -34,7 +34,7 @@
     font-family: "Montserrat", sans-serif;
     font-size: 5rem;
     font-weight: 900;
-    line-height:5rem !important;
+    line-height:3rem !important;
     letter-spacing: .25rem;
     z-index: 3;
 }
@@ -50,7 +50,7 @@
     width:20vw;
     font-family: "Sacramento", cursive !important;
     font-size: 8rem;
-    line-height: 4rem !important;
+    line-height: 3rem !important;
     z-index: 3;
     /* padding-top:2%; */
 }
@@ -101,7 +101,7 @@
 
 .about-para{
     font-family: 'Montserrat', sans-serif !important;
-    font-size:.7rem;
+    font-size:.8rem;
     text-align:right;
     font-weight:300;
     line-height: 1.5rem;
