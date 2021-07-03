@@ -73,14 +73,14 @@
 	align-items: flex-start;
 	align-content: flex-start;
     background-color: transparent;
-    padding:15% 6% 20% 25%;
+    padding:13% 6% 20% 25%;
     text-align:right;
 }
 
 .client-header{
     font-family: 'Biryani', sans-serif !important;
     font-size:2rem;
-    padding-bottom: 10%;
+    padding-bottom: 7%;
     padding-left:10%;
     text-align:right;
     font-weight:700;
