@@ -13,7 +13,7 @@ export default class Workit extends Component {
             <div className="workit-title">
                         <div className="work"><p>W</p></div>
                         <div className="it"><p>ORKit</p></div>
-                            <div className="workit-title-two"><div><p>circuit training app</p></div>
+                            <div className="workit-title-two"><div className="title-two"><p>circuit training app</p></div>
                             <div className="proj-dot-1"><p>.</p></div>
                         </div>
                     </div>
