@@ -27,12 +27,12 @@
     font-family: "Montserrat", sans-serif;
     font-size: 6rem;
     font-weight: 900;
-    line-height:4rem;
+    line-height:5rem;
     letter-spacing: .5rem;
     z-index: 2;
 }
 .design{
-    padding:10% 0 0 10%;
+    padding:20% 0 0 20%;
 }
 .design-under{
     transform: rotate(-90deg);
