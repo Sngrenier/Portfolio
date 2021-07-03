@@ -83,6 +83,7 @@ font-size: 1.8rem;
 line-height: 6rem;
 font-family: "Montserrat", sans-serif;
 font-weight: 900;
+padding-bottom: 1%;
 }
 
 .cc-2 {
@@ -90,9 +91,10 @@ color: black;
 line-height: 2rem;
 padding-left: 50%;
 font-family: 'Montserrat', sans-serif !important;
-font-size:.9rem;
+font-size:.8rem;
 text-align:right;
 font-weight:300;
+padding-bottom: 3%;
 }
 
 .cc-3 {
