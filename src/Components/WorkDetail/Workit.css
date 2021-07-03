@@ -156,7 +156,7 @@
 .proj-para{
     padding:2%;
     font-family: 'Montserrat', sans-serif !important;
-    font-size:1.3rem;
+    font-size:1.2rem !important;
     font-weight:300;
     letter-spacing:.05rem;
     line-height: 2.5rem;
@@ -166,7 +166,7 @@
     padding:2%;
     font-family: 'Montserrat', sans-serif !important;
     color: #EF6351 !important;
-    font-size:1.7rem;
+    font-size:1.5rem !important;
     padding-bottom: 5%;
     font-weight:700 !important;
     letter-spacing:.05rem;
@@ -189,8 +189,8 @@
     padding:2%;
     font-family: 'Montserrat', sans-serif !important;
     color: #EF6351 !important;
-    font-size:1.7rem;
-    font-weight:500;
+    font-size:1.5rem !important;
+    font-weight:700 !important;
     letter-spacing:.05rem;
     line-height: 2.9rem;
     background-color: transparent;
@@ -201,7 +201,7 @@
     font-size:1rem;
     font-weight:300;
     letter-spacing:.05rem;
-    line-height: 2.5rem;
+    line-height: 2rem;
     background-color: transparent;
 }
 .proj-para-2{
