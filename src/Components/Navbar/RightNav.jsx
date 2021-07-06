@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom'
+import './Navbar.css'
 
 const RightNav = ({ open }) => {
     return (
@@ -56,7 +57,7 @@ li:hover{
     color: #ffe0d7;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     flex-flow: column nowrap;
     background-color: #0D2538;
     position: fixed;
@@ -64,13 +65,12 @@ li:hover{
     top: 0;
     right: 0;
     height: 100vh;
-    width: 300px;
+    width:300px;
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
     background-color: #EF6351;
 
 li {
-    color: #fff;
     font-family: "Montserrat", sans-serif;
     font-size: .5rem;
     letter-spacing: 2.2px;
@@ -82,6 +82,23 @@ li {
 }
 li:hover{
     color: #EF6351 !important;
+}
+
+}
+@media screen and (min-width: 800px) and (max-width: 1100px){
+    width: 80vw !important;
+li{
+    font-family: "Montserrat", sans-serif;
+    font-size: .5rem;
+    letter-spacing: 2.2px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    text-align: right;
+}
+.link{
+    line-height:.5rem;
+    padding: 0 !important;
 }
 }
 `;

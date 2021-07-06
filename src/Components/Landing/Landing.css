@@ -130,3 +130,246 @@
     padding:3%;
 }
 
+@media screen and (min-width: 800px) and (max-width: 1000px){
+    .background{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: stretch;
+        align-content: stretch;
+    }
+    
+    .bkgrd-left{
+        width: 48vw;
+        height:90vh;
+        background-color: #EF6351;
+    }
+    
+    .bkgrd-right{
+        width:48vw;
+        height:90vh;
+        background-color: #E3E1E1;
+    }
+    .greeting{
+        position: absolute;
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: center;
+        width:22vw;
+        height:85vh;
+        background-color: transparent;
+        font-family: "Montserrat", sans-serif;
+        font-size: 8rem;
+        font-weight: 900;
+        line-height:8rem;
+        letter-spacing: 1rem;
+    }
+    
+    .ya{
+        position: relative;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: space-between;
+        background-color: transparent;
+        width:20vw;
+    }
+    
+    .dot{
+        color: #EF6351;
+    }
+
+    .scroll-bar{
+        position: absolute;
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: space-between;
+        align-content: space-between;
+        width:5vw;
+        height:85vh;
+        background-color: transparent;
+        font-family: 'Quattrocento Sans', sans-serif;
+        font-size: .8rem;
+        font-weight: 400;
+        letter-spacing: .2rem;
+        margin-left: -10%;
+    }
+    .scroll-para{
+        transform: rotate(-90deg);
+        margin-right:-20% !important;
+        width: 50px;
+        height: 50px;
+        margin-top: 20%;
+        color: white;
+        letter-spacing: .1rem;
+        background-color: transparent;
+    
+    }
+    
+    .scroll{
+        color: white;
+        box-sizing: border-box;
+        background-color: transparent;
+        border-style: hidden;
+    }
+    
+    .scroll:hover{
+        transform: scale(1.2);
+        
+    }
+    
+    .arrow{
+        margin-left:-20%;
+        padding: 15%;
+        background-color: transparent;
+    }
+    .landing-footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: center;
+        align-content: flex-start;
+        width: 96vw;
+        height: 6vh;
+        background-color: transparent;
+        padding-bottom:1%;
+    }
+    .job{
+        font-family: "Montserrat", sans-serif;
+        font-size: 0.5rem;
+        letter-spacing: 2.2px;
+        font-weight: 600;
+        padding:3%;
+    }
+}
+
+@media (max-width: 800px) {
+    .background{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: stretch;
+        align-content: stretch;
+    }
+    
+    .bkgrd-left{
+        width: 48vw;
+        height:90vh;
+        background-color: #EF6351;
+    }
+    
+    .bkgrd-right{
+        width:48vw;
+        height:90vh;
+        background-color: #E3E1E1;
+    }
+    .greeting{
+        position: absolute;
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: center;
+        width:22vw;
+        height:85vh;
+        background-color: transparent;
+        font-family: "Montserrat", sans-serif;
+        font-size: 6rem;
+        font-weight: 900;
+        line-height:5rem;
+        letter-spacing: .25rem;
+        margin-left:-10%;
+    }
+    
+    .ya{
+        position: relative;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: space-between;
+        background-color: transparent;
+        width:20vw;
+    }
+    
+    .dot{
+        color: #EF6351;
+    }
+    .scroll-bar{
+        position: absolute;
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: space-between;
+        align-content: space-between;
+        width:5vw;
+        height:85vh;
+        background-color: transparent;
+        font-family: 'Quattrocento Sans', sans-serif;
+        font-size: .8rem;
+        font-weight: 400;
+        letter-spacing: .2rem;
+        margin-left: -10%;
+    }
+    .scroll-para{
+        transform: rotate(-90deg);
+        margin-right:-20% !important;
+        width: 50px;
+        height: 50px;
+        margin-top: 20%;
+        color: white;
+        letter-spacing: .1rem;
+        background-color: transparent;
+    
+    }
+    
+    .scroll{
+        color: white;
+        box-sizing: border-box;
+        background-color: transparent;
+        border-style: hidden;
+    }
+    
+    .scroll:hover{
+        transform: scale(1.2);
+        
+    }
+    
+    .arrow{
+        margin-left:-20%;
+        padding: 15%;
+        background-color: transparent;
+    }
+    .landing-footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: center;
+        align-content: flex-start;
+        width: 96vw;
+        height: 6vh;
+        background-color: transparent;
+        padding-bottom:1%;
+    }
+    .job{
+        font-family: "Montserrat", sans-serif;
+        font-size: 0.4rem;
+        letter-spacing: 2.2px;
+        font-weight: 600;
+        padding:3%;
+    }
+}
