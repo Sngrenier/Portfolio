@@ -1,6 +1,14 @@
 import React, { Component } from 'react'
 import './ABrand.css'
 import "bootstrap/dist/css/bootstrap.min.css";
+import abbanner from './images/abbanner.png';
+import abpodcast from './images/abpodcast.png';
+import abinsta from './images/abinsta.png';
+import abtwitter from './images/abtwitter.png';
+import abfacebook from './images/abfacebook.png';
+import abebook from './images/abebook.png';
+import abwebinar from './images/abwebinar.png';
+import ablogo from './images/ablogo.png';
 
 export default class ABrand extends Component {
     componentDidMount() {
@@ -19,7 +27,7 @@ export default class ABrand extends Component {
                     
            <div className="container-fluid">
            <div className='image-wrapper'>
-               <img alt="" className="banner-img" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/207408428_10110613448411158_5422347112349962357_n.jpg?_nc_cat=101&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=2oUOc2g6N5oAX88Uwcd&_nc_ht=scontent-sjc3-1.xx&oh=a7c07ec1fd644056337fa5d6bd7dde6b&oe=60E18950"></img>
+           <img alt="img-2" className="banner-img" src={abbanner} />
     </div>
     </div>
            
@@ -44,7 +52,7 @@ export default class ABrand extends Component {
             </div>
             <div className="container-fluid img-container">
                     <div className='image-wrapper-body'>
-                    <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/199487240_10110613495272248_8219979651698306778_n.jpg?_nc_cat=103&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=rYv7HqUED0sAX8mhgUX&_nc_ht=scontent-sjc3-1.xx&oh=9c299f09122bc545d23cd49b7ac12c8d&oe=60E1E75B"></img>
+                    <img alt="img-2" className="banner-img-body" src={abpodcast} />
                 </div>
             </div>
             
@@ -60,7 +68,7 @@ export default class ABrand extends Component {
 
             <div className="container-fluid img-container">
                     <div className='image-wrapper-body'>
-                    <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/204941191_10110613520741208_9021986521994204181_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=0debeb&_nc_ohc=zupuQvO26vEAX-v4mqt&_nc_ht=scontent-sjc3-1.xx&oh=1d09cab542fe05aa441dcd782c23c024&oe=60E0FE81"></img>
+                    <img alt="img-2" className="banner-img-body" src={abinsta} />
                 </div>
             </div>
 
@@ -75,12 +83,12 @@ export default class ABrand extends Component {
 
             <div className="container-fluid img-container">
                     <div className='image-wrapper-body'>
-                    <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/205196090_10110613592048308_7096904366202201190_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=0debeb&_nc_ohc=JkPt51_ASzIAX8PQq1j&_nc_ht=scontent-sjc3-1.xx&oh=4baef6f0ececbc096d2b32fce84d7400&oe=60E2222D"></img>
+                    <img alt="img-2" className="banner-img-body" src={abtwitter} />
                 </div>
             </div>
             <div className="container-fluid">
                     <div className='image-wrapper-body'>
-                    <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/204601944_10110613592133138_476748247965382668_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=0debeb&_nc_ohc=smwKPGmgwlIAX-d0s-L&_nc_oc=AQm6_Qz2xFVX5yiHmXKy8yj6adfKfra78vsr8bOb1nWN1zlLeuxkS5P0LAExRlKee__-KJALqBy8FeKztxx2yPKE&_nc_ht=scontent-sjc3-1.xx&oh=2067e7f1c867c8e73bd87cd86bc8558f&oe=60E12E43"></img>
+                    <img alt="img-2" className="banner-img-body" src={abfacebook} />
                 </div>
             </div>
 
@@ -95,7 +103,7 @@ export default class ABrand extends Component {
 
             <div className="container-fluid img-container">
                     <div className='image-wrapper-body'>
-                    <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/206085383_10110613600740888_650016779225165686_n.jpg?_nc_cat=100&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=oIlgiVJLeE8AX9_0KKS&_nc_ht=scontent-sjc3-1.xx&oh=ee0471798eb7d2abf291f0c9ab6f37ea&oe=60E1CC06"></img>
+                    <img alt="img-2" className="banner-img-body" src={abebook} />
                 </div>
             </div>
 
@@ -110,7 +118,7 @@ export default class ABrand extends Component {
 
             <div className="container-fluid img-container">
                     <div className='image-wrapper-body'>
-                    <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/202507751_10110613628924408_8044194658754380718_n.jpg?_nc_cat=105&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=EJPl2qOfEKYAX96bzh4&tn=jG4jHig4ll3niTGB&_nc_ht=scontent-sjc3-1.xx&oh=e8ac6345eae94afb29a965c3f088e0b2&oe=60E1D06C"></img>
+                    <img alt="img-2" className="banner-img-body" src={abwebinar} />
                 </div>
             </div>
 
@@ -125,7 +133,7 @@ export default class ABrand extends Component {
 
             <div className="container-fluid img-container">
                     <div className='image-wrapper-body'>
-                    <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/206009692_10110613665356398_8315526999750266222_n.jpg?_nc_cat=103&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=4mszEZ4VNz4AX-PHIQO&_nc_ht=scontent-sjc3-1.xx&oh=4ed4ece4544d3e956c1e2620a3268292&oe=60E20663"></img>
+                    <img alt="img-2" className="banner-img-body" src={ablogo} />
                 </div>
             </div>
 
@@ -138,8 +146,8 @@ export default class ABrand extends Component {
                     <p className="proj-para-2-body"><strong>and lots of digital scematics!</strong></p>
                     <div className="more-photos-btn">
                         <button className="photo-btn">
-                        <a href="https://www.stacynicoledesign.com/stem-and-seed">
-                        <span className="btn-type">view more project photos</span>
+                        <a href="https://www.agnesbogardi.com/">
+                        <span className="btn-type">view my work on Agnes Bogardi website</span>
                         </a>
                         </button>
                     </div>

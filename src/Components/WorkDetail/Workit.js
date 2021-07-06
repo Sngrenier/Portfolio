@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import './Workit.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import ReactPlayer from 'react-player'
+import workitwf01 from './images/workitwf01.png';
+import workitwf02 from './images/workitwf02.png';
+import toolsimg from './images/toolsimg.png';
 
 export default class Workit extends Component {
     componentDidMount() {
@@ -53,13 +56,13 @@ export default class Workit extends Component {
             </div>
             <div className="container-fluid img-container">
                     <div className='image-wrapper-body'>
-                    <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/205982528_10110616206908108_5602600207430996881_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=0debeb&_nc_ohc=3UTx498NQuEAX-fwvy4&_nc_ht=scontent-sjc3-1.xx&oh=7a5611a3f361729204d3506f8c2c6e41&oe=60E34B14"></img>
+                    <img alt="img-2" className="banner-img-body" src={workitwf01} />
                 </div>
             </div>
 
             <div className="container-fluid">
                     <div className='image-wrapper-body'>
-                    <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/206255196_10110616206793338_5378886064365111864_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=0debeb&_nc_ohc=opqrGCl_NHcAX8iVzc0&_nc_ht=scontent-sjc3-1.xx&oh=b1842479356a26693d831d439035ca7f&oe=60E35C54"></img>
+                    <img alt="img-2" className="banner-img-body" src={workitwf02} />
                 </div>
             </div>
                     
@@ -88,7 +91,7 @@ export default class Workit extends Component {
             </div>
             <div className="container-fluid img-container">
                     <div className='image-wrapper-body'>
-                    <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/207912643_10110616374921408_2938065186917213890_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=0debeb&_nc_ohc=eDtN5-wuoH0AX8d_XRf&_nc_ht=scontent-sjc3-1.xx&oh=633cf048fd1c3bf6fa31debfd0948af4&oe=60E341FA"></img>
+                    <img alt="img-2" className="banner-img-body" src={toolsimg} />
                 </div>
             </div>
 

@@ -1,6 +1,13 @@
 import React, { Component } from 'react'
 import './StemSeed.css'
 import "bootstrap/dist/css/bootstrap.min.css";
+import ssbanner from './images/ssbanner.png';
+// import ssmag01 from './images/ssmag01.png'
+import ssdevice01 from './images/ssdevice01.jpg';
+import ssdevice02 from './images/ssdevice02.jpg';
+
+
+
 
 export default class StemSeed extends Component {
     componentDidMount() {
@@ -19,7 +26,8 @@ export default class StemSeed extends Component {
                     
            <div className="container-fluid">
            <div className='image-wrapper'>
-               <img alt="" className="banner-img" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/204310153_10110599273782228_3667188175771294853_n.jpg?_nc_cat=102&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=YP3YsfBJeAIAX-9JYED&_nc_ht=scontent-sjc3-1.xx&oh=4b75af6d395a3353cfe32e03c967ac94&oe=60E23D16"></img>
+           <img alt="img-2" className="banner-img" src={ssbanner} />
+               {/* <img alt="" className="banner-img" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/204310153_10110599273782228_3667188175771294853_n.jpg?_nc_cat=102&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=YP3YsfBJeAIAX-9JYED&_nc_ht=scontent-sjc3-1.xx&oh=4b75af6d395a3353cfe32e03c967ac94&oe=60E23D16"></img> */}
     </div>
     </div>
            
@@ -45,17 +53,17 @@ export default class StemSeed extends Component {
       
                 <div className="container-fluid img-container">
                     <div className='image-wrapper-body'>
-                    <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/203434177_10110599273507778_3175127397038332088_n.jpg?_nc_cat=108&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=Vgs_CKTaFt8AX_4fMYO&tn=jG4jHig4ll3niTGB&_nc_ht=scontent-sjc3-1.xx&oh=1ef9f8c817b67e2dc2971547c970cb37&oe=60E176C3"></img>
+                    <img alt="" className="banner-img-body" src="https://images.squarespace-cdn.com/content/v1/5aa71ed1a9e02804b02bd6ae/1522016587458-6P0L2JIXSNWB24OCOF86/serum.01.jpg?format=1500w"></img>
                 </div>
             </div>
             <div className="container-fluid">
                     <div className='image-wrapper-body'>
-                    <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/206868577_10110599274490808_3054205768129723462_n.jpg?_nc_cat=107&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=tWkdJiTc1GsAX9m81UP&_nc_ht=scontent-sjc3-1.xx&oh=ca9a5bcaf7ab1c8607287cd5e471efc5&oe=60E2A584"></img>
+                    <img alt="" className="banner-img-body" src="https://images.squarespace-cdn.com/content/v1/5aa71ed1a9e02804b02bd6ae/1522016194198-5USTARKE7BYTYULCR99V/serums.02.jpg?format=1500w"></img>
                 </div>
             </div>
             <div className="container-fluid">
                     <div className='image-wrapper-body'>
-                    <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/205883602_10110599274465858_6853127046426435868_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=0debeb&_nc_ohc=87S202-8AOYAX98p2Uo&_nc_ht=scontent-sjc3-1.xx&oh=3c1355a5a944758a7a64afb379f00994&oe=60E0D0DD"></img>
+                    <img alt="" className="banner-img-body" src="https://images.squarespace-cdn.com/content/v1/5aa71ed1a9e02804b02bd6ae/1522016194576-IQNIWA3XVGRGYQ7NNXNN/serums.03.jpg?format=1500w"></img>
                 </div>
             </div>
            
@@ -71,12 +79,14 @@ export default class StemSeed extends Component {
 
             <div className="container-fluid img-container">
                     <div className='image-wrapper-body'>
-                    <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/203902753_10110599276107568_3786693509070259524_n.jpg?_nc_cat=109&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=lCewewnsKsYAX_wqyEq&_nc_ht=scontent-sjc3-1.xx&oh=dcf3936c4d67c0ff69794413e2a93d8b&oe=60E22B7C"></img>
+                    <img alt="img-2" className="banner-img-body" src={ssdevice01} />
+                    {/* <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/203902753_10110599276107568_3786693509070259524_n.jpg?_nc_cat=109&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=lCewewnsKsYAX_wqyEq&_nc_ht=scontent-sjc3-1.xx&oh=dcf3936c4d67c0ff69794413e2a93d8b&oe=60E22B7C"></img> */}
                 </div>
             </div>
             <div className="container-fluid">
                     <div className='image-wrapper-body'>
-                    <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/206894861_10110599276057668_1957744613423692022_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=0debeb&_nc_ohc=SMiU1GL4nhEAX-GXT7d&tn=jG4jHig4ll3niTGB&_nc_ht=scontent-sjc3-1.xx&oh=a23d332c45fe5c0842b996f75b894bfb&oe=60E2A6E1"></img>
+                    <img alt="img-2" className="banner-img-body" src={ssdevice02} />
+                    {/* <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/206894861_10110599276057668_1957744613423692022_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=0debeb&_nc_ohc=SMiU1GL4nhEAX-GXT7d&tn=jG4jHig4ll3niTGB&_nc_ht=scontent-sjc3-1.xx&oh=a23d332c45fe5c0842b996f75b894bfb&oe=60E2A6E1"></img> */}
                 </div>
             </div>
             
@@ -91,7 +101,8 @@ export default class StemSeed extends Component {
 
             <div className="container-fluid img-container">
                     <div className='image-wrapper-body'>
-                    <img alt="" className="banner-img-body" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/204102743_10110599270957888_6660092383416531241_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=0debeb&_nc_ohc=_SF4VNHpAycAX-Ofm6J&_nc_ht=scontent-sjc3-1.xx&oh=e48852234f260c24dc0c20f853d73559&oe=60E22E79"></img>
+                    {/* <img alt="img-2" className="banner-img-body" src={ssmag01} /> */}
+                    <img alt="" className="banner-img-body" src="https://images.squarespace-cdn.com/content/v1/5aa71ed1a9e02804b02bd6ae/1522019962188-UG5QY8L3D0ZTXLRM4PJ7/Mag.Duo.01.png?format=1500w"></img>
                 </div>
             </div>
             

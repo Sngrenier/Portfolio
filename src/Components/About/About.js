@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './About.css'
 import "bootstrap/dist/css/bootstrap.min.css";
+import profpic from './profpic.png';
 
 
 export default class About extends Component {
@@ -37,7 +38,7 @@ export default class About extends Component {
                                 <div className="me"><div><p>me</p></div>
                                 <div className="dot2"><p>.</p></div>
                                 <div className="profile-pic">
-                                    <img className="prof-pic" alt="img-1" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/208425672_10110625369251698_3938697765052275937_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=0debeb&_nc_ohc=ymfRgLwYiKYAX8z8kI-&_nc_ht=scontent-sjc3-1.xx&oh=d96dd028e89a72a15beac820132a3f1a&oe=60E81E50"></img>
+                                <img alt="img-2" className="prof-pic" src={profpic} />
                                 </div>
                             </div>
                         </div>
