@@ -5,6 +5,9 @@ import {Link} from 'react-router-dom'
 import styled from 'styled-components'
 import welaxthumbnail from './welaxthumbnail.png';
 import esthumbnail from './esthumbnail.png';
+import marbleoakthumbnail from './marbleoakthumbnail.png';
+import workitthumbnail from './workitthumbnail.png';
+import abthumbnail from './abthumbnail.png';
 
 export default class dev extends Component {
 
@@ -37,7 +40,9 @@ export default class dev extends Component {
                             <div className="card">
                                 <div className="project">
                                 <Link to='/workit'>
-                            <div className="proj-pic"><img alt="" className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/201968738_10110599023668458_5412599662714406027_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=0debeb&_nc_ohc=7aGVArCExWEAX_JpQzL&_nc_ht=scontent-sjc3-1.xx&oh=cac347b29e47c28f9bfd525dde93b5db&oe=60DF3EC7"></img></div>
+                            <div className="proj-pic">
+                            <img alt="" className="proj-icon" src={workitthumbnail} />
+                                </div>
                             </Link>
                             <ul className="proj-deets">
                                 <Link to='/workit'>
@@ -50,7 +55,10 @@ export default class dev extends Component {
 
                             <div className="project">
                             <Link to='/abrand'>
-                            <div className="proj-pic"><img alt="" className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/203123822_10110599018548718_2265136663967000969_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=0debeb&_nc_ohc=ZMfZ691SfK0AX-jRq5T&_nc_ht=scontent-sjc3-1.xx&oh=3400d66f6568d7fdca0d5eb0d57bbd0d&oe=60DAC839"></img></div>
+                            <div className="proj-pic">
+                            <img alt="" className="proj-icon" src={abthumbnail} />
+                               
+                                </div>
                             </Link>
                             <ul className="proj-deets">
                                 <Link to='/abrand'>
@@ -73,7 +81,7 @@ export default class dev extends Component {
                             <div className="project">
                             <div className="proj-pic">
                                 <Link to='/MarbleOak'>
-                                <img alt="" className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/204769655_10110599023034728_4955541260072384791_n.jpg?_nc_cat=110&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=8DCop62r9_gAX_TsiIc&tn=jG4jHig4ll3niTGB&_nc_ht=scontent-sjc3-1.xx&oh=7d32bfe95fb15ff13c2c196974182080&oe=60E7603B"></img>
+                                <img alt="" className="proj-icon" src={marbleoakthumbnail} />
                                 </Link>
                                 </div>
                             <ul className="proj-deets">
@@ -89,7 +97,6 @@ export default class dev extends Component {
                             <Link to='/welax'>
                             <div className="proj-pic">
                             <img alt="" className="proj-icon" src={welaxthumbnail} />
-                                {/* <img alt="" className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/210359790_10110611647290618_6166945052080279767_n.jpg?_nc_cat=100&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=2NmJCMvzIR0AX-TLlET&_nc_oc=AQnIjoSR1IlRPs7gRL7sfb6vbHtNDnnJv1Uio-OKXDuw_hYvZgIqghCykweVsxwHwqxX49bHIvZa1Su22eGKIdcv&_nc_ht=scontent-sjc3-1.xx&oh=a991dd5ffc988ad9dd5b8e98866cc453&oe=60E75481"></img> */}
                                 </div>
                             </Link>
                             <ul className="proj-deets">
@@ -125,7 +132,6 @@ export default class dev extends Component {
                             <Link to='/estrips'>
                             <div className="proj-pic">
                             <img alt="" className="proj-icon" src={esthumbnail} />
-                                {/* <img alt="" className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/203019162_10110611700663658_6356625520592917966_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=0debeb&_nc_ohc=T_eGvkfb-E8AX9lkV25&_nc_ht=scontent-sjc3-1.xx&oh=3c26023020a5e4776c27f8fdbf33688d&oe=60E19FD9"></img> */}
                                 </div>
                             </Link>
                             <ul className="proj-deets">
