@@ -3,6 +3,8 @@ import './Gallery.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Link} from 'react-router-dom'
 import styled from 'styled-components'
+import welaxthumbnail from './welaxthumbnail.png';
+import esthumbnail from './esthumbnail.png';
 
 export default class dev extends Component {
 
@@ -85,7 +87,10 @@ export default class dev extends Component {
 
                             <div className="project">
                             <Link to='/welax'>
-                            <div className="proj-pic"><img alt="" className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/210359790_10110611647290618_6166945052080279767_n.jpg?_nc_cat=100&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=2NmJCMvzIR0AX-TLlET&_nc_oc=AQnIjoSR1IlRPs7gRL7sfb6vbHtNDnnJv1Uio-OKXDuw_hYvZgIqghCykweVsxwHwqxX49bHIvZa1Su22eGKIdcv&_nc_ht=scontent-sjc3-1.xx&oh=a991dd5ffc988ad9dd5b8e98866cc453&oe=60E75481"></img></div>
+                            <div className="proj-pic">
+                            <img alt="" className="proj-icon" src={welaxthumbnail} />
+                                {/* <img alt="" className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/210359790_10110611647290618_6166945052080279767_n.jpg?_nc_cat=100&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=2NmJCMvzIR0AX-TLlET&_nc_oc=AQnIjoSR1IlRPs7gRL7sfb6vbHtNDnnJv1Uio-OKXDuw_hYvZgIqghCykweVsxwHwqxX49bHIvZa1Su22eGKIdcv&_nc_ht=scontent-sjc3-1.xx&oh=a991dd5ffc988ad9dd5b8e98866cc453&oe=60E75481"></img> */}
+                                </div>
                             </Link>
                             <ul className="proj-deets">
                                 <Link to='/welax'>
@@ -105,7 +110,7 @@ export default class dev extends Component {
                             
                             <div className="project">
                             <Link to ='/stemseed'>
-                            <div className="proj-pic"><img alt="" className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/206868577_10110599274490808_3054205768129723462_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=0debeb&_nc_ohc=-9UrGNBvUJUAX9g3Ute&_nc_ht=scontent-sjc3-1.xx&oh=f2db47ddb9c91dcd2ebfcbc8746bf610&oe=60DABC84"></img></div>
+                            <div className="proj-pic"><img alt="" className="proj-icon" src="https://images.squarespace-cdn.com/content/v1/5aa71ed1a9e02804b02bd6ae/1522016194576-IQNIWA3XVGRGYQ7NNXNN/serums.03.jpg?format=1500w"></img></div>
                             </Link>
                             <ul className="proj-deets">
                                 <Link to='stemseed'>
@@ -118,7 +123,10 @@ export default class dev extends Component {
 
                             <div className="project">   
                             <Link to='/estrips'>
-                            <div className="proj-pic"><img alt="" className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/203019162_10110611700663658_6356625520592917966_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=0debeb&_nc_ohc=T_eGvkfb-E8AX9lkV25&_nc_ht=scontent-sjc3-1.xx&oh=3c26023020a5e4776c27f8fdbf33688d&oe=60E19FD9"></img></div>
+                            <div className="proj-pic">
+                            <img alt="" className="proj-icon" src={esthumbnail} />
+                                {/* <img alt="" className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/203019162_10110611700663658_6356625520592917966_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=0debeb&_nc_ohc=T_eGvkfb-E8AX9lkV25&_nc_ht=scontent-sjc3-1.xx&oh=3c26023020a5e4776c27f8fdbf33688d&oe=60E19FD9"></img> */}
+                                </div>
                             </Link>
                             <ul className="proj-deets">
                                 <Link to='/estrips'>

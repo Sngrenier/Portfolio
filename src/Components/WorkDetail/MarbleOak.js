@@ -61,7 +61,7 @@ export default class MarbleOak extends Component {
 
     <div className="container-fluid">
             <div className='image-wrapper-body'>
-            <img alt="img-2" className="banner-img-body" src={marbleoakwf01} />
+            <img alt="img-2" className="banner-img-body" src={marbleoakwf02} />
         </div>
     </div>
             
