@@ -9,7 +9,7 @@ export default class dev extends Component {
     componentDidMount() {
         window.scrollTo(0, 0)
       }
-      
+
     render() {
         return (
             <div className="container-fluid">
@@ -71,7 +71,7 @@ export default class dev extends Component {
                             <div className="project">
                             <div className="proj-pic">
                                 <Link to='/MarbleOak'>
-                                <img alt="" className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/201997926_10110599022949898_336588881942886561_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=0debeb&_nc_ohc=v_Cq7uShynMAX9vSxLL&_nc_ht=scontent-sjc3-1.xx&oh=375297fed40b3b4882bff3a10f493440&oe=60DFDC5E"></img>
+                                <img alt="" className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/204769655_10110599023034728_4955541260072384791_n.jpg?_nc_cat=110&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=8DCop62r9_gAX_TsiIc&tn=jG4jHig4ll3niTGB&_nc_ht=scontent-sjc3-1.xx&oh=7d32bfe95fb15ff13c2c196974182080&oe=60E7603B"></img>
                                 </Link>
                                 </div>
                             <ul className="proj-deets">
@@ -85,7 +85,7 @@ export default class dev extends Component {
 
                             <div className="project">
                             <Link to='/welax'>
-                            <div className="proj-pic"><img alt="" className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/210359790_10110611647290618_6166945052080279767_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=0debeb&_nc_ohc=donl2TkQt70AX_bWstv&_nc_oc=AQlbWfveoqfnjPqlU1Mxr3iZHmgmSacnD_Fvin0a8uGrFPPl77Oa3twPDZrsQqJe63i9rhvYzahdYD4a3sUAUtoy&_nc_ht=scontent-sjc3-1.xx&oh=daf1f498dae4c0cd6811f9bcdec2e1ee&oe=60E165C1"></img></div>
+                            <div className="proj-pic"><img alt="" className="proj-icon" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/210359790_10110611647290618_6166945052080279767_n.jpg?_nc_cat=100&_nc_rgb565=1&ccb=1-3&_nc_sid=0debeb&_nc_ohc=2NmJCMvzIR0AX-TLlET&_nc_oc=AQnIjoSR1IlRPs7gRL7sfb6vbHtNDnnJv1Uio-OKXDuw_hYvZgIqghCykweVsxwHwqxX49bHIvZa1Su22eGKIdcv&_nc_ht=scontent-sjc3-1.xx&oh=a991dd5ffc988ad9dd5b8e98866cc453&oe=60E75481"></img></div>
                             </Link>
                             <ul className="proj-deets">
                                 <Link to='/welax'>

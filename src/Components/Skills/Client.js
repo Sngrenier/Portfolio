@@ -18,7 +18,7 @@ export default class client extends Component {
                     <div className="bkgrd-right3">
                         <div className="client-details">
                             <div className="client-header">
-                                <p>Lorem ipsum dolor sit amet dolor sit.</p>
+                                <p>I consider experience, experience.</p>
                             </div>
                             <div className="client-para">
                                 <p className="inv-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
@@ -31,9 +31,9 @@ export default class client extends Component {
                     </div>
 
                     <div className="client-skill">
-                                <div className="c"><p>C</p></div>
-                                <div className="lient"><p>LIENT</p></div>
-                                    <div className="skills3"><div><p>skills</p></div>
+                                <div className="c"><p>BU</p></div>
+                                <div className="lient"><p>SINESS</p></div>
+                                    <div className="skills3"><div><p>experience</p></div>
                                     <div className="dot5"><p>.</p></div>
                                 </div>
                             </div>
@@ -42,25 +42,25 @@ export default class client extends Component {
                             <div className="row">
                             <div className="business-bullets">
                                 <ul className="client-exp">
-                                    <li className="group-title">MANAGERIAL EXPERTISE</li>
-                                    <li className="group-bullet">Staff training & development</li>
-                                    <li className="group-bullet">Sales growth strategy & implementation</li>
-                                    <li className="group-bullet">P&L, forecasting, and overall budget management</li>
-                                    <li className="group-bullet">Strong partnerships with corporate team</li>
+                                    <li className="group-title">DESIGN & DEVELOPMENT</li>
+                                    <li className="group-bullet">Art direction & brand development</li>
+                                    <li className="group-bullet">Sales driven wireframing integration</li>
+                                    <li className="group-bullet">User experience driven web development</li>
+                                    <li className="group-bullet">Multi-level store design & layout</li>
                                 </ul>
                                 <ul className="client-exp">
                                     <li className="group-title">OPERATIONAL PROWESS</li>
-                                    <li className="group-bullet">Complete store design & layout</li>
-                                    <li className="group-bullet">Building and vendor maintenance</li>
+                                    <li className="group-bullet">Sales growth strategy & implementation</li>
+                                    <li className="group-bullet">Critical path project management</li>
+                                    <li className="group-bullet">P&L analysis, forecasting, and budgeting</li>
                                     <li className="group-bullet">Large-scale visual merchandising installation</li>
-                                    <li className="group-bullet">Merchandise buying and allocation</li>
                                 </ul>
                                 <ul className="client-exp">
                                     <li className="group-title">CLIENT RELATIONS</li>
+                                    <li className="group-bullet">Individual style to brand diagnostics</li>
                                     <li className="group-bullet">CRM database management</li>
-                                    <li className="group-bullet">Luxury experience curation</li>
-                                    <li className="group-bullet">Social media marketing & outreach</li>
-                                    <li className="group-bullet">Brand growth via networking & partnerships</li>
+                                    <li className="group-bullet">Brand experience curation</li>
+                                    <li className="group-bullet">Client communication systems management</li>
                                 </ul>
                             </div>
                         </div>    

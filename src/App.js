@@ -20,31 +20,32 @@ import Vulgr from './Components/WorkDetail/Vulgr';
 import GCakes from './Components/WorkDetail/GCakes';
 import Estrips from './Components/WorkDetail/Estrips';
 import LimeLemons from './Components/WorkDetail/LimeLemons';
-import Test from './Components/Testimonials/Test'
+import Test from './Components/Testimonials/Test';
+import Navbar from './Components/Navbar/Navbar';
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Header />
+        <Navbar />
         <Switch>
           <Route exact path="/" component={Landing} />
-          <Route path="/about" component={About} />
-          <Route path="/education" component={Education} />
-          <Route path="/design" component={Design} />
-          <Route path="/dev" component={Dev} />
-          <Route path="/client" component={Client} />
-          <Route path="/gallery" component={Gallery} />
-          <Route path="/marbleoak" component={MarbleOak} />
-          <Route path="/workit" component={Workit} />
-          <Route path="/stemseed" component={StemSeed} />
-          <Route path="/abrand" component={ABrand} />
-          <Route path="/welax" component={Welax} />
-          <Route path="/vulgr" component={Vulgr} />
-          <Route path="/gcakes" component={GCakes} />
-          <Route path="/estrips" component={Estrips} />
-          <Route path="/limelemons" component={LimeLemons} />
-          <Route path="/test" component={Test} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/education" component={Education} />
+          <Route exact path="/design" component={Design} />
+          <Route exact path="/dev" component={Dev} />
+          <Route exact path="/client" component={Client} />
+          <Route exact path="/gallery" component={Gallery} />
+          <Route exact path="/marbleoak" component={MarbleOak} />
+          <Route exact path="/workit" component={Workit} />
+          <Route exact path="/stemseed" component={StemSeed} />
+          <Route exact path="/abrand" component={ABrand} />
+          <Route exact path="/welax" component={Welax} />
+          <Route exact path="/vulgr" component={Vulgr} />
+          <Route exact path="/gcakes" component={GCakes} />
+          <Route exact path="/estrips" component={Estrips} />
+          <Route exact path="/limelemons" component={LimeLemons} />
+          <Route exact path="/test" component={Test} />
         </Switch>
       </React.Fragment>
     );

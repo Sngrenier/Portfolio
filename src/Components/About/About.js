@@ -37,7 +37,7 @@ export default class About extends Component {
                                 <div className="me"><div><p>me</p></div>
                                 <div className="dot2"><p>.</p></div>
                                 <div className="profile-pic">
-                                    <img className="prof-pic" alt="img-1" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/198921581_10110575767029948_4819573013890435741_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=730e14&_nc_ohc=5sZx2Y2ljvsAX_8ykHL&_nc_ht=scontent-sjc3-1.xx&oh=41b1f62e4538162fa66c952c4d1a4d5e&oe=60DED5EA"></img>
+                                    <img className="prof-pic" alt="img-1" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/208425672_10110625369251698_3938697765052275937_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=0debeb&_nc_ohc=ymfRgLwYiKYAX8z8kI-&_nc_ht=scontent-sjc3-1.xx&oh=d96dd028e89a72a15beac820132a3f1a&oe=60E81E50"></img>
                                 </div>
                             </div>
                         </div>

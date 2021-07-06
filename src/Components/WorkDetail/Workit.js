@@ -36,9 +36,9 @@ export default class Workit extends Component {
             <div className="container-fluid">
                 <div className="project-overview-workit">
                     <div className="project-overview-details">
-                    <p className="proj-para-1"><strong>WORKit is an ios focused circuit training app, was conceptualized and designed by me, and built by myself and one other full-stack developer.</strong> </p>
-                    <p className="proj-para"><strong>WORKit was developed with the PERN stack.</strong> Although ios focused, the app is fully responsive for all devices. The app utilizes react hooks and react context on the frontend, and the database was built with postgreSQL.</p>
-                    <p className="proj-para">WORKit features paypal integration for easy payment method, spotify integration for music syncing compatibility, nodemailer integration for welcome and newsletter auto-emails.</p>
+                    <p className="proj-para-1"><strong>WORKit is an ios focused circuit training app.  It was conceptualized and designed by me, and built by myself and one other full-stack developer</strong> </p>
+                    <p className="proj-para"><strong>WORKit was developed with the PERN stack.</strong> Although ios focused, the app is fully responsive for all devices. The app utilizes react hooks and react context on the frontend, and the database was built with postgreSQL</p>
+                    <p className="proj-para">WORKit features paypal integration for easy payment method, spotify integration for music syncing compatibility, nodemailer integration for welcome and newsletter auto-emails</p>
                     </div>
                 </div>
             </div>

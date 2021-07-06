@@ -1,4 +1,4 @@
-.title-bar{
+.nav-bar{
   position: fixed;
     top: 0;
     right: 0;
@@ -80,4 +80,71 @@ a {
     background-color: transparent;
     width:100px;
   }
+
+  #prod-btn {
+    display: none;
+    background-color: transparent;
+    color: gray;
+    position: absolute;
+    right: 20px;
+    top: 35px;
+    height: 35px;
+  }
+
+  @media screen and (min-width: 200px) and (max-width: 1100px) {
+    .nav-bar {
+      height: 100vh;
+      width: 275px !important;
+      min-width: 250px;
+      background-color: #ffe0d7;
+      position: fixed;
+      right: 0 !important;
+      top: 2%;
+      transform: translate(30vw, 0);
+      transition: 0.5s;
+      transition-timing-function: ease-in-out;
+      z-index: 7;
+    }
+    .show {
+      transform: translate(0, 0);
+    }
+    .nav-item {
+      display: flex;
+      flex-direction: column !important;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: flex-end !important;
+      align-content: flex-end;
+      height: 600px;
+      width: 200px;
+      position: absolute;
+      top: 10%;
+      right: 0 !important;
+      padding-top: 5%;
+      line-height: 2rem;
+    }
+    .name{
+      font-size: 1rem;
+      margin-bottom: 5% !important;
+    }
+    .link{
+      margin:1%;
+      background-color: transparent;
+      text-align: right;
+      font-size: .45rem;
+      line-height: 2rem;
+      padding-top: 5%;
+  }
   
+    .brand-name{
+      color: var(--mainWhite) !important;
+      font-size: 2rem;
+      text-align: center !important;
+  
+    }
+  
+    #prod-btn {
+      display: inline-block;
+      z-index: 2;
+    }
+  }

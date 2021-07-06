@@ -7,6 +7,22 @@ import { Events, animateScroll as scroll } from 'react-scroll'
 
 export default class Header extends Component {
 
+  constructor() {
+    super()
+    this.state = {
+    toggleShow: false
+}
+
+}
+
+toggleShowFunc = () => {
+this.setState( (prevState) => {
+    return {
+        toggleShow: !prevState.toggleShow
+    }
+})
+}
+
   componentDidMount() {
     Events.scrollEvent.register('begin', function(to, element) {
       console.log('begin', arguments);
@@ -34,13 +50,15 @@ export default class Header extends Component {
     console.log(to);
   };
 
+  
+
   render () {
 
     return (
-        <section className="container-fluid navbar">
 
-            <div className="navbar header-bar">
-                <nav className="title-bar">
+      <header className="container-fluid">
+              <div className="navbar header-bar" >
+                <nav className={`nav-bar ${this.state.toggleShow ? "show" : ""}`}>
                   <div className="nav-item name">
                     <Link to='/'>
                     <p className="name-line" onClick={this.scrollToTop}>STACY N GRENIER</p>
@@ -79,8 +97,17 @@ export default class Header extends Component {
                     </div>
                   </div>
               </nav>
+                <span
+                id="prod-btn"
+                onClick={this.toggleShowFunc} 
+                alt="menu-icon" 
+                type="image" 
+                > <i class="fas fa-bars"></i>
+                </span>
           </div>
-        </section>
+        </header>
     )
   }
 }
+
+

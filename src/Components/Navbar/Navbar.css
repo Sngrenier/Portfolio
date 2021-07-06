@@ -1,0 +1,16 @@
+/* Nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 5vh;
+    width: 100vw !important;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: space-between;
+    text-decoration: none !important;
+    z-index: 7;
+} */
