@@ -14,7 +14,7 @@ export default class design extends Component {
 
                 <div className="container-fluid background3">
                     <div className="bkgrd-bottom2">
-                        <img alt="" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/204213916_10110602263246318_1853923624796599331_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=0debeb&_nc_ohc=vY3LTDdDMRgAX82Zrhb&_nc_ht=scontent-sjc3-1.xx&oh=1581bb029e81804f59daf3d59ac9b401&oe=60DC4911"></img>
+                        <img alt="img1" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/204213916_10110602263246318_1853923624796599331_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=0debeb&_nc_ohc=vY3LTDdDMRgAX82Zrhb&_nc_ht=scontent-sjc3-1.xx&oh=1581bb029e81804f59daf3d59ac9b401&oe=60DC4911"></img>
                     </div>
                         
                          <div className="design-skill">

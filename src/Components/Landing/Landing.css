@@ -349,8 +349,7 @@
     }
     
     .arrow{
-        margin-left:-20%;
-        padding: 15%;
+        margin-left:-1vw;
         background-color: transparent;
     }
     .landing-footer{
@@ -371,5 +370,6 @@
         letter-spacing: 2.2px;
         font-weight: 600;
         padding:3%;
+        line-height:.52rem;
     }
 }
