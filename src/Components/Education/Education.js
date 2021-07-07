@@ -7,6 +7,9 @@ export default class Education extends Component {
         return (
             <div className="container-fluid">
                 <div className="edu-page">
+                <div className="test-header">
+                <h5 className="test-title">education & resume</h5>
+            </div>
     
                 <div className="row">
                     <div className="edu-icons">

@@ -34,7 +34,7 @@
     font-family: "Montserrat", sans-serif;
     font-size:7rem;
     font-weight: 900;
-    line-height:5.25rem;
+    line-height:5rem;
     letter-spacing: .25rem;
     color: #EF6351;
     padding-left: 2%;
@@ -47,7 +47,8 @@
     font-weight: 900;
     z-index: 2;
     padding-left: 1%;
-    line-height:2.5rem;
+    padding-top: 1.5vh;
+    /* line-height:5.25rem; */
 }
 
 .work-subtitle{

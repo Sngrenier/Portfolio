@@ -22,7 +22,7 @@ export default class Test extends Component {
             <section className="carousel">
         <div className="container-fluid slider">
             <div className="test-header">
-                <h5 className="test-title">Testimonials</h5>
+                <h5 className="test-title">testimonials</h5>
             </div>
             <Carousel {...settings}>
 
