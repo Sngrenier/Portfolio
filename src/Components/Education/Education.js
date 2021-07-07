@@ -7,8 +7,8 @@ export default class Education extends Component {
         return (
             <div className="container-fluid">
                 <div className="edu-page">
-                <div className="test-header">
-                <h5 className="test-title">education & resume</h5>
+                <div className="education-header">
+                <h5 className="education-title">education & resume</h5>
             </div>
     
                 <div className="row">
@@ -30,18 +30,14 @@ export default class Education extends Component {
                 <div className="column">
                     <div className="edu-details">
                         <div className="edu-head"><p className="etitle">DIGITAL DESIGN</p></div>
-                       
                        <div className="edu-head"><p className="eschool">PARSONS SCHOOL OF DESIGN, NEW YORK</p></div>
-                      
                        <div className="edu-head"><p className="edate">2018</p></div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="column">
                     <div className="edu-dates">
                         <div className="edu-head"><p className="etitle">FULL STACK WEB DEVELOPMENT</p></div>
-                       
                        <div className="edu-head"><p className="eschool">DEVMOUNTAIN, UT</p></div>
-                      
                        <div className="edu-head"><p className="edate">2021</p></div>
                     </div>
                 </div>

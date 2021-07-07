@@ -1,5 +1,5 @@
 .test-header{
-    width: 100vw;
+    width: 96vw;
     height: 18vh;
     background-color: transparent;
 	display: flex;
@@ -78,7 +78,6 @@
 
 .cc-1 {
 color: black;
-font-weight: 500;
 font-size: 1.8rem;
 line-height: 6rem;
 font-family: "Montserrat", sans-serif;
@@ -105,4 +104,63 @@ padding-bottom: 2%;
     font-size:.9rem;
     text-align:right;
     font-weight:500;
+    }
+
+@media (max-width: 800px) {
+.test-title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height:1.5rem;
+    letter-spacing: .4rem;
+    margin-top:3%;
+    transform: skew(-15deg);
+}
+.carousel-caption{
+    background-color: transparent;
+}
+.quote{
+    display:hidden;
+    color: transparent;
+}
+.quote-2{
+    display:hidden;
+    color: transparent;
+}
+.cc-1 {
+    font-size: 1rem;
+    line-height: 2rem;
+    padding-bottom: 1%;
+    width: 70vw;
+    text-align: right;
+}
+.cc-2 {
+    color: black;
+    line-height: 1rem;
+    font-size:.8rem;
+    font-weight:300;
+    padding-bottom: 2%;
+    padding-left: 0 !important;
+    background-color:transparent;
+    width: 70vw;
+} 
+.cc-3 {
+    color: black;
+    line-height: 2.2rem;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size:.9rem;
+    text-align:right;
+    font-weight:500;
+}
+#caro-2{
+    width: 70vw;
+    margin-bottom: 25vh !important;
+}
+#caro-1{
+    width: 70vw;
+    margin-bottom: 15vh !important;
+}
+#caro-3{
+    width: 70vw;
+    margin-bottom: 20vh !important;
+}
     }

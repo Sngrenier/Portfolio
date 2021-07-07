@@ -1,7 +1,28 @@
 .edu-page{
     height:130vh;
 }
+.education-header{
+    width: 96vw;
+    height: 18vh;
+    background-color: transparent;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-end;
+	align-content: center;
+}
 
+.education-title{
+    font-family: "Sacramento", cursive !important;
+    color: #EF6351;
+    font-size: 4.7rem;
+    font-weight: 600;
+    line-height:1.5rem;
+    letter-spacing: .4rem;
+    margin-top:3%;
+    transform: skew(-15deg);
+}
 .edu-icons{
     padding:10% 5% 2% 5%;
     display: flex;
@@ -113,130 +134,90 @@
     border-width:.2rem;
     border-color: #ef6351;
     border-radius: .5rem;
-
 }
 .cv-img{
-    /* box-sizing:border-box;
-    border-style:solid;
-    border-width:.5rem;
-    border-color: #ffe0d7;
-    border-radius: .5rem; */
     margin-top:8vh;
     margin-bottom: 8vh;
 }
 
 @media (max-width: 800px) {
     .edu-icons{
-        padding:25% 5% 2% 5%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        align-items: center;
-        align-content: center;
-        background-color: transparent;
+        padding:25% 3% 2% 3%;
     }
     .webdev-icon{
         height: 75px;
         width:75px;
-        border-radius:50%;
-        border-color: #EF6351;
         border-width: .15rem;
-        border-style: solid;
     }
     .design-icon{
         height: 75px;
         width:75px;
-        border-radius:50%;
-        border-color: #EF6351;
         border-width: .15rem;
-        border-style: solid;
     }
     .graphic-icon{
         height: 75px;
         width:75px;
-        border-radius:50%;
-        border-color: #EF6351;
         border-width: .15rem;
-        border-style: solid;
-    }
-    .edu-head{
-        width:30vw;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        background-color: transparent;
-    }
-    
-    .edu-details{
-        /* width:18vw; */
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        background-color: transparent;
     }
     
     .edu-info{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        align-items: flex-start;
-        align-content: center;
-        padding-bottom: 10%;
+        padding-bottom: 5%;
+    }
+    .edu-categories{
+        background-color: transparent;
+        width:30vw;
+    }
+    .edu-details{
+        background-color: transparent;
+        width:33vw;
+    }
+    .edu-dates{
+        background-color: transparent;
+        width:30vw;
     }
     
     .etitle{
-        background-color: transparent;
-        font-family: 'Oswald', sans-serif !important;
         font-size:.7rem;
         font-weight:700;
-        letter-spacing: .20rem;
-        text-align: center;
-        line-height: 1.5rem;
-        padding-bottom:2%;
+        letter-spacing: .15rem;
+        line-height: 1.2rem;
+        padding-bottom:.5vh;
+        padding-top: 1vh;
         width: 25vw;
     }
     
     .eschool{
-        font-family: 'Montserrat', sans-serif !important;
         font-size:.5rem;
-        text-align:right;
         font-weight:400;
         width:25vw;
-        text-align: center;
         line-height: 1.2rem;
         padding-bottom:1%;
     }
     .edate{
-        background-color: transparent;
-        font-family: 'Oswald', sans-serif !important;
         font-size:.8rem;
         font-weight:700;
         letter-spacing: .25rem;;
         width:20vw;
-        text-align: center;
         line-height: 2rem;
     }
     
     .cv-qr-code{
-        background-color:transparent;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: flex-start;
-        align-content: flex-start;
-    
+        box-sizing:border-box;
+        border-style:dotted;
+        border-width:.15rem;
+        border-color: #ef6351;
+        border-radius: .5rem;
     }
     .cv-img{
         margin-top:6vh;
         margin-bottom: 5vh;
+    }
+    .education-title{
+        font-size: 2.5rem;
+        font-weight: 600;
+        line-height:1.5rem;
+        letter-spacing: .4rem;
+        margin-top:3%;
+        transform: skew(-15deg);
     }
 }

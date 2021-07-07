@@ -353,16 +353,9 @@
         background-color: transparent;
     }
     .landing-footer{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: flex-end;
-        align-items: center;
-        align-content: flex-start;
-        width: 96vw;
+        width: 90vw;
         height: 6vh;
         background-color: transparent;
-        padding-bottom:1%;
     }
     .job{
         font-family: "Montserrat", sans-serif;

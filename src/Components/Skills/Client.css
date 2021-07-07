@@ -32,11 +32,11 @@
     letter-spacing: .25rem;
     z-index: 2;
 }
-.c{
+/* .c{
     font-size: 7rem;
     margin-left:-2% !important;
     line-height: 5.5rem;
-}
+} */
 .skills3{
     display:flex;
     flex-direction: row;
@@ -133,4 +133,74 @@
     text-align:left;
     font-weight:400;
     background-color: transparent;
+}
+
+@media (max-width: 800px) {
+    .client-skill{
+        margin-top: 10vh !important;
+        font-size:3.5rem;
+        font-weight: 900;
+        line-height:2rem;
+        letter-spacing: .15rem;
+        z-index: 2;
+    }
+    .skills3{
+        font-size: 4rem;
+        line-height: 3.5rem;
+        z-index: 3;
+    }
+    .dot5{
+        color: black;
+        font-family: "Montserrat", sans-serif;
+        font-size: 4rem;
+        font-weight: 900;
+        line-height: 2.5rem;
+        padding-left:4vw;
+        z-index: 2;
+    }
+    .bkgrd-left3{
+        width: 24vw;
+        height:150vh;
+        background-color: #ef6351;
+    }
+    
+    .bkgrd-right3{
+        width:72vw;
+        height:150vh;
+        background-color: white;
+    }
+    .client-header{
+        font-size:1rem;
+        margin-top: 40vh !important;
+        padding-bottom: 7%;
+        text-align:right;
+        font-weight:700;
+        line-height: 1.5rem;
+        margin-left: -15vw;
+    }
+    .client-para{
+        font-size:.8rem;
+        text-align:right;
+        font-weight:300;
+        line-height: 1.5rem;
+        margin-left: -15vw;
+    }
+    
+    .inv-para{
+        padding: 5% 0 0 0;
+    }
+    .client-exp{
+        width: 35vw;
+        margin-left: 0 !important;
+        padding: 4%;
+        background-color:transparent;
+    }
+    .group-title{
+        font-size:.7rem;
+    }
+    .group-bullet{
+        font-size:.5rem;
+        padding-bottom: 5%;
+        line-height: 1.2rem;
+    }
 }
