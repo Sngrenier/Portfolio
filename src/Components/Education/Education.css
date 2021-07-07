@@ -100,13 +100,133 @@
     text-align: center;
     line-height: 2rem;
 }
-
-.cv-img{
+.cv-qr-code{
+    background-color:transparent;
     display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: center;
-	align-items: center;
-	align-content: center;
-    background-color: transparent;
+	align-items: flex-start;
+	align-content: flex-start;
+
+}
+.cv-img{
+    margin-top:10vh;
+    margin-bottom: 5vh;
+}
+
+@media (max-width: 800px) {
+    .edu-icons{
+        padding:25% 5% 2% 5%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        background-color: transparent;
+    }
+    .webdev-icon{
+        height: 75px;
+        width:75px;
+        border-radius:50%;
+        border-color: #EF6351;
+        border-width: .15rem;
+        border-style: solid;
+    }
+    .design-icon{
+        height: 75px;
+        width:75px;
+        border-radius:50%;
+        border-color: #EF6351;
+        border-width: .15rem;
+        border-style: solid;
+    }
+    .graphic-icon{
+        height: 75px;
+        width:75px;
+        border-radius:50%;
+        border-color: #EF6351;
+        border-width: .15rem;
+        border-style: solid;
+    }
+    .edu-head{
+        width:30vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background-color: transparent;
+    }
+    
+    .edu-details{
+        /* width:18vw; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background-color: transparent;
+    }
+    
+    .edu-info{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        align-content: center;
+        padding-bottom: 10%;
+    }
+    
+    .etitle{
+        background-color: transparent;
+        font-family: 'Oswald', sans-serif !important;
+        font-size:.7rem;
+        font-weight:700;
+        letter-spacing: .20rem;
+        text-align: center;
+        line-height: 1.5rem;
+        padding-bottom:2%;
+        width: 25vw;
+    }
+    
+    .eschool{
+        font-family: 'Montserrat', sans-serif !important;
+        font-size:.5rem;
+        text-align:right;
+        font-weight:400;
+        width:25vw;
+        text-align: center;
+        line-height: 1.2rem;
+        padding-bottom:1%;
+    }
+    .edate{
+        background-color: transparent;
+        font-family: 'Oswald', sans-serif !important;
+        font-size:.8rem;
+        font-weight:700;
+        letter-spacing: .25rem;;
+        width:20vw;
+        text-align: center;
+        line-height: 2rem;
+    }
+    
+    .cv-qr-code{
+        background-color:transparent;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: flex-start;
+    
+    }
+    .cv-img{
+        margin-top:6vh;
+        margin-bottom: 5vh;
+    }
 }
