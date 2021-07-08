@@ -143,21 +143,21 @@
 }
 .modal-message{
     font-family: "Sacramento", cursive !important;
-    font-size: 3.5rem;
+    font-size: 3rem;
     z-index: 3;
     color: #EF6351;
     letter-spacing: 2.2px;
     font-weight: 900 !important;
-    padding: 5% 15% 0 15%;
+    padding: 5% 10% 0 10%;
     text-align: center;
     
 }
 .modal-message-1{
     font-family: "Montserrat", sans-serif;
     color: black;
-    font-size: 1rem !important;
+    font-size: .8rem !important;
     letter-spacing: 1.2px;
-    line-height:2rem;
+    line-height:1.5rem;
     font-weight: 200 !important;
     padding: 3% 15% 0 15%;
     text-align: justify;
@@ -177,9 +177,10 @@
 .btn-type{
     font-family: "Montserrat", sans-serif;
     color: #EF6351;
-    font-size: .5rem !important;
+    font-size: .4rem !important;
     letter-spacing: 2.2px;
     font-weight: 600 !important;
+    margin-top:-.5vh !important; 
 }
 
 @media screen and (min-width: 800px) and (max-width: 1000px){
