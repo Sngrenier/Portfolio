@@ -34,7 +34,6 @@
     font-weight: 600;
     letter-spacing: .25rem;
 }
-
 .proj-dot-1{
     color: #EF6351;
     font-family: "Montserrat", sans-serif;
@@ -101,7 +100,6 @@
 .git-icon{
     background-color: transparent;
 }
-
 .image-wrapper{
     height:60vh;
     background-color:transparent;
@@ -113,7 +111,6 @@
     overflow:hidden;
     background-color:transparent;
 }
-
 .more-photos-btn{
    padding-top:15%;
 }
@@ -139,9 +136,6 @@
     background-color: #EF6351 !important;
     color: white;
 }
-
-
-
 .project-overview-workit{
     display: flex;
 	flex-direction: column;

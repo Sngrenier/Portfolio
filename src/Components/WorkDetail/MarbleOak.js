@@ -98,7 +98,7 @@ export default class MarbleOak extends Component {
         <div className="project-overview">
             <div className="project-overview-details">
             <p className="proj-para-1"><strong>development tools:</strong> </p>
-            <p className="proj-para">react,js, node, html5, css, vscode, github, digital ocean, external apis, sqltabs, postgresql, figma </p>
+            <p className="proj-para">react, js, node, html5, css, vscode, github, digital ocean, external apis, sqltabs, postgresql, figma </p>
             <p className="proj-para-2">...and others I'm sure</p>
             <p className="proj-para-2-body"><strong>and lots of retail experience!</strong></p>
             <div className="more-photos-btn">
