@@ -17,7 +17,7 @@ import comingsoon from './comingsoon.gif';
 
 export default class Landing extends Component {
   state={
-    openModal : true
+    openModal : false
 }
 
 onClickButton = e =>{

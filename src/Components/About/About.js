@@ -90,11 +90,11 @@ export default class About extends Component {
                     <p className="proj-para-2-about">sngrenier@gmail.com    |    301.793.6024</p>
                     <div className="row contact-row">
                         <div className="contact-icons">
-                        <a href="https://github.com/Sngrenier/Portfolio">
-                        <img alt="img-2" className="icon-pic" width={25} height={25} src={githubicon} />
-                        </a>
-                        <a href="https://github.com/Sngrenier/Portfolio">
+                        <a href="https://www.linkedin.com/in/stacy-grenier/">
                         <img alt="img-2" className="icon-pic" width={25} height={25} src={linkedicon} />
+                        </a>
+                        <a href="https://github.com/Sngrenier">
+                        <img alt="img-2" className="icon-pic" width={25} height={25} src={githubicon} />
                         </a>
                         </div>
                     </div>
