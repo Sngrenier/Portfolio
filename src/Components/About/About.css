@@ -105,7 +105,6 @@
     text-align:right;
     font-weight:500;
     line-height: 1.7rem;
-    /* padding-bottom: 5%; */
 }
 
 .inv-para{
@@ -113,50 +112,44 @@
 }
 
 
-.about-scroll-bar{
+.scroll-bar-about{
     position: absolute;
     display:flex;
     flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: flex-end;
-	align-items: space-between;
+	align-items: center;
 	align-content: space-between;
     width:5vw;
-    height:100vh;
+    height:115vh;
     background-color: transparent;
     font-family: 'Quattrocento Sans', sans-serif;
-    font-size: .9rem;
+    font-size: .8rem;
     font-weight: 400;
-    letter-spacing: .1rem;
+    letter-spacing: .2rem;
     margin-right: 5%;
 }
-.about-scroll-para{
-    transform: rotate(-90deg);
-}
-.about-scroll{
+.scroll-about{
     color: black;
     box-sizing: border-box;
     background-color: transparent;
     border-style: hidden;
-    padding: 10%;
 }
-
-.about-scroll:hover{
-    transform: scale(1.2) !important;
+.scroll-about:hover{
+    transform: scale(1.2);
 }
-
-.about-scroll-arrow{
+.scroll-para-about{
     transform: rotate(-90deg);
-    margin-bottom: 30%;
     color: black;
-    box-sizing: border-box;
-    background-color: transparent;
-    border-style: hidden;
     letter-spacing: .1rem;
+    background-color: transparent;
+    width: 15vh;
 }
-.about-arrow{
-    padding: 10%;
+.arrow-about{
+    padding: 15%;
+    background-color: transparent;
 }
+
 .project-overview-about{
     width: 80vw;
     display: flex;
@@ -172,7 +165,7 @@
 .proj-para-about{
     font-family: 'Montserrat', sans-serif !important;
     color: #EF6351 !important;
-    font-size:1.5rem !important;
+    font-size:1.2rem !important;
     font-weight:700 !important;
     letter-spacing:.05rem;
     background-color: transparent;
@@ -182,7 +175,7 @@
     padding:2% 15% 2% 15%;
     font-family: 'Montserrat', sans-serif !important;
     color: black !important;
-    font-size:1.2rem !important;
+    font-size:1rem !important;
     font-weight:400 !important;
     letter-spacing:.05rem;
     line-height: 2.2rem;
@@ -191,14 +184,13 @@
 .proj-para-body-about{
     color:#EF6351;
     font-family: "Sacramento", cursive !important;
-    font-size: 3.7rem;
+    font-size: 3.2rem;
     line-height: 4.5rem;
     font-weight: 600;
     letter-spacing: .25rem;
     transform: skew(-15deg); 
 }
 .proj-para-2-about{
-    /* padding:2% 15% 2% 15%; */
     font-family: 'Montserrat', sans-serif !important;
     color: black !important;
     font-size:1rem !important;

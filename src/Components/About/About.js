@@ -72,10 +72,11 @@ export default class About extends Component {
                             </div>
                         </div>
 
-                        <div className="scroll-bar">
-                            <button className="scroll" onClick={this.scrollMore}>
-                                <p className="scroll-para">keep going</p>
-                            <div className="arrow"><div><img alt="" src="https://img.icons8.com/ios/28/ffffff/long-arrow-down.png"/></div>
+                        <div className="scroll-bar-about">
+                            <button className="scroll-about" onClick={this.scrollMore}>
+                                <p className="scroll-para-about">keep going</p>
+                            <div className="arrow-about"><div><img className="arrow-about" src="https://img.icons8.com/ios/30/000000/long-arrow-down.png"/></div>
+                            
                         </div>
                             </button>
                     </div>
@@ -83,7 +84,7 @@ export default class About extends Component {
                 <div className="container-fluid">
                 <div className="project-overview">
                     <div className="project-overview-about">
-                    <p className="proj-para-body-about">Thanks for taking the time to get know me! </p>
+                    <p className="proj-para-body-about">Thanks for taking the time to get to know me! </p>
                     <p className="proj-para-1-about">I hope you take a few minutes to explore this labor of love, a.k.a my portfolio, to better understand my design aesthetic and web development skills.  I look forward to the opportunity to learn more about you!</p>
                     <p className="proj-para-about">email, call or text anytime! Connect with me on Linkedin and find me on Github.</p>
                     <p className="proj-para-2-about">sngrenier@gmail.com    |    301.793.6024</p>
