@@ -91,10 +91,10 @@
 
 .about-header{
     font-family: 'Biryani', sans-serif !important;
-    font-size:1.5rem;
+    font-size:2rem;
     padding-bottom: 6vh;
     text-align:right;
-    font-weight:800;
+    font-weight:700;
     line-height: 2.5rem;
     background-color:transparent;
 }
@@ -103,7 +103,7 @@
     font-family: 'Montserrat', sans-serif !important;
     font-size:.8rem;
     text-align:right;
-    font-weight:500;
+    font-weight:300;
     line-height: 1.7rem;
 }
 
