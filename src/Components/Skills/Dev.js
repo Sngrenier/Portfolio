@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './Dev.css'
 import "bootstrap/dist/css/bootstrap.min.css";
+import webdevbkgrnd from './webdevbkgrnd.png';
 
 export default class dev extends Component {
     render() {
@@ -9,7 +10,8 @@ export default class dev extends Component {
 
                 <div className="background4">
                     <div className="bkgrd-left4">
-                        <img alt="" className="bkrd-img" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/203655815_10110602246175528_9206530618877533524_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=0debeb&_nc_ohc=B4dVvGTusv0AX-tHqML&_nc_ht=scontent-sjc3-1.xx&oh=a81f3e67afbabbeec512db04b1c4c211&oe=60DC306B"></img>
+                        <img alt="img-2" className="bkgrd-img" src={webdevbkgrnd} />
+                        {/* <img alt="" className="bkrd-img" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/203655815_10110602246175528_9206530618877533524_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=0debeb&_nc_ohc=B4dVvGTusv0AX-tHqML&_nc_ht=scontent-sjc3-1.xx&oh=a81f3e67afbabbeec512db04b1c4c211&oe=60DC306B"></img> */}
                     </div>
 
                     <div className="development-skill">

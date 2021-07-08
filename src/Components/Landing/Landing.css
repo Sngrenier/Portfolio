@@ -164,7 +164,7 @@
     
 }
 .modal-btn{
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 6;
     background-color: transparent;

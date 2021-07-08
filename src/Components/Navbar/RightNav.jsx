@@ -12,7 +12,11 @@ const RightNav = ({ open }) => {
                 </Link></li>
             <li>
                 <Link to='/design'>
-                    <p className="link">DESIGN & WEB DEV SKILLS</p>
+                    <p className="link">DESIGN SKILLS</p>
+                </Link></li>
+            <li>
+                <Link to='/dev'>
+                    <p className="link">WEB DEV SKILLS</p>
                 </Link></li>
             <li>
                 <Link to='/client'>

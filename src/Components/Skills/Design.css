@@ -6,13 +6,13 @@
 	align-items: stretch;
 	align-content: stretch;
     width: 96vw !important;
-    height: 120vh !important;
+    height: 130vh !important;
     overflow: hidden;
 }
 
 .design-skill{
     position: absolute;
-    padding-top:20%;
+    padding-top:35vh;
     left:10%;
     display:flex;
     flex-direction: column;
@@ -32,7 +32,8 @@
     z-index: 2;
 }
 .design{
-    padding:20% 0 0 20%;
+    margin-top:-10vh;
+    padding-left:4vw;
 }
 .design-under{
     transform: rotate(-90deg);
@@ -40,7 +41,7 @@
     margin-left:-90%;
     line-height: 20rem;
     font-family: "Montserrat", sans-serif;
-    font-size: 10rem;
+    font-size: 12rem;
     font-weight: 900;
     z-index:-1;
     letter-spacing: -1rem;
@@ -56,7 +57,7 @@
     width:20vw;
     font-family: "Sacramento", cursive !important;
     font-size: 5.5rem;
-    line-height: 8rem;
+    line-height: 6rem;
     z-index: 3;
     color: #EF6351;
     padding-left:20%;
@@ -67,14 +68,14 @@
     font-family: "Montserrat", sans-serif;
     font-size: 5rem;
     font-weight: 900;
-    line-height: 7rem;
+    line-height: 5rem;
     padding-left:6%;
     z-index: 2;
 }
 
 .design-info{
     position: absolute;
-    padding: 10% 0 2% 30%;
+    padding: 12% 0 2% 30%;
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
