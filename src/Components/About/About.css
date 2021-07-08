@@ -34,7 +34,7 @@
     font-family: "Montserrat", sans-serif;
     font-size: 6rem;
     font-weight: 900;
-    line-height:3.75rem !important;
+    line-height:4rem !important;
     letter-spacing: .25rem;
     z-index: 5 !important;
 }
@@ -71,7 +71,8 @@
     width: 34vw !important;
     overflow:hidden;
     z-index: -1;
-    margin-left:-15%;
+    margin-left:-5vw;
+    padding-top: 10vh;
 }
 
 .about-details{
