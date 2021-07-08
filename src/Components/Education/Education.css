@@ -1,5 +1,5 @@
 .edu-page{
-    height:130vh;
+    height:140vh;
 }
 .education-header{
     width: 96vw;
@@ -131,9 +131,10 @@
 	align-content: flex-start;
     box-sizing:border-box;
     border-style:dotted;
-    border-width:.2rem;
+    border-width:.07rem;
     border-color: #ef6351;
     border-radius: .5rem;
+    margin-top:8vh;
 }
 .cv-img{
     margin-top:8vh;
