@@ -6,14 +6,14 @@
 	align-items: stretch;
 	align-content: stretch;
     width: 95vw !important;
-    height: 140vh !important;
+    height: 150vh !important;
     overflow: hidden;
     z-index:-1;
 }
 
 .development-skill{
     position: absolute;
-    padding-top: 40vh;
+    padding-top: 45vh;
     left:10vw;
     display:flex;
     flex-direction: column;
@@ -28,7 +28,7 @@
     font-family: "Montserrat", sans-serif;
     font-size: 6rem;
     font-weight: 900;
-    line-height:4.5rem;
+    line-height:5rem;
     letter-spacing: .25rem;
     z-index: 2;
 }
@@ -60,7 +60,6 @@
 }
 
 .dev-bullets{
-    /* position: absolute; */
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -68,9 +67,10 @@
 	align-items: center;
 	align-content: flex-end;
     padding: 7%;
-    margin-left:45%;
+    margin-left:45vw;
     width:40vw;
     margin-top:-85%;
+    /* padding-bottom: 5vh; */
 }
 
 .column-one{
