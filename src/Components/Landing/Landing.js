@@ -8,8 +8,24 @@ import Design from '../Skills/Design';
 import Client from '../Skills/Client';
 import Gallery from '../WorkGallery/Gallery'
 import Test from '../Testimonials/Test'
+import { Modal } from 'react-responsive-modal';
+import 'react-responsive-modal/styles.css';
+// import styled from "styled-components";
+
 
 export default class Landing extends Component {
+  state={
+    openModal : true
+}
+
+onClickButton = e =>{
+    e.preventDefault()
+    this.setState({openModal : true})
+}
+
+onCloseModal = ()=>{
+    this.setState({openModal : false})
+}
 
     componentDidMount() {
         Events.scrollEvent.register('begin', function(to, element) {
@@ -66,14 +82,27 @@ export default class Landing extends Component {
                     <div className="landing-footer">
                         <div classname="footer-bar">
                             <div className="job-titles">
+                               
+                                  <button className="modal-btn" onClick={this.onClickButton}>
+                                    <p className="btn-type">CSS DISCLAIMER</p>
+                                    </button>
+                                  <Modal open={this.state.openModal} onClose={this.onCloseModal}>
+                                      <div className="open-modal">
+                                        <h1 className="modal-message">responsive css disclaimer:</h1>
+                                        <p className="modal-message-1">As everything in web development, the responsive css for this site is a work in progress. So if it looks funky on your phone my apologies, but it's coming soon!</p>
+                                      </div>
+                                  </Modal>  
+                           
                                 <div className="job"><p>WEB DESIGNER</p></div>
                                 <div className="job"><p>WEB DEVELOPER</p></div>
                                 <div className="job"><p>GRAPHIC DESIGNER</p></div>
+
                             </div>
                         </div>
                     </div>
                     
                 </div>
+                
                 <About />
                 <Education/>
                 <Design/>
@@ -84,3 +113,13 @@ export default class Landing extends Component {
         )
     }
 }
+
+
+
+// const ModalContainer = styled.div`
+// position: fixed;
+//   right: 0;
+//   bottom: 0;
+//   background-color:transparent !important;
+// `
+
