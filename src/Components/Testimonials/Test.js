@@ -7,6 +7,9 @@ import wtest from './wtest.png';
 import abtest from './abtest.png';
 
 export default class Test extends Component {
+    componentDidMount(){
+        window.scrollTo(0,0)
+    }
     render() {
         const settings =  {
             showArrows: true,
@@ -23,10 +26,11 @@ export default class Test extends Component {
         }
         return (
             <section className="carousel">
-        <div className="container-fluid slider">
+                <div className="container-fluid test-page">
             <div className="test-header">
                 <h5 className="test-title">testimonials</h5>
             </div>
+        <div className="container-fluid slider">
             <Carousel {...settings}>
 
             <div className="carousel-slider"> 
@@ -63,6 +67,7 @@ export default class Test extends Component {
                 </div>
 
             </Carousel>
+        </div>
         </div>
         </section>
         )

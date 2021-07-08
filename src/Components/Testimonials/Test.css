@@ -1,5 +1,9 @@
+.test-page{
+    height:80vh;
+}
+
 .test-header{
-    width: 96vw;
+    width: 95vw;
     height: 18vh;
     background-color: transparent;
 	display: flex;

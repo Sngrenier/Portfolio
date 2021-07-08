@@ -16,7 +16,7 @@ const RightNav = ({ open }) => {
                 </Link></li>
             <li>
                 <Link to='/dev'>
-                    <p className="link">WEB DEV SKILLS</p>
+                    <p className="link">WEBDEV SKILLS</p>
                 </Link></li>
             <li>
                 <Link to='/client'>
@@ -24,14 +24,14 @@ const RightNav = ({ open }) => {
                 </Link></li>
             <li>
                 <Link to='/gallery'>
-                    <p className="link" href="">PROJECTS</p>
+                    <p className="link">PROJECTS</p>
                 </Link></li>
             <li>
                 <Link to='/test'>
-                    <p className="link" href="">CLIENT TESTIMONIALS</p>
+                    <p className="link">CLIENT TESTIMONIALS</p>
                 </Link></li>
             <li><Link to='/education'>
-                <p className="link" href="">EDUCATION CV</p>
+                <p className="link">EDUCATION CV</p>
             </Link></li>
         </Ul>
     )
