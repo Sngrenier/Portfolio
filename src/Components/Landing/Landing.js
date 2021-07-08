@@ -12,6 +12,7 @@ import Test from '../Testimonials/Test'
 import { Modal } from 'react-responsive-modal';
 import 'react-responsive-modal/styles.css';
 // import styled from "styled-components";
+import comingsoon from './comingsoon.gif';
 
 
 export default class Landing extends Component {
@@ -89,6 +90,7 @@ onCloseModal = ()=>{
                                     </button>
                                   <Modal open={this.state.openModal} onClose={this.onCloseModal}>
                                       <div className="open-modal">
+                                      <img alt="coming-soon" className="coming-soon" width={250} height={150} src={comingsoon} />
                                         <h1 className="modal-message">responsive css disclaimer:</h1>
                                         <p className="modal-message-1">As everything in web development, the responsive css for this site is a work in progress. So if it looks funky on your phone my apologies, but it's coming soon!</p>
                                       </div>
