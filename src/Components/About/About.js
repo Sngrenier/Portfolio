@@ -23,7 +23,7 @@ export default class About extends Component {
                                 <p>The scenic route is always more captivating.</p>
                             </div>
                             <div className="about-para">
-                                <p className="inv-para">My path to web development has not been a straight one that's for sure. </p>
+                                <p className="inv-para">Hi-ya! I’m a full-stack web developer, web designer, and graphic designer.  The journey to get here certainly wasn't a straight line, but I find that the scenic route is always more captivating.</p> 
                                 <p className="inv-para">I have over 15 years in luxury retail management and operations. During this time I went back to school and completed a 2 year Graphic and Digital Design certificate program from Parsons in NY, which I thoroughly enjoyed. </p>
                                 <p className="inv-para">Then once covid collapsed the world, I was laid off, which gave me time to reevaluate my career path. I thought back to my graphic design certificate and the spark it had for me, so I decided to pivot my career and pursued web development. I recently graduated from DevMountain 3-month bootcamp, as I can officially now add full-stack-developer to my CV.</p>
                                 <p className="inv-para">I truly enjoy client facing time as well as building something and being creative, and this new career path has the potential to offer all of those things, which is very exciting to me. </p>
