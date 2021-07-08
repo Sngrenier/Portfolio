@@ -3,14 +3,11 @@
     height:150vh;
     background-color: #EF6351;
 }
-
 .bkgrd-right3{
     width:67vw;
     height:150vh;
     background-color: transparent;
 }
-
-
 .client-skill{
     position: absolute;
     padding-top: 18%;
@@ -47,7 +44,6 @@
     z-index: 3;
     color: black;
 }
-
 .dot5{
     color: black;
     font-family: "Montserrat", sans-serif;
@@ -57,7 +53,6 @@
     padding-left:6%;
     z-index: 2;
 }
-
 .client-details{
     width:64vw;
     height:120vh !important;
@@ -71,7 +66,6 @@
     padding:13% 6% 20% 25%;
     text-align:right;
 }
-
 .client-header{
     font-family: 'Biryani', sans-serif !important;
     font-size:2rem;
@@ -81,7 +75,6 @@
     font-weight:700;
     line-height: 2.5rem;
 }
-
 .client-para{
     font-family: 'Montserrat', sans-serif !important;
     font-size:.8rem;
@@ -89,9 +82,8 @@
     font-weight:300;
     line-height: 1.5rem;
 }
-
-.inv-para{
-    padding: 5% 0 0 0;
+.indv-para{
+    padding: 5% 0 0 0 !important;
 }
 
 .business-bullets{
@@ -181,7 +173,7 @@
         margin-left: -15vw;
     }
     
-    .inv-para{
+    .indv-para{
         padding: 5% 0 0 0;
     }
     .client-exp{

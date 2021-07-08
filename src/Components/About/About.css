@@ -9,19 +9,19 @@
 
 .bkgrd-left2{
     width: 34vw;
-    height:100vh;
+    height:120vh;
     background-color: #ef6351;
 }
 
 .bkgrd-right2{
     width:62vw;
-    height:100vh;
+    height:120vh;
     background-color: white;
 }
 
 .about{
     position: absolute;
-    padding-top:5%;
+    padding-top:15vh;
     left:5%;
     display:flex;
     flex-direction: column;
@@ -32,7 +32,7 @@
     height:85vh;
     background-color: transparent;
     font-family: "Montserrat", sans-serif;
-    font-size: 5rem;
+    font-size: 6rem;
     font-weight: 900;
     line-height:3.75rem !important;
     letter-spacing: .25rem;
@@ -90,11 +90,11 @@
 
 .about-header{
     font-family: 'Biryani', sans-serif !important;
-    font-size:2rem;
+    font-size:1.7rem;
     padding-bottom: 4vh;
     padding-left:10%;
     text-align:right;
-    font-weight:700;
+    font-weight:800;
     line-height: 2.5rem;
 }
 
@@ -102,8 +102,8 @@
     font-family: 'Montserrat', sans-serif !important;
     font-size:.8rem;
     text-align:right;
-    font-weight:300;
-    line-height: 1.5rem;
+    font-weight:400;
+    line-height: 1.7rem;
 }
 
 .inv-para{
