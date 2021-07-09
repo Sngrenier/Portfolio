@@ -112,8 +112,8 @@
     background-color:transparent;
 }
 .more-photos-btn{
-   padding-top:15%;
-}
+    padding-top:3vh 0 10vh 0;
+ }
 .photo-btn{
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
