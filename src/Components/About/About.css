@@ -150,7 +150,11 @@
     padding: 15%;
     background-color: transparent;
 }
-
+.project-overview{
+    margin-bottom:0 !important;
+    height:80vh;
+    background-color: transparent;
+}
 .project-overview-about{
     width: 80vw;
     display: flex;
@@ -160,8 +164,8 @@
 	align-items: center;
 	align-content: center;
     text-align:center;
-    padding:0 0 8% 0;
     background-color: transparent;
+    margin-top: -10vh;
 }
 .proj-para-about{
     font-family: 'Montserrat', sans-serif !important;
