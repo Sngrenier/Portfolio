@@ -104,3 +104,26 @@
 .home-icon{
     padding: 2%;
 }
+
+
+
+@media (max-width: 800px) {
+
+.home-header{
+    font-size: .8rem;
+}
+.hiya{
+    font-size: 8rem;
+} 
+.home-job-title{
+    font-size: .8rem;
+} 
+.home-job-divider{
+    font-size: .6rem;
+}
+.port-btn{
+    font-size: .6rem;
+    width: 20vw;
+}
+
+}
