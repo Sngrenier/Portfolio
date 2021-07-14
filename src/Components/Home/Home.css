@@ -9,13 +9,13 @@
 
 .background-left-1{
     width: 50vw;
-    height:120vh;
+    height:110vh;
     background-color: #EF6351;
 }
 
 .background-right-1{
     width: 50vw;
-    height:120vh;
+    height:110vh;
     background-color: #cfc9c9;
     z-index: -1;
 }
@@ -84,6 +84,7 @@
     font-size: .8rem;
     font-weight: 400;
     color: black;
+    background-color: white;
     text-transform: uppercase;
     letter-spacing: .25em;
     line-height: 1em;
@@ -108,13 +109,26 @@
 
 
 @media (max-width: 800px) {
+.background-left-1{
+    height:100vh;
+}
 
+.background-right-1{
+    width: 50vw;
+    height:100vh;
+    background-color: #cfc9c9;
+    z-index: -1;
+}
 .home-header{
     font-size: .8rem;
 }
 .hiya{
-    font-size: 8rem;
+    font-size: 10rem;
+    padding: 20% 0 10% 5%;
 } 
+.home-jobs{
+    padding: 0 0 4% 3%;
+}
 .home-job-title{
     font-size: .8rem;
 } 
