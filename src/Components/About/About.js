@@ -47,7 +47,18 @@ export default class About extends Component {
               <Navbar />
 
                 <div className="background2">
-                    <div className="bkgrd-left2"></div>
+                    <div className="bkgrd-left2">
+                    <div className="about">
+                            <div className="ab"><p>AB</p></div>
+                            <div className="bout"><p>BOUT</p></div>
+                                <div className="me"><div><p>me</p></div>
+                                <div className="dot2"><p>.</p></div>
+                                <div className="profile-pic">
+                                <img alt="img-2" className="prof-pic" src={profpic} />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div className="bkgrd-right2">
                         <div className="about-details">
@@ -63,20 +74,11 @@ export default class About extends Component {
 
                     </div>
                 
-                        <div className="about">
-                            <div className="ab"><p>AB</p></div>
-                            <div className="bout"><p>BOUT</p></div>
-                                <div className="me"><div><p>me</p></div>
-                                <div className="dot2"><p>.</p></div>
-                                <div className="profile-pic">
-                                <img alt="img-2" className="prof-pic" src={profpic} />
-                                </div>
-                            </div>
-                        </div>
+                        
 
                         <div className="scroll-bar-about">
                             <button className="scroll-about" onClick={this.scrollMore}>
-                                <p className="scroll-para-about">keep going</p>
+                                <p className="scroll-para-about">scroll</p>
                             <div className="arrow-about"><div><img className="arrow-about" src="https://img.icons8.com/ios/30/000000/long-arrow-down.png"/></div>
                             
                         </div>
