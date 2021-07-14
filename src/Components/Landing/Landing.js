@@ -3,12 +3,12 @@ import './Landing.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Events, animateScroll as scroll } from 'react-scroll'
 import About from '../About/About'
-import Education from '../Education/Education';
-import Design from '../Skills/Design';
-import Dev from '../Skills/Dev';
-import Client from '../Skills/Client';
-import Gallery from '../WorkGallery/Gallery'
-import Test from '../Testimonials/Test'
+// import Education from '../Education/Education';
+// import Design from '../Skills/Design';
+// import Dev from '../Skills/Dev';
+// import Client from '../Skills/Client';
+// import Gallery from '../WorkGallery/Gallery'
+// import Test from '../Testimonials/Test'
 import { Modal } from 'react-responsive-modal';
 import 'react-responsive-modal/styles.css';
 // import styled from "styled-components";
@@ -107,12 +107,12 @@ onCloseModal = ()=>{
                 </div>
                 
                 <About />
-                <Education/>
+                {/* <Education/>
                 <Design/>
                 <Dev/>
                 <Test/>
                 <Client/>
-                <Gallery/>
+                <Gallery/> */}
             </div>
         )
     }

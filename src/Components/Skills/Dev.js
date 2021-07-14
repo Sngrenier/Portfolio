@@ -37,7 +37,7 @@ export default class dev extends Component {
                                 <li className="dev-title">FRONTEND TOOLS</li>
                                 <li className="dev-bullet">REST APIS</li>
                                 <li className="dev-bullet">CONTEXT</li>
-                                <li className="dev-bullet">REDUX</li>
+                                <li className="dev-bullet">REDUX</li>REA
                                 <li className="dev-bullet">AXIOS</li>
                                 <li className="dev-bullet">MASSIVE</li>
                                 <li className="dev-bullet">BCRYPT</li>
