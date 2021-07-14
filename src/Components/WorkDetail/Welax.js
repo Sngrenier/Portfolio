@@ -5,6 +5,7 @@ import welaxbanner from './images/welaxbanner.png';
 import welaxpackage01 from './images/welaxpackage01.png';
 import welaxpackage02 from './images/welaxpackage02.png';
 import welaxmockup from './images/welaxmockup.png';
+import Navbar from '../Navbar/Navbar'
 
 export default class Welax extends Component {
     componentDidMount() {
@@ -13,6 +14,8 @@ export default class Welax extends Component {
     render() {
         return (
             <div className="container-fluid">
+                <Navbar />
+                
             <div className="workit-title">
                         <div className="work"><p>W</p></div>
                         <div className="it"><p>ELAX</p></div>

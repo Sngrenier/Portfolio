@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import ssbanner from './images/ssbanner.png';
 import ssdevice01 from './images/ssdevice01.jpg';
 import ssdevice02 from './images/ssdevice02.jpg';
+import Navbar from '../Navbar/Navbar'
 
 
 
@@ -15,6 +16,8 @@ export default class StemSeed extends Component {
     render() {
         return (
             <div className="container-fluid">
+                <Navbar />
+                
             <div className="workit-title">
                         <div className="work"><p>ST</p></div>
                         <div className="it"><p>EM&seed</p></div>

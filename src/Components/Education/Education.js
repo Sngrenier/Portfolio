@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
 import './Education.css'
 import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from '../Navbar/Navbar'
 
 export default class Education extends Component {
     render() {
         return (
             <div className="container-fluid">
+                <Navbar />
+                
                 <div className="edu-page">
                 <div className="education-header">
                 <h5 className="education-title">education & resume</h5>

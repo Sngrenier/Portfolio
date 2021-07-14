@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './Client.css'
 import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from '../Navbar/Navbar'
 
 export default class client extends Component {
     
@@ -11,6 +12,7 @@ export default class client extends Component {
     render() {
         return (
                 <div className="container-fluid">
+                    <Navbar />
                 
                 
                 <div className="background2">

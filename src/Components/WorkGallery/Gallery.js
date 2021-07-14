@@ -8,6 +8,7 @@ import esthumbnail from './esthumbnail.png';
 import marbleoakthumbnail from './marbleoakthumbnail.png';
 import workitthumbnail from './workitthumbnail.png';
 import abthumbnail from './abthumbnail.png';
+import Navbar from '../Navbar/Navbar'
 
 export default class dev extends Component {
 
@@ -18,6 +19,7 @@ export default class dev extends Component {
     render() {
         return (
             <div className="container-fluid">
+                <Navbar />
 
                 <div className="background-work">
                 <div className="bkgrd-left-work"></div>

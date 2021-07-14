@@ -5,6 +5,7 @@ import ReactPlayer from 'react-player'
 import workitwf01 from './images/workitwf01.png';
 import workitwf02 from './images/workitwf02.png';
 import toolsimg from './images/toolsimg.png';
+import Navbar from '../Navbar/Navbar'
 
 export default class Workit extends Component {
     componentDidMount() {
@@ -13,6 +14,8 @@ export default class Workit extends Component {
     render() {
         return (
         <div className="container-fluid">
+            <Navbar />
+            
             <div className="workit-title">
                         <div className="work"><p>W</p></div>
                         <div className="it"><p>ORKit</p></div>

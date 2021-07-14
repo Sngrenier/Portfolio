@@ -5,6 +5,7 @@ import {Carousel} from 'react-responsive-carousel'
 import estest from './estest.png';
 import wtest from './wtest.png';
 import abtest from './abtest.png';
+import Navbar from '../Navbar/Navbar'
 
 export default class Test extends Component {
     componentDidMount(){
@@ -26,6 +27,7 @@ export default class Test extends Component {
         }
         return (
             <section className="carousel">
+                <Navbar />
                 <div className="container-fluid test-page">
             <div className="test-header">
                 <h5 className="test-title">testimonials</h5>

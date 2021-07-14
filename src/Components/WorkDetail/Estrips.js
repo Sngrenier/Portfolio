@@ -6,6 +6,7 @@ import esmarketing01 from './images/esmarketing01.png';
 import esmarketing02 from './images/esmarketing02.png';
 import espack01 from './images/espack01.png';
 import espack02 from './images/espack02.png';
+import Navbar from '../Navbar/Navbar'
 
 export default class Estrips extends Component {
     componentDidMount() {
@@ -14,6 +15,8 @@ export default class Estrips extends Component {
     render() {
         return (
             <div className="container-fluid">
+                <Navbar />
+                
             <div className="workit-title">
                         <div className="work"><p>ENTOURAGE</p></div>
                         <div className="it"><p>STRIPS</p></div>

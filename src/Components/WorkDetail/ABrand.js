@@ -9,6 +9,7 @@ import abfacebook from './images/abfacebook.png';
 import abebook from './images/abebook.png';
 import abwebinar from './images/abwebinar.png';
 import ablogo from './images/ablogo.png';
+import Navbar from '../Navbar/Navbar'
 
 export default class ABrand extends Component {
     componentDidMount() {
@@ -17,6 +18,8 @@ export default class ABrand extends Component {
     render() {
         return (
             <div className="container-fluid">
+                <Navbar />
+                
             <div className="workit-title">
                         <div className="work"><p>AGNES</p></div>
                         <div className="it"><p>BORGANI</p></div>

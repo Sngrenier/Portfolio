@@ -2,11 +2,13 @@ import React, { Component } from 'react'
 import './Dev.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import webdevbkgrnd from './webdevbkgrnd.png';
+import Navbar from '../Navbar/Navbar'
 
 export default class dev extends Component {
     render() {
         return (
             <div className="container-fluid">
+                <Navbar />
 
                 <div className="background4">
                     <div className="bkgrd-left4">

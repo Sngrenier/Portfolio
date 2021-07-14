@@ -5,6 +5,7 @@ import ReactPlayer from 'react-player'
 import marbleoakwf01 from './images/marbleoakwf01.png';
 import marbleoakwf02 from './images/marbleoakwf02.png';
 import toolsimg from './images/toolsimg.png';
+import Navbar from '../Navbar/Navbar'
 
 export default class MarbleOak extends Component {
     componentDidMount() {
@@ -13,6 +14,8 @@ export default class MarbleOak extends Component {
     render() {
         return (
     <div className="container-fluid">
+        <Navbar />
+        
     <div className="workit-title">
                 <div className="work"><p>MAR</p></div>
                 <div className="it"><p>BLEOAK</p></div>

@@ -3,8 +3,9 @@ import { Switch, Route } from "react-router-dom";
 import "./reset.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Home from './Components/Home/Home'
 import Header from './Components/Header/Header';
-import Landing from './Components/Landing/Landing';
+// import Landing from './Components/Landing/Landing';
 import About from './Components/About/About';
 import Education from './Components/Education/Education';
 import Client from './Components/Skills/Client';
@@ -21,15 +22,16 @@ import GCakes from './Components/WorkDetail/GCakes';
 import Estrips from './Components/WorkDetail/Estrips';
 import LimeLemons from './Components/WorkDetail/LimeLemons';
 import Test from './Components/Testimonials/Test';
-import Navbar from './Components/Navbar/Navbar';
+// import Navbar from './Components/Navbar/Navbar';
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar />
+        {/* <Navbar /> */}
         <Switch>
-          <Route exact path="/" component={Landing} />
+          <Route exact path="/" component={Home} />  
+          {/* <Route exact path="/landing" component={Landing} /> */}
           <Route exact path="/about" component={About} />
           <Route exact path="/education" component={Education} />
           <Route exact path="/design" component={Design} />

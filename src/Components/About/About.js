@@ -5,6 +5,7 @@ import profpic from './profpic.png';
 import { Events, animateScroll as scroll } from 'react-scroll'
 import githubicon from './githubicon.png';
 import linkedicon from './linkedicon.png';
+import Navbar from '../Navbar/Navbar'
 
 
 export default class About extends Component {
@@ -41,8 +42,9 @@ export default class About extends Component {
   };
 
     render() {
-        return (
-            <div className="container-fluid">
+      return (
+        <div className="container-fluid">
+              <Navbar />
 
                 <div className="background2">
                     <div className="bkgrd-left2"></div>

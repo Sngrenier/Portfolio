@@ -3,6 +3,7 @@ import './Design.css'
 // import Dev from '../Skills/Dev';
 import "bootstrap/dist/css/bootstrap.min.css";
 import designbkgrnd from './designbkgrnd.jpg';
+import Navbar from '../Navbar/Navbar'
 
 export default class design extends Component {
     componentDidMount() {
@@ -11,6 +12,7 @@ export default class design extends Component {
     render() {
         return (
             <div className="container-fluid">
+                <Navbar />
 
                 <section className="design-skills">
                 <div className="container-fluid background3">
