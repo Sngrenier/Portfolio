@@ -183,23 +183,92 @@
 }
 
 
-@media (max-width: 900px) {
+@media screen and (min-width: 600px) and (max-width: 900px) {
     .workit-title{
-        font-size:4rem !important;
+        font-size:3rem !important;
         font-weight: 900;
-        line-height:2.5rem !important;
+        line-height:3rem !important;
         letter-spacing: .25rem;
-        padding-top: 15vh !important;
+        padding-top: 25vh !important;
     }
     .workit-title-two{
+        padding-top: 5% !important;
         font-size: 2rem !important;
-        line-height:2.5rem !important;
+        line-height:2.2rem !important;
         text-align: left;
     }
     .proj-dot-1{
         color: transparent !important;
     }
     .project-overview{
-        padding:10% 5% 10% 5%;
+        padding: 10% 5% 10% 5% !important;
     }
+    .project-overview-details{
+        padding-bottom: 5% !important;
+    }
+    .proj-para-1{
+        font-size:1rem !important;
+        padding-bottom: 5%;
+        font-weight:700 !important;
+        letter-spacing:.25rem;
+        line-height: 2rem;
+        background-color: transparent;
+    }
+    .proj-para{
+        padding: 0 5% 2% 5% !important;
+        font-size:.8rem !important;
+    }
+    .project-overview-details-body{
+        margin-top: 30vh;
+    }
+    }
+
+    @media (max-width: 600px) {
+        .image-wrapper{
+            height:30vh !important;
+            background-color:transparent;
+        }
+        .banner-img{
+            width: 96vw !important;
+            height: 30vh !important;
+            object-fit:contain !important;
+            overflow:hidden;
+        }
+        .proj-para-1{
+            font-size:.8rem !important;
+        }
+        .proj-para{
+            font-size:.6rem !important;
+        }
+        .proj-para-2{
+            font-size:.5rem !important;
+        }
+        .proj-para-2-body{
+            font-size: 2.25rem !important;
+            line-height: 2.5rem !important;
+            letter-spacing: .15rem !important;
+          }
+        .project-overview{
+            padding: 5% 2% 10% 2% !important;
+        }
+        .proj-para-1-body{
+            font-size:1rem !important;
+        }
+        .proj-para-body{
+            font-size:.6rem;
+        }
+        .img-container{
+            padding-top:2% !important;
+        }
+        .image-wrapper-body{
+            height:30vh !important;
+            background-color:transparent;
+        }
+        .banner-img-body{
+            width:96vw !important;
+            height: 30vh !important;
+            object-fit:contain;
+            overflow:hidden;
+            background-color:transparent;
+        }
     }
