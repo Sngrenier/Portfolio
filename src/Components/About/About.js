@@ -6,6 +6,7 @@ import { Events, animateScroll as scroll } from 'react-scroll'
 import githubicon from './githubicon.png';
 import linkedicon from './linkedicon.png';
 import Navbar from '../Navbar/Navbar'
+import RightNav from '../Navbar/RightNav';
 
 
 export default class About extends Component {
@@ -45,6 +46,7 @@ export default class About extends Component {
       return (
         <div className="container-fluid">
               <Navbar />
+              <RightNav />
 
                 <div className="background2">
                     <div className="bkgrd-left2">

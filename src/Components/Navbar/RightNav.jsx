@@ -61,7 +61,7 @@ li:hover{
     color: #ffe0d7;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
     flex-flow: column nowrap;
     background-color: #0D2538;
     position: fixed;
@@ -89,7 +89,7 @@ li:hover{
 }
 
 }
-@media screen and (min-width: 850px) and (max-width: 1100px){
+@media screen and (min-width: 900px) and (max-width: 1100px){
     width: 80vw !important;
 li{
     font-family: "Montserrat", sans-serif;
