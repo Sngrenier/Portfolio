@@ -36,7 +36,7 @@
     padding-left: 2%;
     padding-top: 25%;
 }
-.rk{
+.work-subtitle{
     position: relative;
     display:flex;
     flex-direction: row;
@@ -47,15 +47,14 @@
     background-color: transparent;
     width: 80vw;
 }
-.work-subtitle{
+.subtitle-1{
     font-family: "Sacramento", cursive !important;
     color: #EF6351;
     font-size: 4.9rem;
     font-weight: 00;
     line-height:2.5rem;
     letter-spacing: .25rem;
-    margin-top:4%;
-    margin-bottom:-5%;
+    margin-top:5%;
     transform: skew(-15deg);
 }
 .dot12{
@@ -64,7 +63,7 @@
     font-weight: 900;
     z-index: 2;
     padding-left: 2vw !important;
-    padding-top: .5vh;
+    padding-top: 4vh;
 }
 .gallery-info{
     position: absolute;
@@ -178,19 +177,20 @@
 
 @media (max-width: 900px) {
 .work-heading{
-    font-size:4rem !important;
+    font-size:3rem !important;
     font-weight: 900;
-    line-height:2.5rem;
+    line-height:3rem !important;
     letter-spacing: .25rem;
+    margin-top: 25vh !important;
+}
+.subtitle-1{
+    /* padding-top: 5% !important; */
+    font-size: 2.2rem !important;
+    line-height:2.2rem !important;
+    text-align: left;
 }
 .dot12{
     color: transparent !important;
-}
-.work-subtitle{
-    font-size: 2.5rem;
-    font-weight: 00;
-    line-height:2.5rem;
-    text-align: left;
 }
 .gallery-info{
     margin-top:-10vh;
@@ -224,19 +224,5 @@
     width:50vw;
     height:200vh;
     background-color: #E3E1E1;
-}
-}
-
-@media (max-width: 600px) {
-.work-heading{
-    background-color: transparent;
-    font-size:4rem !important;
-    line-height:3rem;
-    letter-spacing: .15rem;
-    padding-left: 2%;
-    padding-top: 25%;
-}
-.project-overview{
-    padding:10% 5% 8% 5% !important;
 }
 }

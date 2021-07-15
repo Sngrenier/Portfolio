@@ -24,14 +24,13 @@ export default class dev extends Component {
                 <div className="background-work">
                 <div className="bkgrd-left-work"></div>
                     <div className="bkgrd-right-work"></div>
-                        <div className="work-heading">
-                                <div className="wo"><p>PR</p></div>
-                                <div className="rk">
-                                    <div><p>OJECTS</p></div>
-                                </div>
-                            <div className="rk">
-                                <div><p className="work-subtitle">a handful of my recent work</p></div>
-                                <div><p className="dot12">.</p></div>
+                    
+                    <div className="work-heading">
+                        <div className="pr"><p>PR</p></div>
+                        <div className="oj"><p>OJECTS</p></div>
+                            <div className="work-subtitle">
+                            <p className="subtitle-1">a handful of my recent work</p>
+                            <div className="dot12"><p>.</p></div>
                             </div>
                     
                     <ProjectWrapper >
