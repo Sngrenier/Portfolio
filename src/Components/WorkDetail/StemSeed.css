@@ -183,3 +183,23 @@
 }
 
 
+@media (max-width: 900px) {
+    .workit-title{
+        font-size:4rem !important;
+        font-weight: 900;
+        line-height:2.5rem !important;
+        letter-spacing: .25rem;
+        padding-top: 15vh !important;
+    }
+    .workit-title-two{
+        font-size: 2rem !important;
+        line-height:2.5rem !important;
+        text-align: left;
+    }
+    .proj-dot-1{
+        color: transparent !important;
+    }
+    .project-overview{
+        padding:10% 5% 10% 5%;
+    }
+    }
