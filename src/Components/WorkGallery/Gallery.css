@@ -36,14 +36,16 @@
     padding-left: 2%;
     padding-top: 25%;
 }
-.dot6{
-    font-family: "Montserrat", sans-serif;
-    font-size: 5rem;
-    font-weight: 900;
-    z-index: 2;
-    padding-left: 1%;
-    padding-top: 1.5vh;
-    /* line-height:5.25rem; */
+.rk{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: space-between;
+    background-color: transparent;
+    width: 80vw;
 }
 .work-subtitle{
     font-family: "Sacramento", cursive !important;
@@ -56,16 +58,13 @@
     margin-bottom:-5%;
     transform: skew(-15deg);
 }
-.rk{
-    position: relative;
-    display:flex;
-    flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: flex-start;
-	align-content: space-between;
-    background-color: transparent;
-    width: 80vw;
+.dot12{
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    z-index: 2;
+    padding-left: 2vw !important;
+    padding-top: .5vh;
 }
 .gallery-info{
     position: absolute;
@@ -93,8 +92,6 @@
     border-style: solid;
     border-color: transparent;
 }
-
-
 .first-column{
     margin-top:8vh;
 }
@@ -102,12 +99,10 @@
     margin-top:8vh;
     margin-right: 4vw;
     margin-left: 4vw;
-
 }
 .third-column{
     margin-top: 8vh;
 }
-
 .proj-deets{
     height: 20vh;
     width: 25vw;
@@ -147,8 +142,7 @@
 }
 .more-photos-btn{
     padding:0 0 10vh 0;
- }
-
+}
 .project-overview{
     display: flex;
     flex-direction: column;
@@ -159,82 +153,90 @@
     text-align:center;
     padding:10% 18% 8% 18%;
 }
- .photo-btn{
-     font-family: "Montserrat", sans-serif;
-     text-transform: uppercase;
-     padding: 1% 2% 1% 2%;
-     border-style: 0.05rem solid !important;
-     border-color: #FBC3BC !important;
-     border-radius:0.5rem;
-     cursor:pointer;
-     font-size:.8rem;
-     background-color: transparent !important;
- }
- .photo-btn:hover{
-     font-family: "Montserrat", sans-serif;
-     text-transform: uppercase;
-     border-radius: 0.5rem;
-     border: 0.05rem solid #EF6351 !important;
-     border-radius:0.5rem;
-     cursor:pointer;
-     font-size:.8rem;
-     background-color: #EF6351 !important;
-     color: white;
- }
+.photo-btn{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    padding: 1% 2% 1% 2%;
+    border-style: 0.05rem solid !important;
+    border-color: #FBC3BC !important;
+    border-radius:0.5rem;
+    cursor:pointer;
+    font-size:.8rem;
+    background-color: transparent !important;
+}
+.photo-btn:hover{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    border: 0.05rem solid #EF6351 !important;
+    border-radius:0.5rem;
+    cursor:pointer;
+    font-size:.8rem;
+    background-color: #EF6351 !important;
+    color: white;
+}
 
- @media (max-width: 900px) {
-    .work-heading{
-        font-size:4rem !important;
-        font-weight: 900;
-        line-height:2.5rem;
-        letter-spacing: .25rem;
-    }
-    
-    .dot6{
-        color: transparent !important;
-    }
-    
-    .work-subtitle{
-        font-size: 2.5rem;
-        font-weight: 00;
-        line-height:2.5rem;
-        text-align: left;
-    }
-    .gallery-info{
-       margin-top:-10vh;
-    }
-    .proj-title{
-        font-size: .9rem;
-        font-weight: 800;
-        line-height:1.5rem;
-        /* letter-spacing: .1rem; */
-        padding-bottom: 5%;
-    }
-    
-    .proj-details{
-        font-size: .5rem;
-        font-weight: 400;
-        line-height:.9rem;
-        letter-spacing: .075rem;
-        padding-bottom: 3%;
-    }
-    
-    .proj-date{
-        font-size: .4rem;
-        font-weight: 400;
-        line-height:.75rem;
-        letter-spacing: .05rem;
-        padding-bottom: 5% !important;
-    }
-    .bkgrd-left-work{
-        width: 68vw;
-        height:200vh;
-        background-color: white;
-    }
-    
-    .bkgrd-right-work{
-        width:50vw;
-        height:200vh;
-        background-color: #E3E1E1;
-    }
- }
+@media (max-width: 900px) {
+.work-heading{
+    font-size:4rem !important;
+    font-weight: 900;
+    line-height:2.5rem;
+    letter-spacing: .25rem;
+}
+.dot12{
+    color: transparent !important;
+}
+.work-subtitle{
+    font-size: 2.5rem;
+    font-weight: 00;
+    line-height:2.5rem;
+    text-align: left;
+}
+.gallery-info{
+    margin-top:-10vh;
+}
+.proj-title{
+    font-size: .9rem;
+    font-weight: 800;
+    line-height:1.5rem;
+    padding-bottom: 5%;
+}
+.proj-details{
+    font-size: .5rem;
+    font-weight: 400;
+    line-height:.9rem;
+    letter-spacing: .075rem;
+    padding-bottom: 3%;
+}
+.proj-date{
+    font-size: .4rem;
+    font-weight: 400;
+    line-height:.75rem;
+    letter-spacing: .05rem;
+    padding-bottom: 5% !important;
+}
+.bkgrd-left-work{
+    width: 68vw;
+    height:200vh;
+    background-color: white;
+}
+.bkgrd-right-work{
+    width:50vw;
+    height:200vh;
+    background-color: #E3E1E1;
+}
+}
+
+@media (max-width: 600px) {
+.work-heading{
+    background-color: transparent;
+    font-size:4rem !important;
+    line-height:3rem;
+    letter-spacing: .15rem;
+    padding-left: 2%;
+    padding-top: 25%;
+}
+.project-overview{
+    padding:10% 5% 8% 5% !important;
+}
+}

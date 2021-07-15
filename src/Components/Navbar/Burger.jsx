@@ -31,7 +31,7 @@ const StyledBurger = styled.div`
   @media (max-width: 850px) {
     display: flex;
     justify-content: space-around;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
   }
 
   div {

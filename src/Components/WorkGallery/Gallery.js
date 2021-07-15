@@ -30,8 +30,8 @@ export default class dev extends Component {
                                     <div><p>OJECTS</p></div>
                                 </div>
                             <div className="rk">
-                                <p className="work-subtitle">a handful of my recent work</p>
-                                <div className="dot6"><p>.</p></div>
+                                <div><p className="work-subtitle">a handful of my recent work</p></div>
+                                <div><p className="dot12">.</p></div>
                             </div>
                     
                     <ProjectWrapper >
