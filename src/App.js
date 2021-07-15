@@ -5,7 +5,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from './Components/Home/Home'
 import Header from './Components/Header/Header';
-// import Landing from './Components/Landing/Landing';
+import Landing from './Components/Landing/Landing';
 import About from './Components/About/About';
 import Education from './Components/Education/Education';
 import Client from './Components/Skills/Client';

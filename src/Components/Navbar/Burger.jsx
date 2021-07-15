@@ -2,19 +2,36 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import RightNav from './RightNav';
 
+const Burger = () => {
+  const [open, setOpen] = useState(false)
+
+  return (
+    <>
+      <StyledBurger open={open} onClick={() => setOpen(!open)}>
+        <div />
+        <div />
+        <div />
+      </StyledBurger>
+      <RightNav open={open} />
+    </>
+  )
+}
+
+export default Burger
+
 const StyledBurger = styled.div`
-  width: 2rem;
+  width: 1.5rem;
   height: 1.5rem;
-  position: fixed;
-  top: 15px;
-  right: 20px;
-  z-index: 20;
+  position: fixed !important;
+  top: 20px;
+  right: 30px;
+  z-index: 25 !important;
   display: none;
 
-  @media (max-width: 768px) {
+  @media (max-width: 850px) {
     display: flex;
     justify-content: space-around;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
   }
 
   div {
@@ -39,20 +56,3 @@ const StyledBurger = styled.div`
     }
   }
 `;
-
-const Burger = () => {
-    const [open, setOpen] = useState(false)
-
-    return (
-        <>
-            <StyledBurger open={open} onClick={() => setOpen(!open)}>
-                <div />
-                <div />
-                <div />
-            </StyledBurger>
-            <RightNav open={open} />
-        </>
-    )
-}
-
-export default Burger
