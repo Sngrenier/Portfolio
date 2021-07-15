@@ -183,7 +183,7 @@
 }
 
 
-@media screen and (min-width: 600px) and (max-width: 900px) {
+@media (max-width: 900px) {
     .workit-title{
         font-size:3rem !important;
         font-weight: 900;
@@ -225,6 +225,7 @@
 
     @media (max-width: 600px) {
         .image-wrapper{
+            width: 100vw !important;
             height:30vh !important;
             background-color:transparent;
         }
