@@ -178,7 +178,7 @@
     margin-bottom:5%;
 }
 
-@media screen and (min-width: 600px) and (max-width: 900px) {
+@media (max-width: 900px) {
     .workit-title{
         font-size:3rem !important;
         font-weight: 900;
@@ -220,6 +220,7 @@
 
     @media (max-width: 600px) {
         .image-wrapper{
+            width: 100vw !important;
             height:30vh !important;
             background-color:transparent;
         }
@@ -244,13 +245,19 @@
             letter-spacing: .15rem !important;
           }
         .project-overview{
-            padding: 5% 2% 10% 2% !important;
+            padding: 5% 2% 0 2% !important;
+        }
+        .project-overview-details{
+            padding-bottom: 0 !important;
         }
         .proj-para-1-body{
             font-size:1rem !important;
+            margin-top: -20vh !important;
+            margin-bottom: 2% !important;
         }
         .proj-para-body{
             font-size:.6rem;
+            margin-bottom: 0 !important;
         }
         .img-container{
             padding-top:2% !important;
