@@ -6,9 +6,9 @@ import Navbar from '../Navbar/Navbar'
 export default class Education extends Component {
     render() {
         return (
-            <div className="container-fluid">
+            <div>
                 <Navbar />
-                
+                <div className="container-fluid">
                 <div className="edu-page">
                 <div className="education-header">
                 <h5 className="education-title">education & resume</h5>
@@ -52,6 +52,7 @@ export default class Education extends Component {
                 </div>
                 </div>
             </div>
+        </div>
         )
     }
 }

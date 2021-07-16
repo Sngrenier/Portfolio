@@ -26,12 +26,14 @@ export default class Test extends Component {
             showThumbs: false
         }
         return (
-            <section className="carousel">
+            <div>
                 <Navbar />
+                <div className="container-fluid">
                 <div className="container-fluid test-page">
             <div className="test-header">
                 <h5 className="test-title">testimonials</h5>
             </div>
+            <section className="carousel">
         <div className="container-fluid slider">
             <Carousel {...settings}>
 
@@ -70,8 +72,10 @@ export default class Test extends Component {
 
             </Carousel>
         </div>
-        </div>
         </section>
+        </div>
+        </div>
+        </div>
         )
     }
 }

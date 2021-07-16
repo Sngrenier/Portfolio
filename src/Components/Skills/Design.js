@@ -11,7 +11,7 @@ export default class design extends Component {
       }
     render() {
         return (
-            <div className="container-fluid">
+            <div>
                 <Navbar />
 
                 <section className="design-skills">

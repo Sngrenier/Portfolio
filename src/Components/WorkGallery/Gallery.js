@@ -18,9 +18,10 @@ export default class dev extends Component {
 
     render() {
         return (
-            <div className="container-fluid">
+            <div >
                 <Navbar />
-
+                
+                <div className="container-fluid">
                 <div className="background-work">
                 <div className="bkgrd-left-work"></div>
                     <div className="bkgrd-right-work"></div>
@@ -167,10 +168,11 @@ export default class dev extends Component {
                     </div>
                     </div>
                 </div>
+                </div>
             </div>
-            </div>
-             )
-            }
+        </div>
+        )
+        }
     }
 
 

@@ -11,10 +11,10 @@ export default class client extends Component {
 
     render() {
         return (
-                <div className="container-fluid">
+                <div>
                     <Navbar />
                 
-                
+                <div className="container-fluid">
                 <div className="background2">
                     <div className="bkgrd-left3"></div>
                     <div className="bkgrd-right3">
@@ -67,7 +67,7 @@ export default class client extends Component {
                             </div>
                         </div>    
 
-                            
+                        </div> 
                 </div>
 
 
