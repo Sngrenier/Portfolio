@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import Burger from './Burger';
-import './Navbar.css'
 import { Events, animateScroll as scroll } from 'react-scroll'
 import { Link } from 'react-router-dom'
 
@@ -53,7 +52,9 @@ export default class Navbar extends Component {
 
 const Nav = styled.nav`
   width: 100vw;
-  height: 55px;
+  height: 7vh;
+  margin-top: 0 !important;
+  margin-left: 0 !important;
   padding: 0 2% 2% 2%;
   margin-bottom: 2%;
   background-color: white;

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom'
-import './Navbar.css'
+
 
 const RightNav = ({ open }) => {
     return (
@@ -73,6 +73,7 @@ li:hover{
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
     background-color: #EF6351;
+    overflow-y:scroll;
 
 li {
     font-family: "Montserrat", sans-serif;
@@ -90,10 +91,11 @@ li:hover{
 
 }
 @media screen and (min-width: 900px) and (max-width: 1100px){
-    width: 80vw !important;
+    width: 75vw !important;
+    padding:0 !important;
+    background-color: transparent;
 li{
     font-family: "Montserrat", sans-serif;
-    font-size: .5rem;
     letter-spacing: 2.2px;
     font-weight: 500;
     color: black;
@@ -101,7 +103,8 @@ li{
     text-align: right;
 }
 .link{
-    line-height:.5rem;
+    font-size: .5rem;
+    line-height:.7rem;
     padding: 0 !important;
 }
 }
