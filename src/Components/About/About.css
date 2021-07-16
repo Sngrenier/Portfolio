@@ -33,7 +33,6 @@
     font-weight: 900;
     line-height:4.5rem !important;
     letter-spacing: .25rem;
-    /* z-index: 5 !important; */
 }
 .me{
     display:flex;
@@ -81,7 +80,6 @@
     padding:22% 6% 20% 25%;
     text-align:right;
 }
-
 .about-header{
     font-family: 'Biryani', sans-serif !important;
     font-size:2rem;
@@ -91,7 +89,6 @@
     line-height: 2.5rem;
     background-color:transparent;
 }
-
 .about-para{
     font-family: 'Montserrat', sans-serif !important;
     font-size:.8rem;
@@ -99,12 +96,9 @@
     font-weight:300;
     line-height: 1.7rem;
 }
-
 .inv-para{
     padding: 3% 0 5% 0;
 }
-
-
 .scroll-bar-about{
     position: absolute;
     display:flex;
@@ -218,7 +212,7 @@
 .bkgrd-left2{
     width: 24vw;
     height:150vh;
-    margin-left: 1vw;
+    margin-left: 3vw;
 }
 .bkgrd-right2{
     width:72vw;

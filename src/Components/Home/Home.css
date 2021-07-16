@@ -6,13 +6,11 @@
 	align-items: stretch;
 	align-content: stretch;
 }
-
 .background-left-1{
     width: 50vw;
     height:110vh !important;
     background-color: #EF6351;
 }
-
 .background-right-1{
     width: 50vw;
     height:110vh !important;
@@ -108,36 +106,48 @@
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
 .background-left-1{
-    height:100vh;
+    height:100vh !important;
 }
-
 .background-right-1{
-    width: 50vw;
-    height:100vh;
-    background-color: #cfc9c9;
-    z-index: -1;
+    height:100vh !important;
 }
 .home-header{
-    font-size: .8rem;
+    font-size: 1rem;
+    padding-top: 5vh;
 }
 .hiya{
-    font-size: 10rem;
-    padding: 20% 0 10% 5%;
+    width: 100vw;
+    height: 20vh;
+    font-size: 8rem;
+    margin-top: 20vh;
+    padding: 5vh 2vw 0 0;
+    /* background-color: violet; */
 } 
 .home-jobs{
-    padding: 0 0 4% 3%;
+    width: 100vw;
+    padding: 2vh 0 10vh 0;
+    /* background-color: lightblue; */
 }
 .home-job-title{
     font-size: .8rem;
+    letter-spacing: .01 !important;
+    padding: 0 3% 0 3%;
 } 
 .home-job-divider{
     font-size: .6rem;
 }
-.port-btn{
-    font-size: .6rem;
-    width: 35vw !important;
+.port-button{
+    width: 50vw !important;
+    background-color: transparent;
 }
-
+.port-btn{
+    font-size: .8rem;
+    width: 45vw !important;
+    padding: 1.5vh 2vw 1.5vh 2vw;
+}
+.icon-links{
+    padding: 20vh 3vw 5vh 5vw;
+}
 }
