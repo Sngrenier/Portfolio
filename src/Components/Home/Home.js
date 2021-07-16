@@ -29,9 +29,9 @@ export default class Home extends Component {
                     </Link>
                 </div>
                 <div className="icon-links">
-                    <div className="home-icon"><img src="https://img.icons8.com/material-outlined/24/ffffff/open-envelope.png"/></div>
-                    <div className="home-icon"><img src="https://img.icons8.com/ios-glyphs/24/ffffff/linkedin-2--v1.png"/></div>
-                    <div className="home-icon"><img src="https://img.icons8.com/material-outlined/24/ffffff/github.png"/></div>
+                    <div className="home-icon"><img src="https://img.icons8.com/material-outlined/20/ffffff/open-envelope.png"/></div>
+                    <div className="home-icon"><img src="https://img.icons8.com/ios-glyphs/20/ffffff/linkedin-2--v1.png"/></div>
+                    <div className="home-icon"><img src="https://img.icons8.com/material-outlined/20/ffffff/github.png"/></div>
                 </div>
                 </div>
                 </div>

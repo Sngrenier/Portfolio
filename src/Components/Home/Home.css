@@ -101,7 +101,7 @@
     padding: 5% 3% 5% 5%;
 }
 .home-icon{
-    padding: 2%;
+    padding: 0 2vw 0 2vw;
 }
 
 
@@ -114,19 +114,23 @@
     height:100vh !important;
 }
 .home-header{
+    width: 100vw;
     font-size: 1rem;
-    padding-top: 5vh;
+    padding: 5vh 0 0 5vw !important;
+    background-color: transparent;
 }
 .hiya{
     width: 100vw;
     height: 20vh;
     font-size: 8.5rem;
-    margin-top: 20vh;
-    padding: 5vh 2vw 0 0;
+    margin-top: 15vh;
+    padding: 5vh 2vw 0 4vw;
 } 
 .home-jobs{
     width: 100vw;
-    padding: 2vh 0 10vh 0;
+    height: 10vh;
+    padding: 2vh 0 10vh 4vw;
+    background-color: transparent;
 }
 .home-job-title{
     font-size: .8rem;
@@ -141,23 +145,27 @@
 .port-button{
     width: 50vw !important;
     background-color: transparent;
+    padding-left: 5vw;
 }
 .port-btn{
     font-size: .8rem;
-    width: 45vw !important;
-    padding: 1.5vh 2vw 1.5vh 2vw;
+    width: 40vw !important;
+    padding: 2vh 1vw 2vh 1vw;
 }
 .icon-links{
     padding: 20vh 3vw 5vh 5vw;
+}
+.home-icon{
+    padding: 0 2vw 0 2vw !important;
 }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1100px) {
 .background-left-1{
-    height:150vh !important;
+    height:120vh !important;
 }
 .background-right-1{
-    height:150vh !important;
+    height:120vh !important;
 }
 .home-header{
     font-size: 1rem;
