@@ -107,7 +107,7 @@
 
 @media (max-width: 600px) {
 .background4{
-    width: 110vw !important;
+    width: 100vw !important;
     height: 150vh !important;
     overflow: hidden;
     z-index:-2 !important;
@@ -115,7 +115,8 @@
 .development-skill{
     padding-top:45vh !important;
     height: 85vh;
-    background-color: transparent;
+    background-color:transparent;
+    margin-left: -2vw !important;
     font-size: 5rem;
     font-weight: 200;
     z-index: 5 !important;
@@ -152,6 +153,7 @@
 }
 .dev-title{
     font-size:1rem;
+    font-weight: 500;
     width:55vw !important;
     height: 6vh;
     margin-top: 3vh;
@@ -250,6 +252,7 @@
     }
     .dev-title{
         font-size:1rem;
+        font-weight: 500;
     }
     .dev-bullet{
         font-size:.9rem;
