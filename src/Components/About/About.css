@@ -96,13 +96,16 @@
     line-height: 1.5em;
     background-color:transparent;
     letter-spacing: .26em;
+    padding-left: 5vw;
+
 }
 .about-para{
     font-family: 'Montserrat', sans-serif !important;
-    font-size:.8rem;
+    font-size:.9rem;
     text-align:right;
     font-weight:300;
     line-height: 1.7rem;
+    letter-spacing: .1em;
 }
 .inv-para{
     padding: 3% 0 5% 0;
@@ -116,7 +119,7 @@
 	align-items: center;
 	align-content: space-between;
     width:5vw;
-    height:120vh;
+    height:125vh;
     background-color: transparent;
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: .8rem;
@@ -138,11 +141,11 @@
     color: black;
     letter-spacing: .25rem;
     background-color: transparent;
-    width: 5vh;
+    width: 10vh;
 }
 .arrow-about{
-    margin-top: 5%;
-    padding: 5%;
+    margin-top: 10%;
+    padding: 10%;
     background-color: transparent;
 }
 .project-overview{
@@ -172,12 +175,12 @@
     transform: skew(-15deg); 
 }
 .proj-para-1-about{
-    padding:5vh 12vw 0 12vw !important;
+    padding:5vh 12vw 5vh 12vw !important;
     font-family: 'Montserrat', sans-serif !important;
     font-size:1rem;
     padding-bottom: 6vh;
     font-weight:400;
-    line-height: 2em;
+    line-height: 2.5em;
     background-color:transparent;
     letter-spacing: .15em;
 }
@@ -199,7 +202,6 @@
     line-height: 2em;
     background-color:transparent;
     letter-spacing: .26em;
-    padding-bottom: 0;
 }
 .contact-icons{
     width: 30vw;
