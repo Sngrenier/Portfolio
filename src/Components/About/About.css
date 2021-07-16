@@ -28,11 +28,18 @@
 	align-content: flex-start;
     height:85vh;
     background-color: transparent;
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif;
     font-size: 6rem;
     font-weight: 900;
     line-height:4.5rem !important;
-    letter-spacing: .25rem;
+    letter-spacing: .25rem; */
+    font-family: "Roboto", sans-serif;
+    font-size: 10rem;
+    font-weight: 200;
+    color: black;
+    line-height: .75em;
+    padding: 15% 0 5% 5%;
+    width: 70vw;
 }
 .me{
     display:flex;
@@ -50,9 +57,9 @@
     z-index: 3;
 }
 .dot2{
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 5rem;
-    font-weight: 900;
+    font-weight: 600;
     line-height: 4rem !important;
     padding-left:6%;
     z-index: 2;
@@ -81,13 +88,14 @@
     text-align:right;
 }
 .about-header{
-    font-family: 'Biryani', sans-serif !important;
-    font-size:2rem;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size:2.15rem;
     padding-bottom: 6vh;
     text-align:right;
-    font-weight:700;
-    line-height: 2.5rem;
+    font-weight:400;
+    line-height: 1.5em;
     background-color:transparent;
+    letter-spacing: .26em;
 }
 .about-para{
     font-family: 'Montserrat', sans-serif !important;
@@ -114,7 +122,7 @@
     font-size: .8rem;
     font-weight: 400;
     letter-spacing: .2rem;
-    margin-right: 5%;
+    margin-right: 10%;
 }
 .scroll-about{
     color: black;
@@ -128,16 +136,17 @@
 .scroll-para-about{
     transform: rotate(-90deg);
     color: black;
-    letter-spacing: .1rem;
+    letter-spacing: .25rem;
     background-color: transparent;
-    width: 15vh;
+    width: 5vh;
 }
 .arrow-about{
-    margin-top: 15%;
-    padding: 15%;
+    margin-top: 5%;
+    padding: 5%;
     background-color: transparent;
 }
 .project-overview{
+    margin-top: 5vh !important;
     margin-bottom:0 !important;
     height:80vh;
     background-color: transparent;
@@ -152,27 +161,6 @@
 	align-content: center;
     text-align:center;
     background-color: transparent;
-    margin-top: -10vh;
-}
-.proj-para-about{
-    font-family: 'Montserrat', sans-serif !important;
-    color: #EF6351 !important;
-    font-size:1.2rem !important;
-    font-weight:700 !important;
-    letter-spacing:.05rem;
-    line-height: 2.2rem;
-    background-color: transparent;
-    padding:2% 15% 2% 15%;
-}
-.proj-para-1-about{
-    padding:2% 15% 2% 15%;
-    font-family: 'Montserrat', sans-serif !important;
-    color: black !important;
-    font-size:1rem !important;
-    font-weight:400 !important;
-    letter-spacing:.05rem;
-    line-height: 2rem;
-    background-color: transparent;
 }
 .proj-para-body-about{
     color:#EF6351;
@@ -183,14 +171,35 @@
     letter-spacing: .25rem;
     transform: skew(-15deg); 
 }
-.proj-para-2-about{
+.proj-para-1-about{
+    padding:5vh 12vw 0 12vw !important;
     font-family: 'Montserrat', sans-serif !important;
-    color: black !important;
-    font-size:1rem !important;
-    font-weight:600 !important;
-    letter-spacing:.05rem;
+    font-size:1rem;
+    padding-bottom: 6vh;
+    font-weight:400;
+    line-height: 2em;
+    background-color:transparent;
+    letter-spacing: .15em;
+}
+.proj-para-about{
+    font-family: 'Montserrat', sans-serif !important;
+    color: #EF6351 !important;
+    font-size:1.2rem !important;
+    font-weight:700 !important;
+    letter-spacing:.1em;
     line-height: 2.2rem;
     background-color: transparent;
+    padding:5vh 18vw 5vh 18vw;
+}
+.proj-para-2-about{
+    font-family: 'Montserrat', sans-serif !important;
+    font-size:1rem;
+    padding-bottom: 6vh;
+    font-weight:400;
+    line-height: 2em;
+    background-color:transparent;
+    letter-spacing: .26em;
+    padding-bottom: 0;
 }
 .contact-icons{
     width: 30vw;

@@ -92,7 +92,7 @@ export default class About extends Component {
                     <div className="project-overview-about">
                     <p className="proj-para-body-about">Thanks for taking the time to get to know me! </p>
                     <p className="proj-para-1-about">I hope you take a few minutes to explore this labor of love, a.k.a my portfolio, to better understand my design aesthetic and web development skills.  I look forward to the opportunity to learn more about you!</p>
-                    <p className="proj-para-about">email, call or text anytime! Connect with me on Linkedin and find me on Github.</p>
+                    <p className="proj-para-about">email, call or text anytime! connect with me on Linkedin and find me on Github.</p>
                     <p className="proj-para-2-about">sngrenier@gmail.com    |    301.793.6024</p>
                     <div className="row contact-row">
                         <div className="contact-icons">
