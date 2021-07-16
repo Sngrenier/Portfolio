@@ -170,7 +170,7 @@ padding-bottom: 2%;
 }
 }
 
-@media screen and (min-width: 800px) and (max-width: 900px) {
+@media screen and (min-width: 800px) and (max-width: 1000px) {
 .test-page{
     height:140vh;
 }
@@ -211,7 +211,7 @@ padding-bottom: 2%;
 .cc-2 {
     color: black;
     line-height: 1rem;
-    padding-left: 50%;
+    padding-left: 50% !important;
     font-family: 'Montserrat', sans-serif !important;
     font-size:.7rem;
     text-align:right;
@@ -221,22 +221,19 @@ padding-bottom: 2%;
 .cc-3 {
     color: black;
     line-height: 1rem;
-    padding-left: 50%;
+    padding-left: 50vw !important;
     font-family: 'Montserrat', sans-serif !important;
     font-size:.8rem;
     text-align:right;
     font-weight:500;
 }
 #caro-2{
-    width: 70vw;
     margin-bottom: 40vh !important;
 }
 #caro-1{
-    width: 70vw;
     margin-bottom: 20vh !important;
 }
 #caro-3{
-    width: 70vw;
     margin-bottom: 30vh !important;
 }
 }
