@@ -90,17 +90,17 @@ export default class About extends Component {
                 <div className="container-fluid">
                 <div className="project-overview">
                     <div className="project-overview-about">
-                    <p className="proj-para-body-about">Thanks for taking the time to get to know me! </p>
+                    <p className="proj-para-body-about">thanks for taking the time to get to know me! </p>
                     <p className="proj-para-1-about">I hope you take a few minutes to explore this labor of love, a.k.a my portfolio, to better understand my design aesthetic and web development skills.  I look forward to the opportunity to learn more about you!</p>
                     <p className="proj-para-about">email, call or text anytime! connect with me on Linkedin and find me on Github.</p>
                     <p className="proj-para-2-about">sngrenier@gmail.com    |    301.793.6024</p>
                     <div className="row contact-row">
                         <div className="contact-icons">
                         <a href="https://www.linkedin.com/in/stacy-grenier/">
-                        <img alt="img-2" className="icon-pic" width={25} height={25} src={linkedicon} />
+                        <img alt="img-2" className="icon-pic" width={20} height={20} src={linkedicon} />
                         </a>
                         <a href="https://github.com/Sngrenier">
-                        <img alt="img-2" className="icon-pic" width={25} height={25} src={githubicon} />
+                        <img alt="img-2" className="icon-pic" width={20} height={20} src={githubicon} />
                         </a>
                         </div>
                     </div>
