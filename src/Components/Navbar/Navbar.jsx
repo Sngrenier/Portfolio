@@ -52,7 +52,7 @@ export default class Navbar extends Component {
 
 const Nav = styled.nav`
   width: 100vw;
-  height: 7vh;
+  height: 55px;
   margin-top: 0 !important;
   margin-left: 0 !important;
   padding: 0 2% 2% 2%;
@@ -64,9 +64,10 @@ const Nav = styled.nav`
   position: fixed;
   z-index: 7;
   text-decoration: none !important;
+  background-color: white;
 
   .logo-name {
-    padding: 2.5vh 0 0 1vw;
+    padding: 1.5vh 0 2vh 1vw;
     font-family: "Ubuntu", sans-serif;
     font-size: 1rem;
     letter-spacing: 2.5px;

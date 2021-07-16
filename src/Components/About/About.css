@@ -205,7 +205,7 @@
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
 .background2{
     display: flex;
     flex-direction: row;
@@ -329,97 +329,8 @@
 }
 }
 
-@media screen and (min-width: 800px) and (max-width: 900px){
-.background2{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: stretch;
-    align-content: stretch;
-}
-.bkgrd-left2{
-    width: 24vw;
-    height:275vh;
-}
-.bkgrd-right2{
-    width:72vw;
-    height:275vh;
-}
-.about{
-padding-top:20vh !important;
-margin-left: 2vw;
-background-color: transparent;
-font-size: 5rem;
-font-weight: 200;
-z-index: 5 !important;
-}
-.me{
-    font-size: 5.5rem;
-    line-height: 2rem !important;
-    z-index: 3;
-}
-.dot2{
-    font-size: 3rem;
-    font-weight: 900;
-    line-height: 2rem !important;
-    padding-left:6%;
-    z-index: 2;
-}
-.about-details{
-    width:72vw;
-    height:150vh !important;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-    background-color: transparent;
-    text-align:left !important;
-    z-index: 2;
-}
-.about-header{
-    margin-top: 20vh;
-    padding-bottom: 4vh;
-    font-size:1.5rem;
-    text-align:right;
-    font-weight:400;
-    line-height: 1.5em;
-    margin-left: -15vw;
-}
-.about-para{
-    font-size:.8rem;
-    font-weight:300;
-    line-height: 1.7rem;
-    letter-spacing: .1em;
-    z-index:2;
-    padding-bottom: 5vh;
-    padding-left: 2vw;
-    background-color: transparent;
-}
-.inv-para{
-    padding: 3% 0 0 0  !important;
-    z-index:2;
-}
-.proj-para-1-about{
-    padding:5vh 2vw 3vh 2vw !important;
-}
-.proj-para-about{
-    padding:2% 5% 2% 5%;
-}
-.scroll-para-about{
-    color: transparent;
-}
-.arrow-about{
-    display: hidden !important;
-    width: 0 !important;
-}
 
-}
-
-
-@media screen and (min-width: 700px) and (max-width: 800px){
+@media screen and (min-width: 600px) and (max-width: 800px){
 .background2{
     display: flex;
     flex-direction: row;
@@ -499,6 +410,96 @@ z-index: 5 !important;
 }
     
 }
+
+@media screen and (min-width: 800px) and (max-width: 900px){
+    .background2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: stretch;
+        align-content: stretch;
+    }
+    .bkgrd-left2{
+        width: 24vw;
+        height:275vh;
+        margin-left: 3vw;
+    }
+    .bkgrd-right2{
+        width:72vw;
+        height:275vh;
+    }
+    .about{
+    padding-top:20vh !important;
+    margin-left: 2vw;
+    background-color: transparent;
+    font-size: 5rem;
+    font-weight: 200;
+    z-index: 5 !important;
+    }
+    .me{
+        font-size: 5.5rem;
+        line-height: 2rem !important;
+        z-index: 3;
+    }
+    .dot2{
+        font-size: 3rem;
+        font-weight: 900;
+        line-height: 2rem !important;
+        padding-left:6%;
+        z-index: 2;
+    }
+    .about-details{
+        width:72vw;
+        height:150vh !important;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        background-color: transparent;
+        text-align:left !important;
+        z-index: 2;
+    }
+    .about-header{
+        margin-top: 20vh;
+        padding-bottom: 4vh;
+        font-size:1.5rem;
+        text-align:right;
+        font-weight:400;
+        line-height: 1.5em;
+        margin-left: -15vw;
+    }
+    .about-para{
+        font-size:.8rem;
+        font-weight:300;
+        line-height: 1.7rem;
+        letter-spacing: .1em;
+        z-index:2;
+        padding-bottom: 5vh;
+        padding-left: 2vw;
+        background-color: transparent;
+    }
+    .inv-para{
+        padding: 3% 0 0 0  !important;
+        z-index:2;
+    }
+    .proj-para-1-about{
+        padding:5vh 2vw 3vh 2vw !important;
+    }
+    .proj-para-about{
+        padding:2% 5% 2% 5%;
+    }
+    .scroll-para-about{
+        color: transparent;
+    }
+    .arrow-about{
+        display: hidden !important;
+        width: 0 !important;
+    }
+    
+    }
 
 @media screen and (min-width: 900px) and (max-width: 1100px){
     .bkgrd-left2{

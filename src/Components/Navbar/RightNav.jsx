@@ -93,7 +93,7 @@ li:hover{
 @media screen and (min-width: 900px) and (max-width: 1100px){
     width: 75vw !important;
     padding:0 !important;
-    background-color: transparent;
+    background-color: white;
 li{
     font-family: "Montserrat", sans-serif;
     letter-spacing: 2.2px;
