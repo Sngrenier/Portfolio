@@ -6,6 +6,10 @@ import { Link } from 'react-router-dom'
 const RightNav = ({ open }) => {
     return (
         <Ul open={open}>
+            {/* <li>
+                <Link to='/newabout'>
+                    <p className="link">ABOUT ME</p>
+                </Link></li> */}
             <li>
                 <Link to='/about'>
                     <p className="link">ABOUT</p>

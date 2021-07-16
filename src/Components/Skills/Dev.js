@@ -7,14 +7,11 @@ import Navbar from '../Navbar/Navbar'
 export default class dev extends Component {
     render() {
         return (
-            <div className="container-fluid">
+            <div>
                 <Navbar />
 
                 <div className="background4">
                     <div className="bkgrd-left4">
-                        <img alt="img-2" className="bkgrd-img" src={webdevbkgrnd} />
-                        {/* <img alt="" className="bkrd-img" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/203655815_10110602246175528_9206530618877533524_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=0debeb&_nc_ohc=B4dVvGTusv0AX-tHqML&_nc_ht=scontent-sjc3-1.xx&oh=a81f3e67afbabbeec512db04b1c4c211&oe=60DC306B"></img> */}
-                    </div>
 
                     <div className="development-skill">
                             <div className="dev"><p>DEV</p></div>
@@ -25,7 +22,9 @@ export default class dev extends Component {
                                 <div className="dot4"><p>.</p></div>
                             </div>
                             </div>
+                        <img alt="img-2" className="bkgrd-img" src={webdevbkgrnd} />
                     
+                    </div>
 
                     <div className="row">
                         <div className="dev-bullets">
@@ -39,7 +38,7 @@ export default class dev extends Component {
                                 <li className="dev-title">FRONTEND TOOLS</li>
                                 <li className="dev-bullet">REST APIS</li>
                                 <li className="dev-bullet">CONTEXT</li>
-                                <li className="dev-bullet">REDUX</li>REA
+                                <li className="dev-bullet">REDUX</li>
                                 <li className="dev-bullet">AXIOS</li>
                                 <li className="dev-bullet">MASSIVE</li>
                                 <li className="dev-bullet">BCRYPT</li>
@@ -60,7 +59,7 @@ export default class dev extends Component {
                                 <li className="dev-bullet1">EXPRESS</li>
                             </ul>
                             <ul className="platforms">
-                                <li className="dev-title">PLATFORMS + HOSTING</li>
+                                <li className="dev-title" id="platforms">PLATFORMS + HOSTING</li>
                                 <li className="dev-bullet1">GIT</li>
                                 <li className="dev-bullet1">GITHUB</li>
                                 <li className="dev-bullet1">NGINX</li>
