@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 export default class Home extends Component {
     render() {
         return (
-            <div className="container-fluid">
+            <div>
                 <div className="background">
                 <div className="background-left-1">
                 <header className="home-header">
