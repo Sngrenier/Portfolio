@@ -1,7 +1,6 @@
 .test-page{
     height:80vh;
 }
-
 .test-header{
     width: 95vw;
     height: 18vh;
@@ -13,7 +12,6 @@
 	align-items: flex-end;
 	align-content: center;
 }
-
 .test-title{
     font-family: "Sacramento", cursive !important;
     color: #EF6351;
@@ -24,7 +22,6 @@
     margin-top:3%;
     transform: skew(-15deg);
 }
-
 .carousel{
     margin-bottom: 18% !important;
     margin-top:2% !important;
@@ -32,7 +29,6 @@
 .slider{
     height: 80vh !important;
 }
-
 .image-slider {
     display: flex;
     justify-content: stretch;
@@ -48,14 +44,12 @@
     margin: 15px;
     font-size: 1rem;
 }
-
 .carousel-caption {
     position: absolute;
     margin-bottom: 8%;
     text-align: right;
     color: black;
 }
-
 .quote{
     position: absolute;
     width: 60vw;
@@ -71,7 +65,6 @@
     margin-bottom:20vh !important;
     transform: rotate(-180deg);
 }
-
 .quote-2{
     font-family: 'Catamaran', sans-serif;
     color: #EF6351;
@@ -79,7 +72,6 @@
     font-size: 5rem;
     line-height:2rem;
 }
-
 .cc-1 {
 color: black;
 font-size: 1.8rem;
@@ -88,7 +80,6 @@ font-family: "Montserrat", sans-serif;
 font-weight: 900;
 padding-bottom: 1%;
 }
-
 .cc-2 {
 color: black;
 line-height: 2rem;
@@ -99,7 +90,6 @@ text-align:right;
 font-weight:300;
 padding-bottom: 2%;
 }
-
 .cc-3 {
     color: black;
     line-height: 2.2rem;
@@ -111,6 +101,12 @@ padding-bottom: 2%;
     }
 
 @media (max-width: 800px) {
+.test-header{
+    width: 95vw;
+    height: 20vh;
+    background-color: transparent;
+    margin-bottom: 15vh;
+}
 .test-title{
     font-size: 2.5rem;
     font-weight: 600;
@@ -121,6 +117,11 @@ padding-bottom: 2%;
 }
 .carousel-caption{
     background-color: transparent;
+    /* margin-bottom: 20% !important; */
+}
+.carousel-slider{
+    background-color: transparent;
+    height: 60vh;
 }
 .quote{
     display:hidden;
@@ -167,4 +168,75 @@ padding-bottom: 2%;
     width: 70vw;
     margin-bottom: 20vh !important;
 }
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px) {
+.test-page{
+    height:140vh;
+}
+.test-header{
+    width: 95vw;
+    height: 40vh;
+    background-color: transparent;
+    margin-bottom: 15vh;
+}
+.test-title{ 
+    padding-bottom: 4vh;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height:1rem;
+    letter-spacing: .3rem;
+}
+.slider{
+    height: 110vh !important;
+}
+.carousel-slider{
+    background-color: transparent;
+    height: 100vh;
+}
+.image-slider {
+    width: 100vw;
+    height: 100vh !important;
+    /* margin: 15px; */
+}
+.cc-1 {
+    margin-top: -10vh !important;
+    color: black;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    padding-bottom: 1%;
     }
+.cc-2 {
+    color: black;
+    line-height: 1rem;
+    padding-left: 50%;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size:.7rem;
+    text-align:right;
+    font-weight:300;
+    padding-bottom: 0;
+}
+.cc-3 {
+    color: black;
+    line-height: 1rem;
+    padding-left: 50%;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size:.8rem;
+    text-align:right;
+    font-weight:500;
+}
+#caro-2{
+    width: 70vw;
+    margin-bottom: 40vh !important;
+}
+#caro-1{
+    width: 70vw;
+    margin-bottom: 20vh !important;
+}
+#caro-3{
+    width: 70vw;
+    margin-bottom: 30vh !important;
+}
+}

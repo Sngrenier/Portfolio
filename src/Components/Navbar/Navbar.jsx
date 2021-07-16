@@ -67,7 +67,7 @@ const Nav = styled.nav`
   background-color: white;
 
   .logo-name {
-    padding: 1.5vh 0 2vh 1vw;
+    padding: 2.5vh 0 2vh 1vw;
     font-family: "Ubuntu", sans-serif;
     font-size: 1rem;
     letter-spacing: 2.5px;
