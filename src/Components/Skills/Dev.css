@@ -244,7 +244,7 @@
     }
     .dot4{
         font-size: 4.5rem;
-        padding-left:15%;
+        padding-left:10%;
     }
     .dev-bullets{
         position: absolute;
@@ -278,5 +278,45 @@
 
 
 @media screen and (min-width: 900px) and (max-width: 1100px){
-
+    .background4{
+        width: 100vw !important;
+        height: 130vh !important;
+    }
+    .development-skill{
+        padding-top:35vh !important;
+        background-color: transparent;
+        font-size: 8rem;
+    }
+    .skills2{
+        font-size: 4.5rem;
+    }
+    .dot4{
+        font-size: 4rem;
+        padding-left:10%;
+    }
+    .dev-title{
+        font-size:1.5rem;
+        font-weight: 500;
+        height: 8vh;
+        background-color: transparent;
+    }
+    .dev-bullet{
+        font-size:1rem;
+    }
+    .dev-bullet1{
+        background-color: transparent;
+        font-size:1rem;
+    }
+    #platforms{
+        height: 12vh !important;
+        line-height: 1.5rem !important;
+        padding-top: 2vh;
+    }
+    .column-one{
+        margin-top: -45vh !important;
+    }
+    .column-two{
+        margin-top: -25vh !important;
+        padding-left:3vw;
+    }
 }
