@@ -284,12 +284,12 @@
 }
 .prof-pic{
     width: 32vh !important;
-    margin: -6vh 0 0 -10vw;
+    margin: -4.5vh 0 0 -10vw;
     overflow:hidden;
     z-index: -1;
 }
 .project-overview-about{
-    padding-top: 10vh;
+    padding-top: 7vh;
 }
 .proj-para-body-about{
     font-size: 2.5rem;
@@ -437,6 +437,9 @@
     font-weight: 200;
     z-index: 5 !important;
     }
+    .bout{
+        margin-left:-1vw;
+    }
     .me{
         font-size: 5.5rem;
         line-height: 2rem !important;
@@ -463,8 +466,9 @@
         z-index: 2;
     }
     .about-header{
-        margin-top: 20vh;
+        margin-top: 30vh;
         padding-bottom: 4vh;
+        padding-left: 10vw;
         font-size:1.5rem;
         text-align:right;
         font-weight:400;
