@@ -60,11 +60,11 @@
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-around;
-	align-items: flex-end;
-	align-content: flex-end;
-    width: 80vw;
+	align-items: flex-start;
+	align-content: flex-start;
+    width: 75vw;
     background-color: transparent;
-    line-height: 3rem;
+    line-height: 4rem;
     margin-bottom:0;
 }
 .title-line1{
@@ -98,7 +98,7 @@
     width:30vw;
     height: 10vh;
     line-height: 4rem;
-    padding-left: 15%;
+    padding-left: 10vw;
 }
 .bullet-line2{
     background-color: transparent;
@@ -108,11 +108,11 @@
     width:30vw;
     text-align: left;
     letter-spacing: .15rem;
-    padding-left: 15%;
+    padding-left: 10vw;
 }
 .category-1 {
     background-color: transparent;
-    padding-left: 5vw;
+    padding: 20vh 0 0 5vw;
 }
 .column-2{
     background-color: transparent;
@@ -222,7 +222,7 @@
 }
 .design-skill{
     position: absolute;
-    padding:60vh 0 0 5vw;
+    padding:60vh 0 0 5vw !important;
     width:20vw;
     height:80vh;
     background-color: transparent;
@@ -250,7 +250,7 @@
     justify-content: space-around;
     align-items: flex-start;
     align-content: flex-start;
-    padding: 90vh 0 2vh 50vw;
+    padding: 90vh 0 2vh 50vw  !important;
     width: 95vw;
     background-color: transparent;
     line-height: 1.5rem;
