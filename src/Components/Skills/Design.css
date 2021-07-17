@@ -5,46 +5,29 @@
 	justify-content: flex-start;
 	align-items: stretch;
 	align-content: stretch;
-    width: 96vw !important;
-    height: 130vh !important;
+    width: 100vw;
+    height: 110vh;
     overflow: hidden;
+    z-index:-1 !important;
 }
-
 .design-skill{
     position: absolute;
-    padding-top:40vh;
-    left:10%;
+    padding:50vh 0 0 15vw;
     display:flex;
     flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: flex-start;
 	align-items: flex-start;
 	align-content: flex-start;
-    color: #EF6351;
-    width:22vw;
-    height:85vh;
+    color: black;
+    width:40vw;
+    height:100vh;
     background-color: transparent;
-    font-family: "Montserrat", sans-serif;
-    font-size: 6rem;
-    font-weight: 900;
-    line-height:4.5rem;
-    letter-spacing:.25rem;
-    z-index: 2;
-}
-.design{
-    margin-top:-10vh;
-    padding-left:6vw;
-}
-.design-under{
-    transform: rotate(-90deg);
-    color: #F0E4DE;
-    margin-left:-90%;
-    line-height: 20rem;
-    font-family: "Montserrat", sans-serif;
-    font-size: 12rem;
-    font-weight: 900;
-    z-index:-1;
-    letter-spacing: -1rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 10rem;
+    font-weight: 200;
+    line-height:.75em;
+    z-index: 3 !important;
 }
 .skills{
     display:flex;
@@ -57,188 +40,437 @@
     width:20vw;
     font-family: "Sacramento", cursive !important;
     font-size: 5.5rem;
-    line-height: 6.5rem;
+    line-height: 6rem;
     z-index: 3;
-    color: #EF6351;
-    padding-left:6.5vw;
+    padding-left:1.5vw;
 }
-
 .dot3{
-    color: black;
     font-family: "Montserrat", sans-serif;
-    font-size: 5rem;
+    color: black;
+    font-size: 4rem;
     font-weight: 900;
     line-height: 5.5rem;
-    padding-left:6%;
+    padding-left:10%;
     z-index: 2;
 }
-
 .design-info{
     position: absolute;
-    padding: 15% 0 2% 35%;
+    padding: 25vh 0 2vh 50vw;
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-around;
-	align-items: flex-start;
-	align-content: center;
-    width: 85vw;
+	align-items: flex-end;
+	align-content: flex-end;
+    width: 80vw;
     background-color: transparent;
     line-height: 3rem;
     margin-bottom:0;
 }
-
 .title-line1{
     background-color: transparent;
-    font-family: 'Oswald', sans-serif !important;
+    font-family: 'roboto', sans-serif !important;
+    color: #EF6351;
     font-size:2rem;
-    font-weight:700;
+    font-weight:500;
     letter-spacing: .20rem;
-    width:30vw;
+    width:25vw;
+    height: 10vh;
     line-height: 4rem;
-    padding-left: 30%;
     text-align:right;
 }
-
 .bullet-line1{
     background-color: transparent;
     font-family: 'Montserrat', sans-serif !important;
-    font-size:.8rem;
-    font-weight:500;
-    width:30vw;
+    font-size:1rem;
+    font-weight:400;
+    width:25vw;
     text-align: right;
     letter-spacing: .15rem;
-    padding-left: 30%;
 }
-
 .title-line2{
     background-color: transparent;
-    font-family: 'Oswald', sans-serif !important;
+    font-family: 'roboto', sans-serif !important;
+    color: #EF6351;
     font-size:2rem;
-    font-weight:700;
+    font-weight:500;
     letter-spacing: .20rem;
-    width:40vw;
+    width:30vw;
+    height: 10vh;
     line-height: 4rem;
     padding-left: 15%;
 }
-
 .bullet-line2{
     background-color: transparent;
     font-family: 'Montserrat', sans-serif !important;
-    font-size:.8rem;
-    text-align:right;
-    font-weight:500;
+    font-size:1rem;
+    font-weight:400;
     width:30vw;
     text-align: left;
     letter-spacing: .15rem;
     padding-left: 15%;
 }
+.category-1 {
+    background-color: transparent;
+    padding-left: 5vw;
+}
+.column-2{
+    background-color: transparent;
+}
 
+@media (max-width: 600px) {
+.background3{
+    position: absolute;
+    width: 100vw;
+    height: 110vh !important;
+    overflow: hidden;
+    z-index:-1 !important;
+}
+.bkgrd-img-design{
+    height: 85vh !important;
+    width: 300vw !important;
+}
+.design-skill{
+    position: absolute;
+    padding:10vh 0 0 4vw;
+    width:20vw;
+    height:80vh;
+    background-color: transparent;
+    font-size: 6rem;
+    font-weight: 200;
+    line-height:.75em;
+}
+.skills{
+    background-color: transparent;
+    width:20vw;
+    font-size: 4rem;
+    line-height: 4rem;
+    padding-left:1.5vw;
+}
+.dot3{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 4rem;
+    padding-left:15%;
+}
+.design-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 42vh 0 2vh 0;
+    width: 95vw;
+    background-color: transparent;
+    line-height: 1.5rem;
+    margin-bottom:0;
+}
+.title-line1{
+    background-color: transparent;
+    font-size:1.5rem;
+    font-weight:500;
+    letter-spacing: .15rem;
+    width:35vw;
+    height: 8vh;
+    line-height: 2rem;
+}
+.title-line2{
+    background-color: transparent;
+    font-size:1.5rem;
+    font-weight:500;
+    letter-spacing: .15rem;
+    width:45vw;
+    height: 8vh;
+    line-height: 2rem;
+}
+.bullet-line1{
+    background-color: transparent;
+    font-size:.7rem;
+    font-weight:400;
+    width:35vw;
+    letter-spacing: .1rem;
+}
+.bullet-line2{
+    background-color: transparent;
+    font-size:.7rem;
+    font-weight:400;
+    width:45vw;
+    letter-spacing: .1rem;
+}
+.category-1 {
+    background-color: transparent;
+    padding-left: 5vw;
+}
+.column-2{
+    background-color: transparent;
+}
 
-@media (max-width: 900px) {
-    .background3{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: flex-end;
-        align-items: stretch;
-        align-content: stretch;
-        width: 96vw !important;
-        height: 120vh !important;
-        left:0 !important;
-    }
-    .design-skill{
-        position: relative !important;
-        background-color: transparent;
-        font-size: 6rem;
-        font-weight: 900;
-        line-height:4.5rem;
-        letter-spacing:.25rem;
-        z-index: 2;
-    }
-    .design{
-        padding-left:1vw;
-    }
-    .design-under{
-        position:relative !important;
-        margin-left:-65vw;
-        line-height: 20rem;
-        font-size: 10rem;
-        font-weight: 900;
-        z-index:-1;
-        letter-spacing: -1rem;
-    }
-    .skills{
-        font-size: 5.5rem;
-        line-height: 6rem;
-        z-index: 3;
-        padding-left:1vw;
-    }
-    
-    .dot3{
-        color: black;
-        font-family: "Montserrat", sans-serif;
-        font-size: 5rem;
-        font-weight: 900;
-        line-height: 5rem;
-        padding-left:4vw;
-        z-index: 2;
-    }
-    
-    .design-info{
-        padding: 10% 0 20% 0 !important;
-        position: relative !important;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: flex-start;
-        align-content: center;
-        width: 95vw !important;
-        background-color: transparent;
-        line-height: 1rem;
-        margin-bottom:0;
-    }
-    .title-line1{
-        background-color: transparent !important;
-        font-family: 'Oswald', sans-serif !important;
-        font-size:1rem !important;
-        font-weight:700;
-        letter-spacing: .10rem !important;
-        width:50vw !important;
-        line-height: 1.5rem !important;
-        text-align:right;
-        margin-left: -10vw !important;
-        padding-right:10vw !important;
-    }
-    .title-line2{
-        background-color: transparent;
-        font-family: 'Oswald', sans-serif !important;
-        font-size:1rem !important;
-        font-weight:700;
-        letter-spacing: .20rem;
-        width:50vw;
-        line-height: 1.5rem !important;
-        margin-left: -5vw !important;
-    }
-    .bullet-line1{
-        background-color: transparent;
-        font-family: 'Montserrat', sans-serif !important;
-        font-size:.6rem;
-        font-weight:500;
-        width:40vw;
-        text-align: right;
-        letter-spacing: .15rem;
-        margin-left: -10vw !important;
-    }
-    .bullet-line2{
-        background-color: transparent;
-        font-family: 'Montserrat', sans-serif !important;
-        font-size:.6rem;
-        font-weight:500;
-        width:40vw;
-        text-align: left;
-        letter-spacing: .15rem;
-        margin-left: -5vw !important;
-    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px){
+.background3{
+    position: absolute;
+    width: 100vw;
+    height: 150vh !important;
+    overflow: hidden;
+    z-index:-1 !important;
+}
+.bkgrd-img-design{
+    width: 100vw !important;
+    height: 150vh !important;
+}
+.design-skill{
+    position: absolute;
+    padding:40vh 0 0 5vw;
+    width:20vw;
+    height:80vh;
+    background-color: transparent;
+    font-size: 6rem;
+    font-weight: 200;
+    line-height:.75em;
+}
+.skills{
+    background-color: transparent;
+    width:20vw;
+    font-size: 4rem;
+    line-height: 4rem;
+    padding-left:1.5vw;
+}
+.dot3{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 3.75rem;
+    padding-left:10%;
+}
+.design-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 30vh 0 2vh 30vw;
+    width: 95vw;
+    background-color: transparent;
+    line-height: 1.5rem;
+    margin-bottom:0;
+}
+.title-line1{
+    background-color: transparent;
+    font-size:1.5rem;
+    font-weight:500;
+    letter-spacing: .15rem;
+    width:35vw;
+    height: 8vh;
+    line-height: 2rem;
+}
+.title-line2{
+    background-color: transparent;
+    font-size:1.5rem;
+    font-weight:500;
+    letter-spacing: .15rem;
+    width:45vw;
+    height: 8vh;
+    line-height: 2rem;
+}
+.bullet-line1{
+    background-color: transparent;
+    font-size:.7rem;
+    font-weight:400;
+    width:35vw;
+    letter-spacing: .1rem;
+}
+.bullet-line2{
+    background-color: transparent;
+    font-size:.7rem;
+    font-weight:400;
+    width:45vw;
+    letter-spacing: .1rem;
+}
+.category-1 {
+    background-color: transparent;
+    padding-left: 5vw;
+}
+.column-2{
+    background-color: transparent;
+}
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px){
+.background3{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index:-1 !important;
+}
+.bkgrd-img-design{
+    width: 150vw !important;
+    height: 150vh !important;
+}
+.design-skill{
+    position: absolute;
+    padding:15vh 0 0 10vw;
+    width:20vw;
+    height:80vh;
+    background-color: transparent;
+    font-size: 6rem;
+    font-weight: 200;
+    line-height:.75em;
+}
+.skills{
+    background-color: transparent;
+    width:20vw;
+    font-size: 4rem;
+    line-height: 4rem;
+    padding-left:1.5vw;
+}
+.dot3{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 4rem;
+    padding-left:15%;
+}
+.design-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 45vh 0 2vh 0;
+    width: 95vw;
+    background-color: transparent;
+    line-height: 2rem;
+    margin-bottom:0;
+}
+.title-line1{
+    background-color: transparent;
+    font-size:1.5rem;
+    font-weight:500;
+    letter-spacing: .15rem;
+    width:35vw;
+    height: 5vh;
+    line-height: 2rem;
+}
+.title-line2{
+    background-color: transparent;
+    font-size:1.5rem;
+    font-weight:500;
+    letter-spacing: .15rem;
+    width:45vw;
+    height: 5vh;
+    line-height: 2rem;
+}
+.bullet-line1{
+    background-color: transparent;
+    font-size:.7rem;
+    font-weight:400;
+    width:35vw;
+    letter-spacing: .1rem;
+}
+.bullet-line2{
+    background-color: transparent;
+    font-size:.7rem;
+    font-weight:400;
+    width:45vw;
+    letter-spacing: .1rem;
+}
+.category-1 {
+    background-color: transparent;
+    padding-left: 5vw;
+}
+.column-2{
+    background-color: transparent;
+}
+}
+
+@media screen and (min-width: 900px) and (max-width: 1100px){
+.background3{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index:-1 !important;
+}
+.bkgrd-img-design{
+    width: 100vw !important;
+    height: 150vh !important;
+}
+.design-skill{
+    position: absolute;
+    padding:40vh 0 0 10vw;
+    width:20vw;
+    height:80vh;
+    background-color: transparent;
+    font-size: 6rem;
+    font-weight: 200;
+    line-height:.75em;
+}
+.skills{
+    background-color: transparent;
+    width:20vw;
+    font-size: 4rem;
+    line-height: 4rem;
+    padding-left:1.5vw;
+}
+.dot3{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 4rem;
+    padding-left:15%;
+}
+.design-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 30vh 0 2vh 25vw;
+    width: 100vw;
+    background-color: transparent;
+    line-height: 2rem;
+    margin-bottom:0;
+}
+.title-line1{
+    background-color: transparent;
+    font-size:1.5rem;
+    font-weight:500;
+    letter-spacing: .15rem;
+    width:35vw;
+    height: 5vh;
+    line-height: 2rem;
+}
+.title-line2{
+    background-color: transparent;
+    font-size:1.5rem;
+    font-weight:500;
+    letter-spacing: .15rem;
+    width:45vw;
+    height: 5vh;
+    line-height: 2rem;
+}
+.bullet-line1{
+    background-color: transparent;
+    font-size:.7rem;
+    font-weight:400;
+    width:35vw;
+    letter-spacing: .1rem;
+}
+.bullet-line2{
+    background-color: transparent;
+    font-size:.7rem;
+    font-weight:400;
+    width:45vw;
+    letter-spacing: .1rem;
+}
+.category-1 {
+    background-color: transparent;
+    padding-left: 5vw;
+}
+.column-2{
+    background-color: transparent;
+}
 }

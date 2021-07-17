@@ -23,7 +23,6 @@ import Estrips from './Components/WorkDetail/Estrips';
 import LimeLemons from './Components/WorkDetail/LimeLemons';
 import Test from './Components/Testimonials/Test';
 // import Navbar from './Components/Navbar/Navbar';
-// import NewAbout from './Components/About/NewAbout'
 
 class App extends Component {
   render() {
@@ -33,7 +32,6 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={Home} />  
           {/* <Route exact path="/landing" component={Landing} /> */}
-          {/* <Route exact path="/newabout" component={NewAbout} /> */}
           <Route exact path="/about" component={About} />
           <Route exact path="/education" component={Education} />
           <Route exact path="/design" component={Design} />
