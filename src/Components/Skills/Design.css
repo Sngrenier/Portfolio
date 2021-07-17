@@ -222,7 +222,7 @@
 }
 .design-skill{
     position: absolute;
-    padding:40vh 0 0 5vw;
+    padding:60vh 0 0 5vw;
     width:20vw;
     height:80vh;
     background-color: transparent;
@@ -250,7 +250,7 @@
     justify-content: space-around;
     align-items: flex-start;
     align-content: flex-start;
-    padding: 30vh 0 2vh 30vw;
+    padding: 90vh 0 2vh 50vw;
     width: 95vw;
     background-color: transparent;
     line-height: 1.5rem;
