@@ -4,6 +4,7 @@ import './Design.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import dskills05 from './dskills05.png';
 import Navbar from '../Navbar/Navbar'
+import { Link } from 'react-router-dom'
 
 export default class design extends Component {
     componentDidMount() {
@@ -14,7 +15,7 @@ export default class design extends Component {
             <div>
                 <Navbar />
 
-                <section className="background">
+                <div className="background">
                 
                 <div className="background3">
                     <img alt="img-2" className="bkgrd-img-design" src={dskills05} />
@@ -59,7 +60,23 @@ export default class design extends Component {
                 </div>
             </div>
             </div>
-            </section>
+            </div>
+
+            <div className="container-fluid">
+                <div className="project-overview-dskills">
+                    <div className="project-overview-design">
+                    <p className="proj-para-body-design">it's kind of a lot right?!</p>
+                    <p className="proj-para-1-design">check out my <a><Link to="gallery">PROJECTS</Link></a> page on this site to see some of my recent design work. And if somehow my <a><Link to="gallery">PROJECTS</Link></a> page just isn't enough, you can also view some of my earlier work by clicking below.</p>
+                    <div className="design-photos-btn">
+                        <button className="design-photo-btn">
+                        <a href="https://www.stacynicoledesign.com/">
+                        <span className="btn-type">more projects</span>
+                        </a>
+                        </button>
+                        </div>
+                </div>
+                </div>
+                </div>
         </div>
 
         )

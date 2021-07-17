@@ -67,8 +67,8 @@ export default class client extends Component {
                             </div>
                         </div>    
 
-                        </div> 
-                </div>
+                    </div> 
+            </div>
 
 
         )
