@@ -62,7 +62,7 @@ export default class design extends Component {
             </div>
             </div>
 
-            <div className="container-fluid">
+            <div>
                 <div className="project-overview-dskills">
                     <div className="project-overview-design">
                     <p className="proj-para-body-design">it's kind of a lot right?!</p>
