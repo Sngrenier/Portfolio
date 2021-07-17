@@ -6,7 +6,7 @@
 	align-items: stretch;
 	align-content: stretch;
     width: 100vw;
-    height: 130vh;
+    height: 200vh;
     overflow: hidden;
     z-index:-1 !important;
 }
@@ -187,7 +187,7 @@
 .background3{
     position: absolute;
     width: 100vw;
-    height: 110vh !important;
+    height: 170vh !important;
     overflow: hidden;
     z-index:-1 !important;
 }
@@ -271,14 +271,12 @@
     background-color: transparent;
 }
 .project-overview-dskills{
-    margin-top: 100vh;
     padding-top: 10vh;
     margin-bottom:0 !important;
-    height:30vh;
     background-color: transparent;
 }
 .project-overview-design{
-    width: 100vw;
+    width: 90vw;
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -291,7 +289,7 @@
 .proj-para-body-design{
     color:#EF6351;
     font-family: "Sacramento", cursive !important;
-    font-size: 3rem;
+    font-size: 2.8rem;
     line-height: 4.5rem;
     font-weight: 600;
     letter-spacing: .25rem;
@@ -341,7 +339,7 @@
 .background3{
     position: absolute;
     width: 100vw;
-    height: 150vh !important;
+    height: 270vh !important;
     overflow: hidden;
     z-index:-1 !important;
 }
@@ -425,7 +423,6 @@
     background-color: transparent;
 }
 .project-overview-dskills{
-    margin-top: 155vh;
     padding-top: 10vh;
     margin-bottom:0 !important;
     height:30vh;

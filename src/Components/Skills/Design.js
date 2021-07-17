@@ -59,10 +59,9 @@ export default class design extends Component {
                     </div>
                 </div>
             </div>
-            </div>
-            </div>
+           
 
-            <div>
+            <section className="container-fluid">
                 <div className="project-overview-dskills">
                     <div className="project-overview-design">
                     <p className="proj-para-body-design">it's kind of a lot right?!</p>
@@ -76,7 +75,9 @@ export default class design extends Component {
                         </div>
                 </div>
                 </div>
+                </section>
                 </div>
+            </div>
         </div>
 
         )
