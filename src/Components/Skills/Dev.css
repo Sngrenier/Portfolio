@@ -5,8 +5,8 @@
 	justify-content: flex-start;
 	align-items: stretch;
 	align-content: stretch;
-    width: 95vw !important;
-    height: 130vh !important;
+    width: 95vw;
+    height: 220vh ;
     overflow: hidden;
     z-index:-1 !important;
 }
@@ -104,19 +104,87 @@
     text-align: left;
     padding: 2% 0 0 0;
 }
+.project-overview-devskills{
+    margin-top: 8vh;
+    margin-bottom:0 !important;
+    height:30vh;
+    background-color: transparent;
+}
+.project-overview-devskills{
+    width: 100vw;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+    text-align:center;
+    background-color: transparent;
+}
+.proj-para-body-devskills{
+    color:#EF6351;
+    font-family: "Sacramento", cursive !important;
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    font-weight: 600;
+    letter-spacing: .25rem;
+    transform: skew(-15deg); 
+}
+.proj-para-1-devskills{
+    padding:5vh 12vw 5vh 12vw !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size:1rem;
+    padding-bottom: 6vh;
+    font-weight:400;
+    line-height: 2.5em;
+    background-color:transparent;
+    letter-spacing: .15em;
+}
+.devskills-photos-btn{
+    padding:0 0 10vh 0;
+    width: 35vw;
+    height: 2vh;
+}
+.devskills-photo-btn{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    padding: 0 3% 0 3%;
+    border-style: 0.5rem solid !important;
+    border-color: #FBC3BC !important;
+    border-radius:0.5rem;
+    cursor:pointer;
+    font-size:.8rem;
+    background-color: transparent !important;
+}
+.devskills-photo-btn:hover{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    border: 0.05rem solid #EF6351 !important;
+    border-radius:0.5rem;
+    cursor:pointer;
+    font-size:.8rem;
+    background-color: #EF6351 !important;
+    color: white;
+}
 
 @media (max-width: 600px) {
 .background4{
     width: 100vw !important;
-    height: 150vh !important;
+    height: 250vh !important;
+    overflow: hidden;
+    z-index:-2 !important;
+}
+.bkgrd-left4{
+    width: 100vw !important;
+    height: 250vh !important;
     overflow: hidden;
     z-index:-2 !important;
 }
 .development-skill{
-    padding-top:45vh !important;
+    padding-top:15vh !important;
     height: 85vh;
-    background-color:transparent;
-    margin-left: -2vw !important;
+    background-color: transparent;
     font-size: 5rem;
     font-weight: 200;
     z-index: 5 !important;
@@ -126,58 +194,125 @@
 }
 .dot4{
     font-size: 4.5rem;
-    padding-left:15%;
+    padding-left:10%;
 }
 .dev-bullets{
-    position: absolute;
     display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: flex-end;
-	align-content: flex-end;
-    padding: 7%;
-    margin-left:30vw !important;
-    width:80vw;
-    margin-top:-120vh;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin: -140vh 5vw 0 0 !important;
+    padding: 0  !important;
+    width: 95vw;
     background-color: transparent;
-}
-.column-one{
-    line-height:2rem;
-    text-align: right !important; 
-}
-.column-two{
-    line-height: 2rem;
-    text-align: right !important;
-    padding-left:0vw;
+    line-height: 1.5rem;
+    margin-bottom:0;
 }
 .dev-title{
-    font-size:1rem;
-    font-weight: 500;
-    width:55vw !important;
-    height: 6vh;
-    margin-top: 3vh;
     background-color: transparent;
+    font-size:1rem;
+    font-weight:500;
+    letter-spacing: .15rem;
+    width: 40vw;
+    height: 5vh;
+    line-height: 1rem !important;
 }
 .dev-bullet{
-    font-size:.9rem;
+    background-color: transparent;
+    font-size:.7rem;
+    font-weight:400;
+    width:40vw;
+    letter-spacing: .1rem;
 }
 .dev-bullet1{
     background-color: transparent;
-    font-size:.9rem;
-    text-align: right !important;
+    font-size:.7rem;
+    font-weight:400;
+    width:35vw;
+    letter-spacing: .1rem;
 }
-#platforms{
-    height: 10vh;
-    line-height: 2rem !important;
-    padding-top: 2vh;
+.column-one {
+    background-color: transparent;
+    padding-left: 5vw;
+    text-align: right;
+}
+.column-two{
+    background-color: transparent;
+    text-align: left;
+}
+.project-overview-deskills{
+    margin-top: -60vh !important;
+    margin-bottom:0 !important;
+    height:90vh !important;
+    background-color: transparent;
+}
+.project-overview-devskills{
+    width: 95vw;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+    text-align:center;
+    background-color: transparent;
+}
+.proj-para-body-devskills{
+    color:#EF6351;
+    font-family: "Sacramento", cursive !important;
+    font-size: 2.8rem;
+    line-height: 4.5rem;
+    font-weight: 600;
+    letter-spacing: .25rem;
+    transform: skew(-15deg); 
+}
+.proj-para-1-devskills{
+    padding:5vh 10vw 5vh 10vw !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size:.8rem;
+    padding-bottom: 5vh;
+    font-weight:400;
+    line-height: 2em;
+    background-color:transparent;
+    letter-spacing: .15em;
+}
+.devskills-photos-btn{
+    padding:0 0 15vh 0;
+    width: 40vw !important;
+    height: 2vh;
+}
+.devskills-photo-btn{
+    width: 35vw !important;
+    height: 4vh !important;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    padding: 0 3% 0 3%;
+    border-style: 0.5rem solid !important;
+    border-color: #FBC3BC !important;
+    border-radius:0.5rem;
+    cursor:pointer;
+    font-size:.8rem;
+    background-color: transparent !important;
+}
+.devskills-photo-btn:hover{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    border: 0.05rem solid #EF6351 !important;
+    border-radius:0.5rem;
+    cursor:pointer;
+    font-size:.8rem;
+    background-color: #EF6351 !important;
+    color: white;
 }
 }
 
 @media screen and (min-width: 600px) and (max-width: 800px){
     .background4{
         width: 100vw !important;
-        height: 100vh !important;
+        height: 160vh !important;
         overflow: hidden;
         z-index:-2 !important;
     }
@@ -222,12 +357,40 @@
         margin-top: -45vh !important;
         padding-left:3vw;
     }
+    .project-overview-deskills{
+        margin-top: -5vh;
+        margin-bottom:0 !important;
+        height:30vh;
+        background-color: transparent;
+    }
+    .project-overview-devskills{
+        width: 95vw;
+    }
+    .proj-para-body-devskills{
+        font-size: 2.8rem;
+    }
+    .proj-para-1-devskills{
+        padding:5vh 10vw 5vh 10vw !important;
+        font-size:.8rem;
+    }
+    .devskills-photos-btn{
+        padding:0 0 15vh 0;
+        width: 40vw !important;
+        height: 2vh;
+    }
+    .devskills-photo-btn{
+        width: 25vw !important;
+        height: 5vh !important;
+        padding: 0;
+        font-size:.8rem;
+        background-color: transparent !important;
+    }
 }
 
 @media screen and (min-width: 800px) and (max-width: 900px){
     .background4{
         width: 100vw !important;
-        height: 200vh !important;
+        height: 450vh !important;
         overflow: hidden;
         z-index:-2 !important;
     }

@@ -197,7 +197,7 @@
 }
 .design-skill{
     position: absolute;
-    padding:10vh 0 0 4vw;
+    padding:15vh 0 0 4vw;
     width:20vw;
     height:80vh;
     background-color: transparent;
@@ -225,7 +225,7 @@
     justify-content: space-around;
     align-items: flex-start;
     align-content: flex-start;
-    padding: 42vh 0 2vh 0;
+    padding: 47vh 0 2vh 0;
     width: 95vw;
     background-color: transparent;
     line-height: 1.5rem;
@@ -271,7 +271,7 @@
     background-color: transparent;
 }
 .project-overview-dskills{
-    padding-top: 10vh;
+    padding-top: 5vh;
     margin-bottom:0 !important;
     background-color: transparent;
 }
