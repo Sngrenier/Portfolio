@@ -235,10 +235,17 @@
     font-family: "Roboto", sans-serif !important;
     font-size:5rem;
     font-weight: 200;
-    line-height:.75em;
+    line-height:.65em;
     color: #EF6351;
-    padding: 10vh 0 0 2vw !important;
+    padding: 5vh 0 0 2vw !important;
     z-index: 3 !important;
     margin-top: 0 !important;
 }
+.subtitle-1{
+    font-size: 2.2rem !important;
+    line-height:1.2em !important;
+    text-align: left;
+    padding-bottom: 2vh !important;
+}
+
 }
