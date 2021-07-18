@@ -183,7 +183,7 @@
 }
 .development-skill{
     padding-top:15vh !important;
-    height: 85vh;
+    height: 70vh;
     background-color: transparent;
     font-size: 5rem;
     font-weight: 200;
@@ -203,7 +203,7 @@
     justify-content: space-around;
     align-items: flex-start;
     align-content: flex-start;
-    margin: -140vh 5vw 0 0 !important;
+    margin: -150vh 5vw 0 0 !important;
     padding: 0  !important;
     width: 95vw;
     background-color: transparent;
@@ -243,9 +243,9 @@
     text-align: left;
 }
 .project-overview-deskills{
-    margin-top: -60vh !important;
+    margin-top: -70vh !important;
     margin-bottom:0 !important;
-    height:90vh !important;
+    height:100vh !important;
     background-color: transparent;
 }
 .project-overview-devskills{
