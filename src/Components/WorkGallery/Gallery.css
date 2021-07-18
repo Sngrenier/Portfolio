@@ -177,15 +177,18 @@
 
 @media (max-width: 900px) {
 .work-heading{
-    font-size:3rem !important;
-    font-weight: 900;
-    line-height:3rem !important;
-    letter-spacing: .25rem;
-    margin-top: 5vh !important;
+    font-family: "Roboto", sans-serif !important;
+    font-size:5rem;
+    font-weight: 200;
+    line-height:.75em;
+    color: #EF6351;
+    padding: 20vh 0 0 2vw;
+    z-index: 3 !important;
+    margin-top: 15vh !important;
 }
 .subtitle-1{
     font-size: 2.2rem !important;
-    line-height:2.2rem !important;
+    line-height:1rem !important;
     text-align: left;
     padding-bottom: 10vh !important;
 }
@@ -227,5 +230,15 @@
 @media (max-width: 600px) {
 .gallery-info{
     margin-top:-20vh;
+}
+.work-heading{
+    font-family: "Roboto", sans-serif !important;
+    font-size:5rem;
+    font-weight: 200;
+    line-height:.75em;
+    color: #EF6351;
+    padding: 10vh 0 0 2vw !important;
+    z-index: 3 !important;
+    margin-top: 0 !important;
 }
 }
