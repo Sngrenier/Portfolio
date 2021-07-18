@@ -168,6 +168,8 @@
     color: white;
 }
 
+
+
 @media (max-width: 600px) {
 .background4{
     width: 100vw !important;
@@ -351,10 +353,10 @@
         padding-top: 2vh;
     }
     .column-one{
-        margin-top: -50vh !important;
+        margin-top: -20vh !important;
     }
     .column-two{
-        margin-top: -45vh !important;
+        margin-top: -15vh !important;
         padding-left:3vw;
     }
     .project-overview-deskills{
@@ -443,7 +445,7 @@
 @media screen and (min-width: 900px) and (max-width: 1100px){
     .background4{
         width: 100vw !important;
-        height: 130vh !important;
+        height: 220vh !important;
     }
     .development-skill{
         padding-top:35vh !important;
