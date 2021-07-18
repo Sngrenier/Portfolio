@@ -33,8 +33,9 @@ export default class client extends Component {
                     </div>
 
                     <div className="client-skill">
-                                <div className="c"><p>BU</p></div>
-                                <div className="lient"><p>SINESS</p></div>
+                                <div className="c"><p>B</p></div>
+                                <div className="li"><p>USI</p></div>
+                                <div className="ent"><p>NESS</p></div>
                                     <div className="skills3"><div><p>experience</p></div>
                                     <div className="dot5"><p>.</p></div>
                                 </div>

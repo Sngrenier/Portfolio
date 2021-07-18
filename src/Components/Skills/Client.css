@@ -1,16 +1,16 @@
 .bkgrd-left3{
     width: 28vw;
-    height:120vh;
+    height:140vh;
     background-color: #EF6351;
 }
 .bkgrd-right3{
     width:67vw;
-    height:120vh;
+    height:140vh;
     background-color: transparent;
 }
 .client-skill{
     position: absolute;
-    padding-top: 18%;
+    padding-top: 30vh;
     left:10%;
     display:flex;
     flex-direction: column;
@@ -22,10 +22,10 @@
     width:22vw;
     height:85vh;
     background-color: transparent;
-    font-family: "Montserrat", sans-serif;
-    font-size:6.5rem;
-    font-weight: 900;
-    line-height:5rem;
+    font-family: "Roboto", sans-serif;
+    font-size:10rem;
+    font-weight: 200;
+    line-height:.9em;
     letter-spacing: .25rem;
     z-index: 2;
 }
@@ -40,7 +40,7 @@
     width:20vw;
     font-family: "Sacramento", cursive !important;
     font-size: 5.5rem;
-    line-height: 8rem;
+    line-height: 6rem;
     z-index: 3;
     color: black;
 }
@@ -48,14 +48,14 @@
     color: black;
     font-family: "Montserrat", sans-serif;
     font-size: 4.5rem;
-    font-weight: 900;
-    line-height: 7rem;
+    font-weight: 600;
+    line-height: 5rem;
     padding-left:6%;
     z-index: 2;
 }
 .client-details{
     width:64vw;
-    height:120vh !important;
+    height:140vh !important;
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -63,30 +63,34 @@
 	align-items: flex-start;
 	align-content: flex-start;
     background-color: transparent;
-    padding:13% 6% 20% 25%;
+    padding:15% 6% 20% 25%;
+    margin-bottom: 10vh;
     text-align:right;
 }
 .client-header{
-    font-family: 'Biryani', sans-serif !important;
-    font-size:2rem;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size:2.15rem;
     padding-bottom: 6vh;
-    padding-left:10%;
     text-align:right;
-    font-weight:700;
-    line-height: 2.5rem;
+    font-weight:400;
+    line-height: 1.5em;
+    background-color:transparent;
+    letter-spacing: .26em;
+    /* padding-left: 5vw; */
 }
 .client-para{
     font-family: 'Montserrat', sans-serif !important;
-    font-size:.8rem;
+    font-size:.9rem;
     text-align:right;
     font-weight:300;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
+    letter-spacing: .1em;
 }
 .indv-para{
     padding: 5% 0 0 0 !important;
 }
-
 .business-bullets{
+    width: 96vw;
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -95,12 +99,11 @@
 	align-content: flex-start;
     background-color: transparent;
     padding-bottom: 5%;
-}
+    margin: 5vh 3vw 2vh 1vw;
 
+}
 .client-exp{
-    width: 35vw;
-    margin-left: 5%;
-    padding: 3%;
+    width: 30vw;
     background-color:transparent;
 }
 .group-title{
@@ -114,15 +117,159 @@
 }
 .group-bullet{
     font-family: 'Montserrat', sans-serif !important;
-    font-size:.8rem;
+    font-size:1rem;
     padding-bottom: 5%;
     line-height: 1.5rem;
     text-align:left;
-    font-weight:500;
+    font-weight:300;
     background-color: transparent;
 }
 
-@media (max-width: 800px) {
+
+
+
+@media (max-width:600px) {
+.bkgrd-left3{
+    width: 28vw;
+    height:230vh;
+    background-color: #EF6351;
+}
+.bkgrd-right3{
+    width:67vw;
+    height:230vh;
+    background-color: transparent;
+}
+.client-skill{
+    padding-top:10vh !important;
+    background-color: transparent;
+    font-size: 5rem;
+    font-weight: 200;
+    z-index: 5 !important;
+}
+.skills3{
+    font-size: 4rem;
+    line-height: 2rem !important;
+    z-index: 3;
+}
+.dot5{
+    color: transparent;
+}
+.client-details{
+    width:72vw;
+    height:150vh !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    background-color: transparent;
+    text-align:left !important;
+    z-index: 2;
+}
+.client-header{
+    margin-top: 50vh;
+    padding-bottom: 4vh;
+    font-size:1.5rem;
+    text-align:right;
+    font-weight:400;
+    line-height: 1.5em;
+    margin-left: -15vw;
+}
+.client-para{
+    font-size:.8rem;
+    font-weight:300;
+    line-height: 1.7rem;
+    letter-spacing: .1em;
+    margin-left: -15vw;
+    z-index:2;
+    padding-bottom: 5vh
+}
+.indv-para{
+    padding: 3% 0 3% 0  !important;
+    z-index:2;
+}
+.business-bullets{
+    width: 100vw;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+.client-exp{
+    width: 90vw;
+    background-color: transparent;
+}
+.group-title{
+    text-align: center;
+    padding: 5vh 6vw 3vh 0;
+}
+.group-bullet{
+    text-align:center;
+    padding: 0 6vw 3vh 0;
+}
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px){
+.bkgrd-left3{
+    width: 28vw;
+    height:330vh;
+    background-color: #EF6351;
+}
+.bkgrd-right3{
+    width:67vw;
+    height:330vh;
+    background-color: transparent;
+}
+.client-skill{
+    padding-top:25vh !important;
+    margin-left: -3vw;
+    background-color: transparent;
+    font-size: 5rem;
+    font-weight: 200;
+    z-index: 5 !important;
+}
+.skills3{
+    font-size: 4rem;
+    line-height: 2rem !important;
+    z-index: 3;
+}
+.dot5{
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 2rem !important;
+    padding-left:6%;
+    z-index: 2;
+}
+.client-details{
+    width:72vw;
+    height:150vh !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    background-color: transparent;
+    text-align:left !important;
+    z-index: 2;
+}
+.client-header{
+    margin-top: 35vh;
+    padding-bottom: 4vh;
+    font-size:1.5rem;
+    text-align:right;
+    font-weight:400;
+    line-height: 1.5em;
+    margin-left: -15vw;
+}
+
+}
+
+
+/* @media (max-width: 800px) {
     .client-skill{
         margin-top: 10vh !important;
         font-size:3.5rem;
@@ -150,7 +297,6 @@
         height:150vh;
         background-color: #ef6351;
     }
-    
     .bkgrd-right3{
         width:72vw;
         height:150vh;
@@ -172,7 +318,6 @@
         line-height: 1.5rem;
         margin-left: -15vw;
     }
-    
     .indv-para{
         padding: 5% 0 0 0;
     }
@@ -190,4 +335,4 @@
         padding-bottom: 5%;
         line-height: 1.2rem;
     }
-}
+} */
