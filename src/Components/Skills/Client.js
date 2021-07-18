@@ -20,7 +20,7 @@ export default class client extends Component {
                     <div className="bkgrd-right3">
                         <div className="client-details">
                             <div className="client-header">
-                                <p>I consider experience, experience.</p>
+                                <p>Yes, I have worked before.</p>
                             </div>
                             <div className="client-para">
                                 <p className="indv-para">You’ve made it this far!  I have to assume you’d like to learn a little bit about my past to see how it will intertwine with my future.</p>
