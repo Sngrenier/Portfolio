@@ -171,13 +171,13 @@
 @media (max-width: 600px) {
 .background4{
     width: 100vw !important;
-    height: 250vh !important;
+    height: 220vh !important;
     overflow: hidden;
     z-index:-2 !important;
 }
 .bkgrd-left4{
     width: 100vw !important;
-    height: 250vh !important;
+    height: 220vh !important;
     overflow: hidden;
     z-index:-2 !important;
 }
@@ -203,7 +203,7 @@
     justify-content: space-around;
     align-items: flex-start;
     align-content: flex-start;
-    margin: -150vh 5vw 0 0 !important;
+    margin: -120vh 5vw 0 0 !important;
     padding: 0  !important;
     width: 95vw;
     background-color: transparent;
@@ -243,9 +243,9 @@
     text-align: left;
 }
 .project-overview-deskills{
-    margin-top: -70vh !important;
+    margin-top: -40vh !important;
     margin-bottom:0 !important;
-    height:100vh !important;
+    height:80vh !important;
     background-color: transparent;
 }
 .project-overview-devskills{
@@ -260,13 +260,13 @@
     background-color: transparent;
 }
 .proj-para-body-devskills{
-    color:#EF6351;
-    font-family: "Sacramento", cursive !important;
+    width: 100vw;
     font-size: 2.8rem;
     line-height: 4.5rem;
     font-weight: 600;
     letter-spacing: .25rem;
     transform: skew(-15deg); 
+    padding: 0 5vw 0 15vw;
 }
 .proj-para-1-devskills{
     padding:5vh 10vw 5vh 10vw !important;

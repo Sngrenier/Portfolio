@@ -74,7 +74,7 @@ export default class dev extends Component {
                             <section className="container-fluid">
                                 <div className="project-overview-deskills">
                                     <div className="project-overview-devskills">
-                                        <p className="proj-para-body-devskills">it's kind of awesome to build stuff right?!</p>
+                                        <p className="proj-para-body-devskills">it's kind of awesome right?!</p>
                                         <p className="proj-para-1-devskills">check out my <a><Link to="gallery">PROJECTS</Link></a> page on this site to see some of my recent web development work. And if somehow my <a><Link to="gallery">PROJECTS</Link></a> page just isn't enough, you can also view the source code for this site as well as additional projects by clicking below.</p>
                                     <div className="devskills-photos-btn">
                                         <button className="devskills-photo-btn">
