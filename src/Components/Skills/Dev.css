@@ -320,7 +320,8 @@
     }
     .development-skill{
         padding-top:45vh !important;
-        height: 85vh;
+        height: 90vh;
+        width: 30vw;
         background-color: transparent;
         font-size: 5rem;
         font-weight: 200;
@@ -334,11 +335,15 @@
         padding-left:15%;
     }
     .dev-bullets{
-        position: absolute;
+        /* position: absolute; */
         background-color: transparent;
+        margin-top: -80vh;
+        width: 40vw !important;
     }
     .dev-title{
         font-size:1rem;
+        height: 5vh;
+        margin-top: 5vh;
     }
     .dev-bullet{
         font-size:.9rem;
@@ -348,15 +353,16 @@
         font-size:.9rem;
     }
     #platforms{
-        height: 15vh !important;
+        height: 6.5vh !important;
         line-height: 1.5rem !important;
-        padding-top: 2vh;
+        /* padding-top: 2vh; */
     }
     .column-one{
-        margin-top: -20vh !important;
+        background-color: transparent;
+        /* margin-top: -20vh !important; */
     }
     .column-two{
-        margin-top: -15vh !important;
+        /* margin-top: -15vh !important; */
         padding-left:3vw;
     }
     .project-overview-deskills{
@@ -438,6 +444,18 @@
         margin-top: -90vh !important;
         padding-left:3vw;
     }
+    .devskills-photos-btn{
+        padding:0 0 15vh 0;
+        width: 40vw !important;
+        height: 2vh;
+    }
+    .devskills-photo-btn{
+        width: 20vw !important;
+        height: 10vh !important;
+        padding: 0;
+        font-size:.8rem;
+        background-color: transparent !important;
+    }
 }
 
 
@@ -478,10 +496,10 @@
         padding-top: 2vh;
     }
     .column-one{
-        margin-top: -45vh !important;
+        margin-top: -20vh !important;
     }
     .column-two{
-        margin-top: -25vh !important;
+        margin-top: -15vh !important;
         padding-left:3vw;
     }
 }
