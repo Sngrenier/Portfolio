@@ -10,11 +10,10 @@
     color: #EF6351;
     width:60vw;
     background-color: transparent;
-    font-family: "Montserrat", sans-serif;
-    font-size: 6rem;
-    font-weight: 900;
-    line-height:5.25rem;
-    letter-spacing: .25rem;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 10rem;
+    font-weight: 200;
+    line-height:.9em;
     z-index: 2;
 }
 .workit-title-two{

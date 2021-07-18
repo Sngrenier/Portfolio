@@ -10,11 +10,10 @@
     color: #EF6351;
     width:60vw;
     background-color: transparent;
-    font-family: "Montserrat", sans-serif;
-    font-size: 6rem;
-    font-weight: 900;
-    line-height:5.25rem;
-    letter-spacing: .25rem;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 10rem;
+    font-weight: 200;
+    line-height:.9em;
     z-index: 2;
 }
 .workit-title-two{
@@ -183,11 +182,12 @@
 
 @media (max-width: 900px) {
     .workit-title{
-        font-size:3rem !important;
-        font-weight: 900;
-        line-height:3rem !important;
-        letter-spacing: .25rem;
-        padding-top: 25vh !important;
+        padding-top:20vh !important;
+        margin-left: 2vw;
+        background-color: transparent;
+        font-size: 5rem;
+        font-weight: 200;
+        z-index: 5 !important;
     }
     .workit-title-two{
         padding-top: 5% !important;

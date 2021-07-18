@@ -19,8 +19,8 @@ export default class StemSeed extends Component {
                 <Navbar />
                 
             <div className="workit-title">
-                        <div className="work"><p>ST</p></div>
-                        <div className="it"><p>EM&seed</p></div>
+                        <div className="work"><p>STEM&</p></div>
+                        <div className="it"><p>SEED</p></div>
                             <div className="workit-title-two"><div><p>skincare brand</p></div>
                             <div className="proj-dot-1"><p>.</p></div>
                         </div>
