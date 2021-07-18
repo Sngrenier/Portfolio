@@ -83,7 +83,7 @@ export default class dev extends Component {
                             <div className="project">
                             <div className="proj-pic">
                                 <Link to='/MarbleOak'>
-                                <img alt="" className="proj-icon" src={marbleoakthumbnail} />
+                                <img alt="" className="proj-icon" id = "mo-pic" src={marbleoakthumbnail} />
                                 </Link>
                                 </div>
                             <ul className="proj-deets">

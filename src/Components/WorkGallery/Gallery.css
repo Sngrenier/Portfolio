@@ -25,16 +25,15 @@
 	align-items: flex-start;
 	align-content: flex-start;
     width:95vw;
-    height:45vh;
+    height:80vh;
     background-color: transparent;
-    font-family: "Montserrat", sans-serif;
-    font-size:7rem;
-    font-weight: 900;
-    line-height:5rem;
-    letter-spacing: .25rem;
+    font-family: "Roboto", sans-serif;
+    font-size:10rem;
+    font-weight: 200;
+    line-height:.75em;
     color: #EF6351;
-    padding-left: 2%;
-    padding-top: 25%;
+    padding: 20vh 0 0 2vw;
+    z-index: 3 !important;
 }
 .work-subtitle{
     position: relative;
@@ -42,16 +41,16 @@
     flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: flex-start;
-	align-items: flex-start;
+	align-items: flex-end;
 	align-content: space-between;
     background-color: transparent;
     width: 80vw;
+    padding: 0 0 0 1vw;
 }
 .subtitle-1{
     font-family: "Sacramento", cursive !important;
     color: #EF6351;
     font-size: 4.9rem;
-    font-weight: 00;
     line-height:2.5rem;
     letter-spacing: .25rem;
     margin-top:5%;
@@ -62,8 +61,8 @@
     font-size: 4rem;
     font-weight: 900;
     z-index: 2;
-    padding-left: 2vw !important;
-    padding-top: 4vh;
+    padding-left: 1vw !important;
+    line-height: 3rem;
 }
 .gallery-info{
     position: absolute;
@@ -73,6 +72,7 @@
 	justify-content: center;
 	align-items: center;
 	align-content: center;
+    margin-top: -10vh;
 }
 .proj-pic{
     width: 25vw !important;
@@ -80,11 +80,12 @@
     overflow:hidden;
     background-color:transparent;
     margin-top:8vh;
+    
 }
 .proj-icon{
     object-fit:cover !important;
     width: 25vw !important;
-    height:25vh !important;
+    height:35vh !important;
     overflow:hidden;
     box-sizing: border-box;
     border-style: solid;
