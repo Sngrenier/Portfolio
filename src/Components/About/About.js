@@ -51,7 +51,7 @@ export default class About extends Component {
                 <div className="background2">
                     <div className="bkgrd-left2">
                     <div className="about">
-                            <div className="ab"><p>AB</p></div>
+                            <div className="ab"><p>A</p></div>
                             <div className="bout"><p>BOUT</p></div>
                                 <div className="me"><div><p>me</p></div>
                                 <div className="dot2"><p>.</p></div>
@@ -70,7 +70,7 @@ export default class About extends Component {
                             <div className="about-para">
                                 <p className="inv-para">Hi-ya!  I’m Stacy, and I’m thrilled that you are taking time to learn more about me!  I am a full-stack web developer, web designer and graphic designer with experience in complete brand development & packaging design. </p> 
                                 <p className="inv-para">In my former life, I was a luxury retail Store Director.  I have worked on multiple freelance web/graphic/digital design projects, and am currently working on a brand and web development project for Edible Communities online magazine publication; Edible Rio Grande Valley. </p>
-                                <p className="inv-para">My journey to get to this point is a road less traveled, and that’s why I am incredibly excited to be here.  I completed my 2-year Graphic & Digital Design certificate from Parsons while being the Assistant Store Director of the MaxMara’s Flagship location in New York. Then I ate, slept, and dreamt coding, proudly graduating from DevMountains grueling 3-month program in March of 2021.  I couldn’t be more excited to pour myself into this next chapter.</p>
+                                <p className="inv-para">My journey to get to this point is a road less traveled, and that’s why I am incredibly excited to be here.  I completed my 2-year Graphic & Digital Design certificate from Parsons while being the Assistant Store Director of MaxMara’s Flagship location in New York. Then I ate, slept, and dreamt coding, proudly graduating from DevMountains grueling 3-month program in March of 2021.  I couldn’t be more excited to pour myself into this next chapter.</p>
                             </div>
                         </div>
 
