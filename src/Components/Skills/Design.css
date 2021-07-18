@@ -228,7 +228,7 @@
     padding: 47vh 0 2vh 0;
     width: 95vw;
     background-color: transparent;
-    line-height: 1.5rem;
+    line-height: 2.5rem;
     margin-bottom:0;
 }
 .title-line1{
@@ -271,7 +271,7 @@
     background-color: transparent;
 }
 .project-overview-dskills{
-    padding-top: 5vh;
+    padding-top: 15vh;
     margin-bottom:0 !important;
     background-color: transparent;
 }
@@ -380,7 +380,7 @@
     padding: 50vh 0 2vh 30vw  !important;
     width: 95vw;
     background-color: transparent;
-    line-height: 1.5rem;
+    line-height: 2.5rem;
     margin-bottom:0;
 }
 .title-line1{
@@ -389,7 +389,7 @@
     font-weight:500;
     letter-spacing: .15rem;
     width:35vw;
-    height: 8vh;
+    height: 12vh;
     line-height: 2rem;
 }
 .title-line2{
@@ -398,7 +398,7 @@
     font-weight:500;
     letter-spacing: .15rem;
     width:45vw;
-    height: 8vh;
+    height: 12vh;
     line-height: 2rem;
 }
 .bullet-line1{
